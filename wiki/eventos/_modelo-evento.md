@@ -2,7 +2,7 @@
 tipo: evento
 categoria: <clima | manejo | analise | fitossanidade | qualidade | colheita | observacao>
 data: <AAAA-MM-DD>
-local: <macaia | sao-geraldo>
+local: macaia
 quadras: []
 variedades: []
 safra: <AAAA>

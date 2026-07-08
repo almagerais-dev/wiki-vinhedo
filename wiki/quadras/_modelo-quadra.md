@@ -1,7 +1,7 @@
 ---
 tipo: quadra
 titulo: <Nome/código da quadra>
-local: <macaia | sao-geraldo>
+local: macaia
 variedades: []
 porta_enxerto: <ex.: 1103-paulsen>
 ano_plantio: <AAAA>

@@ -1,7 +1,7 @@
 ---
 tipo: overview
 titulo: Visão geral do vinhedo
-locais: [macaia, sao-geraldo]
+locais: [macaia]
 atualizado_em: 2026-07-08
 ---
 
@@ -12,8 +12,8 @@ vinhedo, com links para os hubs principais. Deve caber "de olhada" e sempre apon
 
 ## Locais
 
-- [[macaia]]
-- [[sao-geraldo]]
+- [[macaia]] (ativo)
+- _São Geraldo: expansão futura._
 
 ## Como navegar
 

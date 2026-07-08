@@ -9,8 +9,8 @@ ao longo do tempo e apoiar as decisões do time de campo, do enólogo e dos cons
 
 ## Locais de cultivo
 
-- **Macaia**
-- **São Geraldo**
+- **Macaia** (foco atual)
+- _São Geraldo — expansão futura. A estrutura já é multi-local; basta adicionar a página em `wiki/locais/` quando entrar._
 
 ## A ideia central
 

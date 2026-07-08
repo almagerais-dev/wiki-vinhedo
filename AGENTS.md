@@ -26,7 +26,9 @@ Navegação: `index.md` (catálogo de conteúdo) e `log.md` (histórico cronoló
 - **Todo o conteúdo em português.** Nomes de pastas, arquivos e páginas em português, sem acentos e
   em `kebab-case` (ex.: `sao-geraldo.md`, `fitossanidade.md`).
 - Esta wiki é **exclusiva da Alma Gerais**. Não generalizar para "template replicável".
-- Dois locais de cultivo: **Macaia** (`macaia`) e **São Geraldo** (`sao-geraldo`).
+- **Foco atual: apenas Macaia** (`macaia`). A estrutura é **multi-local** por design (campos
+  `local`/`locais`, pasta `wiki/locais/`). **São Geraldo** (`sao-geraldo`) é expansão futura: quando
+  entrar, basta criar `wiki/locais/sao-geraldo.md` e incluir o slug nos frontmatters — nada mais muda.
 
 ---
 
@@ -129,7 +131,7 @@ raw/            fontes brutas imutáveis (espelha as fontes do caderno)
   assets/       imagens/anexos
 wiki/
   overview.md   síntese geral
-  locais/       macaia | sao-geraldo
+  locais/       macaia (São Geraldo = expansão futura)
   quadras/      páginas por quadra/talhão
   variedades/   páginas por variedade
   safras/       hub temporal: uma página por ano

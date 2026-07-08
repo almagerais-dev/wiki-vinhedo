@@ -14,8 +14,8 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 
 ## Locais
 
-- [[macaia]] — local de cultivo Macaia.
-- [[sao-geraldo]] — local de cultivo São Geraldo.
+- [[macaia]] — local de cultivo Macaia (ativo).
+- _São Geraldo: expansão futura (a estrutura já suporta múltiplos locais)._
 
 ## Quadras
 

@@ -2,7 +2,7 @@
 tipo: safra
 titulo: Safra <AAAA>
 ano: <AAAA>
-locais: [macaia, sao-geraldo]
+locais: [macaia]
 atualizado_em: <AAAA-MM-DD>
 ---
 
@@ -18,12 +18,14 @@ temperatura, graus-dia, geadas, veranicos. Registrar data da consulta._
 
 ## Fenologia
 
-| Estágio | Macaia | São Geraldo |
-|---|---|---|
-| Brotação | | |
-| Floração | | |
-| Véraison | | |
-| Colheita | | |
+_Uma coluna por local ativo (hoje só Macaia; adicionar colunas ao expandir)._
+
+| Estágio | Macaia |
+|---|---|
+| Brotação | |
+| Floração | |
+| Véraison | |
+| Colheita | |
 
 ## Linha do tempo (eventos)
 

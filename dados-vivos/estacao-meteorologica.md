@@ -7,7 +7,8 @@ atualizado_em: 2026-07-08
 
 # Estação meteorológica (dados vivos)
 
-Cada local (Macaia e São Geraldo) tem estação própria. Os dados **não** são copiados para o repo:
+Cada local tem estação própria (hoje só **Macaia**; São Geraldo é expansão futura). Os dados
+**não** são copiados para o repo:
 o agente consulta em tempo real e arquiva apenas **sínteses** na wiki (ex.: resumo climático em
 `wiki/safras/`).
 

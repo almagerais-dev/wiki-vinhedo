@@ -2,7 +2,7 @@
 tipo: safra
 titulo: Safra 2026
 ano: 2026
-locais: [macaia, sao-geraldo]
+locais: [macaia]
 atualizado_em: 2026-07-08
 ---
 
@@ -16,12 +16,12 @@ _A preencher a partir da estação meteorológica._
 
 ## Fenologia
 
-| Estágio | Macaia | São Geraldo |
-|---|---|---|
-| Brotação | | |
-| Floração | | |
-| Véraison | | |
-| Colheita | | |
+| Estágio | Macaia |
+|---|---|
+| Brotação | |
+| Floração | |
+| Véraison | |
+| Colheita | |
 
 ## Linha do tempo (eventos)
 
