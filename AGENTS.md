@@ -11,9 +11,10 @@ Padrão de referência: [LLM Wiki (Karpathy)](https://gist.github.com/karpathy/4
 
 - `raw/` — **fontes brutas, imutáveis**. Você lê, **nunca edita nem apaga**. É a fonte da verdade.
 - `wiki/` — **conhecimento que você gera e mantém**. Você é o dono desta camada.
-- `dados-vivos/` — **documentação de acesso** aos bancos vivos (estação meteorológica e software de
-  gestão, ambos presumidos PostgreSQL). Aqui ficam schemas, instruções de conexão e SQL reutilizável.
-  **Não** copie dados crus dos bancos para o repositório; consulte em tempo real e **arquive apenas
+- `dados-vivos/` — **documentação de acesso** às APIs vivas (clima via WS Clima; gestão da vinícola
+  via InnoVint/Sutter). Aqui ficam playbooks de consulta, IDs da Alma Gerais e exemplos HTTP
+  reutilizáveis — **não** a documentação oficial completa (essa fica no link externo).
+  **Não** copie dados crus das APIs para o repositório; consulte em tempo real e **arquive apenas
   as sínteses** na `wiki/`.
 - `AGENTS.md` — este schema. Coevolui com o time.
 
@@ -141,7 +142,7 @@ wiki/
   correlacoes/  correlações descobertas (com defasagem e confiança)
   hipoteses/    hipóteses em acompanhamento
   recomendacoes/ recomendações questionadas | validadas | sugeridas
-dados-vivos/    estacao-meteorologica.md | gestao-vinhedo.md | queries/
+dados-vivos/    estacao-meteorologica.md | gestao-vinicola.md | queries/
 tools/          scripts opcionais (busca/ingestão) quando a wiki crescer
 ```
 
@@ -165,22 +166,28 @@ Arquivos `_modelo-*.md` são **gabaritos**; copie-os ao criar páginas novas.
 1. Leia primeiro o `index.md` para achar páginas relevantes; depois aprofunde.
 2. Para perguntas temporais, varra `wiki/eventos/` por data/estágio fenológico e a linha do tempo
    da(s) safra(s).
-3. Consulte os bancos vivos via SQL quando precisar de números atuais (ver `dados-vivos/`).
+3. Consulte as APIs vivas quando precisar de números atuais (ver `dados-vivos/`).
 4. Responda **com citações** (links para páginas e caminhos de fontes).
 5. Arquive boas respostas de volta como páginas novas (ex.: uma correlação descoberta).
 
 ### Revisar (lint)
 - Contradições entre páginas; afirmações vencidas por fontes novas; páginas órfãs; conceitos sem
-  página própria; referências cruzadas faltando; lacunas que uma consulta ao banco preencheria.
+  página própria; referências cruzadas faltando; lacunas que uma consulta às APIs preencheria.
 - Sugira novas perguntas e fontes a buscar.
 
 ---
 
-## 9. Dados vivos (PostgreSQL — presumido)
+## 9. Dados vivos (APIs — WS Clima e InnoVint)
 
-- Estação meteorológica e software de gestão são consultados **em tempo real**, não copiados.
-- Documente schema/conexão/SQL em `dados-vivos/`.
-- Ao usar dados vivos numa síntese, registre a data da consulta e o SQL/base usada como `fontes`.
+- Clima (WS Clima) e gestão da vinícola (InnoVint/Sutter) são consultados **em tempo real**, não
+  copiados para o repo.
+- O agente **não** deve reinventar a integração a cada pergunta: leia primeiro o playbook em
+  `dados-vivos/` (auth, URL base, endpoints úteis, IDs Alma Gerais, exemplos). Use a documentação
+  oficial só para detalhes de parâmetros/campos que o playbook não cobre.
+- Credenciais vivem em variáveis de ambiente/secrets — **nunca** em arquivos do repositório.
+- Ao usar dados vivos numa síntese, registre a **data da consulta**, a API e o endpoint/parâmetros
+  como `fontes` (ex.: `dados-vivos/estacao-meteorologica.md` + `GET .../data/historical/...`).
+- Exemplos HTTP reutilizáveis em `dados-vivos/queries/`.
 
 ---
 

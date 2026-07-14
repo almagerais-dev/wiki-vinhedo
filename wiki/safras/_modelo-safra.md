@@ -13,7 +13,7 @@ perguntas do tipo "o que aconteceu neste ciclo" e para comparações com outros 
 
 ## Resumo climático
 
-_Síntese a partir da estação meteorológica (ver `dados-vivos/estacao-meteorologica.md`): chuva,
+_Síntese a partir da estação meteorológica via WS Clima (ver `dados-vivos/estacao-meteorologica.md`): chuva,
 temperatura, graus-dia, geadas, veranicos. Registrar data da consulta._
 
 ## Fenologia
