@@ -59,5 +59,7 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 
 ## Dados vivos
 
-- `dados-vivos/estacao-meteorologica.md`
-- `dados-vivos/gestao-vinhedo.md`
+- `dados-vivos/estacao-meteorologica.md` — WS Clima (clima)
+- `dados-vivos/gestao-vinicola.md` — InnoVint / Sutter (vinícola)
+- `dados-vivos/queries/exemplos-wsclima.md`
+- `dados-vivos/queries/exemplos-innovint.md`

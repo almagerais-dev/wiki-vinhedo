@@ -25,7 +25,7 @@ _Enunciado claro e testável._
 
 ## Como testar
 
-_Qual dado (análise, safra futura, consulta ao banco) confirmaria ou refutaria._
+_Qual dado (análise, safra futura, consulta às APIs vivas) confirmaria ou refutaria._
 
 ## Histórico de status
 

@@ -24,7 +24,7 @@ contradições. Você cura as fontes e faz as perguntas; o agente faz todo o fic
 |---|---|---|---|
 | Fontes brutas | `raw/` | Humanos | Fonte da verdade, **imutável**. O agente lê, nunca altera. |
 | Wiki | `wiki/` | Agente | Conhecimento gerado: entidades, temas, eventos, correlações, hipóteses. |
-| Dados vivos | `dados-vivos/` | Humanos + agente | *Como acessar* os bancos (estação meteorológica e gestão). Não guarda dados crus. |
+| Dados vivos | `dados-vivos/` | Humanos + agente | *Como acessar* as APIs (WS Clima e InnoVint). Não guarda dados crus. |
 | Schema | `AGENTS.md` | Humanos + agente | As regras e workflows que o agente segue. |
 
 Navegação: `index.md` (catálogo de páginas) e `log.md` (histórico cronológico).

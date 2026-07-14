@@ -13,7 +13,8 @@ Local de cultivo da Alma Gerais.
 
 - **Município / região:** _a preencher_
 - **Altitude:** _a preencher_
-- **Estação meteorológica:** própria (ver `dados-vivos/estacao-meteorologica.md`)
+- **Estação meteorológica:** própria, via WS Clima (ver `dados-vivos/estacao-meteorologica.md`)
+- **Gestão da vinícola:** InnoVint / Sutter (ver `dados-vivos/gestao-vinicola.md`)
 
 ## Quadras
 

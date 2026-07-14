@@ -10,7 +10,7 @@ atualizado_em: 2026-07-08
 > Página de **exemplo** de tema.
 
 Síntese do comportamento climático dos dois locais e sua relação com a fenologia e a qualidade.
-Dados quantitativos vêm da estação meteorológica (ver `dados-vivos/estacao-meteorologica.md`).
+Dados quantitativos vêm da API WS Clima (ver `dados-vivos/estacao-meteorologica.md`).
 
 ## Resumo
 

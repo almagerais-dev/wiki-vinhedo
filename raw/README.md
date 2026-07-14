@@ -23,4 +23,5 @@ correspondente. As pastas espelham as fontes de dados do projeto:
 | `assets/` | Imagens e anexos |
 
 Dica: nomeie arquivos datados começando pela data (`AAAA-MM-DD-...`) para ordenarem no tempo.
-Estação meteorológica e software de gestão **não** ficam aqui — são bancos vivos (ver `dados-vivos/`).
+Estação meteorológica e software de gestão da vinícola **não** ficam aqui — são APIs vivas
+(ver `dados-vivos/`).
