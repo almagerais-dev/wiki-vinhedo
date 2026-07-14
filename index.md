@@ -1,6 +1,6 @@
 ---
 tipo: indice
-atualizado_em: 2026-07-08
+atualizado_em: 2026-07-14
 ---
 
 # Índice da wiki-vinhedo
@@ -38,11 +38,13 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 ## Temas
 
 - `_modelo-tema` — gabarito para páginas de tema.
-- [[clima]] — tema exemplo.
+- [[clima]] — cobertura e limites atuais da estação de Macaia.
+- [[operacao-de-adega]] — modelo dos dados e retrato operacional do InnoVint.
 
 ## Eventos (linha do tempo)
 
 - `_modelo-evento` — gabarito para eventos datados.
+- [[2026-01-14-macaia-recebimentos-uva-safra-2026]] — recebimentos consolidados da safra 2026.
 - [[2026-06-15-macaia-geada-q3]] — exemplo de evento.
 
 ## Correlações

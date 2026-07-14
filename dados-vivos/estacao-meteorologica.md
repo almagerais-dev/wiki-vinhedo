@@ -21,15 +21,30 @@ https://wsclima.com.br/integrations/documentation
 | URL base | `https://api.wsclima.com.br/integrations` |
 | Auth | Header `Authorization: Bearer $WSCLIMA_API_TOKEN` |
 | Token | Variável de ambiente `WSCLIMA_API_TOKEN` (nunca no repo) |
+| Identificação do cliente | Header `User-Agent: Alma-Gerais-Wiki/1.0` |
 
 ## IDs Alma Gerais
 
-_A preencher quando o token for liberado: rodar `GET /stations/list` e registrar aqui o `id` da
-estação de Macaia._
-
 | Local | station_id | nome na API | notas |
 |---|---|---|---|
-| macaia | _a preencher_ | _a preencher_ | |
+| macaia | `966` | Bom Sucesso Vinícola Alma Gerais - MG | Única estação usada pela wiki neste momento |
+
+O token também enxerga a estação `990` (São Gonçalo do Sapucaí), mas ela fica **fora do escopo**
+até decisão humana em contrário.
+
+### Metadados confirmados da estação 966
+
+Consulta em 2026-07-14: `GET /stations/966/details`.
+
+- coordenadas: `-21.123929, -44.909792`;
+- elevação informada pela API: `827 m`;
+- fuso: `America/Sao_Paulo`;
+- provedor: Wunderground, identificador `IBOMSU8`;
+- a estação estava online;
+- o campo `data_since` veio nulo.
+
+O `966` é o ID público usado no caminho. A resposta de detalhes e o campo `station_id` das leituras
+retornaram o ID interno `4`; não substituir `966` por `4` nas URLs.
 
 ## Endpoints que o agente usa
 
@@ -50,6 +65,17 @@ Agrupamento automático da API:
 - 8–31 dias → a cada 4 h (`min`/`avg`/`max`)
 - > 31 dias → diário (`min`/`avg`/`max`)
 
+### Cobertura observada
+
+Em 2026-07-14, a leitura atual funcionou e trouxe temperatura, sensação térmica, ponto de orvalho,
+vento, pressão, precipitação, umidade e radiação solar. Na mesma consulta, o histórico da estação
+`966` retornou `count: 0` para todos os períodos testados: 2026-07-14, 2026-07-13 a 2026-07-14,
+2026-07-08 a 2026-07-14, 2026-06-14 a 2026-07-14 e 2026-01-01 a 2026-07-14.
+
+Consequência: até o histórico começar a retornar dados, a API sustenta **estado atual**, mas não
+resumos de chuva, extremos, geadas, veranicos ou graus-dia. Não interpretar ausência de linhas como
+ausência de fenômeno climático.
+
 ## Como o agente deve usar
 
 1. Leia este playbook (e `dados-vivos/queries/exemplos-wsclima.md`) antes de montar a chamada.
@@ -57,6 +83,7 @@ Agrupamento automático da API:
 3. Abra a documentação oficial só se faltar um parâmetro/campo não coberto aqui.
 4. Ao usar numa síntese, registre a **data da consulta**, o endpoint e o período como `fontes`.
 5. Em `429`, respeitar o limite; não martelar a API.
+6. Sempre enviar o `User-Agent`: sem ele, a infraestrutura respondeu `403` durante a validação.
 
 ## Erros comuns
 
@@ -64,5 +91,6 @@ Agrupamento automático da API:
 |---|---|
 | `400` | Parâmetros inválidos (data, intervalo) |
 | `401` | Token ausente/inválido/expirado |
+| `403` | Cliente sem `User-Agent` ou acesso recusado |
 | `404` | Estação inexistente ou sem permissão |
 | `429` | Rate limit |

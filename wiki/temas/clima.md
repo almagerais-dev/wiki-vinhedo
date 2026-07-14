@@ -2,25 +2,34 @@
 tipo: tema
 titulo: Clima
 tags: [meteorologia]
-atualizado_em: 2026-07-08
+fontes: [dados-vivos/estacao-meteorologica.md]
+atualizado_em: 2026-07-14
 ---
 
 # Clima
 
-> Página de **exemplo** de tema.
+Síntese do clima de [[macaia]]. Dados quantitativos vêm da estação `966` na API WS Clima (ver
+`dados-vivos/estacao-meteorologica.md`).
 
-Síntese do comportamento climático dos dois locais e sua relação com a fenologia e a qualidade.
-Dados quantitativos vêm da API WS Clima (ver `dados-vivos/estacao-meteorologica.md`).
+## Resumo operacional
 
-## Resumo
+Em 2026-07-14, a estação estava online e a leitura atual funcionava. A API informou coordenadas
+`-21.123929, -44.909792`, elevação de 827 m e fuso `America/Sao_Paulo`.
 
-_A preencher._
+O histórico retornou zero linhas em todos os intervalos testados, inclusive no próprio dia, nos
+últimos 7 e 31 dias e de 2026-01-01 a 2026-07-14. Por isso, ainda não há base nessa API para
+calcular resumo climático da safra, chuva acumulada, extremos, geadas, veranicos ou graus-dia.
+Ausência de linhas não significa ausência desses fenômenos.
 
 ## O que sabemos (das fontes)
 
-_Links para `raw/publicacoes/solos-irrigacao/`._
+- Fonte viva ativa: WS Clima, estação `966`.
+- Campos disponíveis na leitura atual: temperatura, índice de calor, ponto de orvalho, sensação
+  térmica, vento, pressão, taxa e acumulado de precipitação, umidade e radiação solar.
+- Não há publicações ou observações de campo ingeridas em `raw/` até esta atualização.
 
 ## Como se manifesta no nosso vinhedo
 
-- Eventos climáticos: ver `wiki/eventos/` (categoria `clima`), ex.: [[2026-06-15-macaia-geada-q3]].
 - Resumos por safra: [[safra-2026]].
+- Eventos climáticos factuais devem entrar em `wiki/eventos/` somente quando houver medição ou
+  observação datada.
