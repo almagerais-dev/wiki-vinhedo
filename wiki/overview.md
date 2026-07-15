@@ -2,7 +2,7 @@
 tipo: overview
 titulo: Visão geral do vinhedo
 locais: [macaia]
-atualizado_em: 2026-07-08
+atualizado_em: 2026-07-14
 ---
 
 # Visão geral — Vinhedo Alma Gerais
@@ -25,4 +25,11 @@ vinhedo, com links para os hubs principais. Deve caber "de olhada" e sempre apon
 
 ## Estado atual
 
-_A preencher pelo agente conforme as fontes forem ingeridas._
+- **Clima:** estação WS Clima `966` online; leitura atual disponível, histórico ainda sem registros.
+  Ver [[clima]].
+- **Safra:** o InnoVint registrava 19.645,7 kg de recebimentos da safra 2026 até 2026-07-14. Ver
+  [[safra-2026]].
+- **Adega:** única vinícola no escopo é `Alma Gerais`; origens cadastradas incluem áreas próprias e
+  fornecedores. Ver [[operacao-de-adega]].
+- **Lacunas:** faltam fontes de campo para fenologia, manejo e mapeamento confirmado de
+  origens/blocos do InnoVint para quadras de Macaia.

@@ -35,11 +35,36 @@ https://cellar.innovint.us/#/developer/personal-access-token
 
 ## IDs Alma Gerais
 
-_A preencher quando o acesso for liberado: `GET /api/v1/wineries` e registrar o `wineryId`._
-
 | Local / contexto | wineryId | notas |
 |---|---|---|
-| Alma Gerais (Macaia) | _a preencher_ | |
+| Alma Gerais (Macaia) | `wnry_V901KQJ58M316DV7NDEP64ZW` | Nome `Alma Gerais`; internalId `2152198`; única vinícola usada pela wiki |
+
+O token retornou somente essa vinícola em 2026-07-14.
+
+## Como interpretar o modelo
+
+- **Winery** é a conta operacional da adega. Nesta wiki, só usamos `Alma Gerais`.
+- **Vineyard** é uma origem cadastrada de uva. A lista inclui áreas Alma Gerais e fornecedores;
+  portanto, não equivale à lista de locais próprios da wiki.
+- **Block** é a subdivisão de uma origem. Só criar uma página em `wiki/quadras/` após confirmar que
+  o bloco pertence a Macaia e mapear seu nome ao slug interno.
+- **Fruit lot** representa uva recebida; **bulk lot**, vinho a granel; **case goods**, produto
+  acondicionado. Um lote não é necessariamente um produto comercial.
+- **Vessel** é um recipiente físico e pode estar vazio ou associado a um lote.
+- **Action** é um fato operacional datado. Para a cronologia, usar `effectiveAt`, não `createdAt`.
+- Registros `archived`, `deleted`, `skipped` ou não `applied` não devem entrar em totais ativos sem
+  tratamento explícito.
+
+### Escopo observado em 2026-07-14
+
+A consulta completa, paginada, encontrou 16 origens, 53 blocos, 145 lotes e 209 vasos. Das origens,
+duas têm nome Alma Gerais: `Alma Gerais - Vivert` (20 blocos; 9,988 ha declarados) e
+`Alma Gerais - SGS` (8 blocos; sem área declarada). As outras origens não devem ser tratadas como
+quadras próprias sem confirmação.
+
+Havia 51 lotes não arquivados entre diferentes safras e 19 lotes ativos identificados como safra
+2026. O retrato factual da safra está em [[safra-2026]] e o modelo operacional em
+[[operacao-de-adega]].
 
 ## Endpoints que o agente usa com frequência
 
@@ -55,7 +80,8 @@ Preferir estes; a API tem dezenas de recursos — não explorar o catálogo inte
 | Recebimento de fruta | `GET /api/v1/wineries/{wineryId}/actions/receiveFruitActions` |
 | Processar fruta → volume | `GET /api/v1/wineries/{wineryId}/actions/processFruitToVolumeActions` |
 | Vasos | `GET /api/v1/wineries/{wineryId}/vessels` |
-| Vinhedos / blocos | `GET .../vineyards` · `GET .../blocks` |
+| Vinhedos / blocos | `GET /api/v1/wineries/{wineryId}/vineyards` · `GET /api/v1/wineries/{wineryId}/blocks` |
+| Catálogo de variedades | `GET /api/v1/varietals` |
 
 Filtros úteis em listagens de ações (quando disponíveis): `effectiveAtAfter`, `effectiveAtBefore`,
 `createdAtAfter`, `createdAtBefore`, `actionType`, `sort`, `limit`, `offset`.
@@ -70,3 +96,5 @@ Filtros úteis em listagens de ações (quando disponíveis): `effectiveAtAfter`
 5. Registrar data da consulta, endpoint e filtros como `fontes`.
 6. Em `429`, esperar o `Retry-After`; não martelar a API.
 7. Por padrão, **somente leitura** (GET). Não criar/alterar recursos sem pedido explícito do humano.
+8. Paginar até `pagination.next` ser nulo; o primeiro lote de 200 não cobriu análises, adições ou
+   vasos por completo na validação.
