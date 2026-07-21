@@ -2,7 +2,7 @@
 tipo: dados-vivos
 titulo: Gestão da vinícola (InnoVint / Sutter)
 api: innovint
-atualizado_em: 2026-07-14
+atualizado_em: 2026-07-21
 ---
 
 # Gestão da vinícola — InnoVint / Sutter (dados vivos)
@@ -85,6 +85,26 @@ Preferir estes; a API tem dezenas de recursos — não explorar o catálogo inte
 
 Filtros úteis em listagens de ações (quando disponíveis): `effectiveAtAfter`, `effectiveAtBefore`,
 `createdAtAfter`, `createdAtBefore`, `actionType`, `sort`, `limit`, `offset`.
+
+## Reconciliação de recebimentos
+
+- Calcular entrada de uva a partir de `receiveFruitActions`, não do peso atual do lote.
+- Incluir somente ações com `applied: true` e `deleted: false`; usar `effectiveAt` para atribuir
+  data e safra.
+- Somar cada item de `fills` e ligar seu `lotId` ao cadastro de lotes. Uma ação pode preencher
+  vários lotes, e um mesmo lote pode receber fruta em mais de uma ação.
+- Manter as unidades explícitas. Não somar valores em unidades diferentes sem conversão documentada.
+- Para variedade e procedência, o nome do lote é apenas um atalho operacional. Quando a resposta
+  exigir rastreabilidade, consultar os componentes do lote e relacionar bloco, origem e variedade.
+- Diferenças entre um total externo e a soma da API devem ser reconciliadas ação por ação. Não
+  eliminar automaticamente lançamentos repetidos no mesmo lote: ações distintas podem representar
+  recebimentos adicionais.
+
+Caso conhecido, consultado em 2026-07-21: o lote `2026 Sauv. Blanc Vivert 1.2` tinha duas ações
+aplicadas e não apagadas, de 2.100 kg em 2026-06-29 e 2.796 kg em 2026-06-30. A soma de todos os
+recebimentos nomeados como Sauvignon Blanc Vivert era 13.506 kg; desconsiderar a primeira ação
+produzia 11.406 kg. A API, isoladamente, não permite classificar a primeira ação como recebimento
+adicional ou duplicidade operacional; confirmar com o registro de origem antes de excluir.
 
 ## Como o agente deve usar
 

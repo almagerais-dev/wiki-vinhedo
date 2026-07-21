@@ -9,3 +9,4 @@ Filtrar as últimas entradas: `grep "^## \[" log.md | tail -5`.
 ## [2026-07-14] query | WS Clima: estação 966 confirmada para Macaia; leitura atual ativa e histórico sem registros
 ## [2026-07-14] query | InnoVint: vinícola Alma Gerais mapeada; cadastros, lotes, vasos, recebimentos e análises sintetizados
 ## [2026-07-14] ingest | Recebimentos de uva da safra 2026 consolidados até 2026-07-14
+## [2026-07-21] update | InnoVint: documentadas regras de reconciliação de recebimentos e divergência conhecida do Sauvignon Blanc Vivert
