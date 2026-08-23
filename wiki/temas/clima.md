@@ -26,7 +26,8 @@ Ausência de linhas não significa ausência desses fenômenos.
 - Fonte viva ativa: WS Clima, estação `966`.
 - Campos disponíveis na leitura atual: temperatura, índice de calor, ponto de orvalho, sensação
   térmica, vento, pressão, taxa e acumulado de precipitação, umidade e radiação solar.
-- Não há publicações ou observações de campo ingeridas em `raw/` até esta atualização.
+- Não há publicações nem registros de manejo ou dos ciclos da videira ingeridos em `raw/` até esta
+  atualização.
 
 ## Como se manifesta no nosso vinhedo
 

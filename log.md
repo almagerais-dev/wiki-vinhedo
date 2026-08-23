@@ -10,3 +10,4 @@ Filtrar as últimas entradas: `grep "^## \[" log.md | tail -5`.
 ## [2026-07-14] query | InnoVint: vinícola Alma Gerais mapeada; cadastros, lotes, vasos, recebimentos e análises sintetizados
 ## [2026-07-14] ingest | Recebimentos de uva da safra 2026 consolidados até 2026-07-14
 ## [2026-07-21] update | InnoVint: documentadas regras de reconciliação de recebimentos e divergência conhecida do Sauvignon Blanc Vivert
+## [2026-08-23] update | Fontes brutas simplificadas; fichas técnicas e registros de manejo/ciclos separados; pesquisa externa orientada a clima tropical

@@ -1,6 +1,6 @@
 ---
 tipo: indice
-atualizado_em: 2026-07-14
+atualizado_em: 2026-08-23
 ---
 
 # Índice da wiki-vinhedo
@@ -11,6 +11,14 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 ## Visão geral
 
 - [[overview]] — síntese geral do vinhedo.
+
+## Fontes brutas
+
+- `raw/publicacoes/` — publicações em uma coleção única.
+- `raw/fichas-tecnicas/comercial/` e `raw/fichas-tecnicas/biologicos/` — fichas de produtos.
+- `raw/analises/`, `raw/qualidade-uva/`, `raw/qualidade-vinho/` e `raw/consultoria/` — documentos
+  consolidados, sem subdivisões.
+- `raw/registros-manejo/` e `raw/registros-ciclos-videira/` — registros datados de campo.
 
 ## Locais
 
