@@ -2,6 +2,7 @@
 tipo: variedade
 titulo: <Nome da variedade>
 locais: []
+setores: []
 quadras: []
 tags: []
 atualizado_em: <AAAA-MM-DD>
@@ -16,6 +17,7 @@ _Comportamento da casta no nosso contexto (síntese das publicações técnicas 
 ## Onde está plantada
 
 - **Locais:** [[<local>]]
+- **Setores:** [[<setor>]]
 - **Quadras:** [[<quadra>]]
 
 ## Comportamento por estágio fenológico

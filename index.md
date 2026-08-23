@@ -29,6 +29,11 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 
 - `_modelo-quadra` — gabarito para páginas de quadra.
 
+## Setores
+
+- [[_modelo-setor]] — gabarito para o cadastro canônico de setor.
+- _Os 12 setores de Macaia aguardam códigos, ruas e relação com quadras/talhões confirmados._
+
 ## Variedades
 
 - `_modelo-variedade` — gabarito para páginas de variedade.
@@ -54,6 +59,11 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 - `_modelo-evento` — gabarito para eventos datados.
 - [[2026-01-14-macaia-recebimentos-uva-safra-2026]] — recebimentos consolidados da safra 2026.
 - [[2026-06-15-macaia-geada-q3]] — exemplo de evento.
+
+## Históricos mensais por setor
+
+- [[_modelo-historico-mensal-setor]] — gabarito de índice cronológico mensal.
+- _Os históricos reais serão criados pela rotina de ingestão no primeiro evento de cada mês/setor._
 
 ## Correlações
 

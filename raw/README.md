@@ -1,7 +1,8 @@
-# raw/ — Fontes brutas (imutáveis)
+# raw/ — Fontes brutas (imutáveis após a entrada)
 
-Fonte da verdade. O agente **lê** daqui e **nunca altera nem apaga**. Coloque cada fonte na pasta
-correspondente. As pastas espelham as fontes de dados do projeto:
+Fonte da verdade. Humanos ou rotinas de ingestão podem **acrescentar** uma fonte uma única vez; o
+agente nunca altera nem apaga um arquivo já registrado. Coloque cada fonte na pasta correspondente.
+As pastas espelham as fontes de dados do projeto:
 
 | Pasta | Conteúdo |
 |---|---|

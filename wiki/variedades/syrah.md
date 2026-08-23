@@ -2,6 +2,7 @@
 tipo: variedade
 titulo: Syrah
 locais: [macaia]
+setores: []
 quadras: [q3]
 tags: [tinta]
 atualizado_em: 2026-07-08
@@ -19,6 +20,7 @@ observado no nosso solo e clima de altitude.
 ## Onde está plantada
 
 - **Locais:** [[macaia]]
+- **Setores:** _a confirmar no cadastro dos 12 setores._
 - **Quadras:** [[_modelo-quadra|q3]]
 
 ## Comportamento por estágio fenológico
