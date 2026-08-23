@@ -21,6 +21,11 @@ Local de cultivo da Alma Gerais.
 
 _Links para as quadras deste local (`wiki/quadras/`)._
 
+## Setores
+
+_Links para os 12 setores operacionais em `wiki/setores/`. Cadastrar somente após confirmar códigos,
+ruas e a relação entre setor, quadra e talhão._
+
 ## Variedades plantadas
 
 _Links para `wiki/variedades/`._

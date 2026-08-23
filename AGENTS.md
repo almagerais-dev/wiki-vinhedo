@@ -9,7 +9,8 @@ Padrão de referência: [LLM Wiki (Karpathy)](https://gist.github.com/karpathy/4
 
 ## 1. Papéis e camadas
 
-- `raw/` — **fontes brutas, imutáveis**. Você lê, **nunca edita nem apaga**. É a fonte da verdade.
+- `raw/` — **fontes brutas, imutáveis após a entrada**. A rotina pode acrescentar uma nova fonte
+  uma única vez; depois disso, o agente nunca a edita nem apaga. É a fonte da verdade.
 - `raw/publicacoes/` reúne as publicações curadas pelo time, sem subdivisões temáticas. Essa coleção
   local é uma base preferencial, mas **não limita a pesquisa**: o agente tem liberdade para buscar
   conhecimento externo sempre que isso ajudar a responder, interpretar ou recomendar.
@@ -62,10 +63,16 @@ atrás"), **toda página factual carrega âncoras temporais** no frontmatter:
 - `safra` (ano da safra).
 - `estagio_fenologico` — âncora tão importante quanto a data. Valores: `dormencia`, `brotacao`,
   `floracao`, `pegamento`, `crescimento-baga`, `veraison`, `maturacao`, `colheita`, `pos-colheita`.
-- `local`, `quadra(s)`, `variedade(s)` quando aplicável.
+- `local`, `setor(es)`, `rua(s)`, `quadra(s)` e `variedade(s)` quando aplicável.
+
+Nos registros de manejo e dos ciclos da videira, `setores` é obrigatório e `ruas` é opcional.
+`data` representa quando o fato ocorreu ou foi observado; `ingerido_em` registra quando a rotina o
+incorporou. Não substitua uma pela outra.
 
 Nomes de arquivos de evento **começam pela data** para ordenarem sozinhos no tempo:
 `AAAA-MM-DD-local-descricao-curta.md`.
+Para eventos de campo, inclua o setor:
+`AAAA-MM-DD-macaia-setor-<codigo>-descricao-curta.md`.
 
 ---
 
@@ -78,25 +85,37 @@ Sempre inicie páginas com frontmatter YAML. Campos comuns: `tipo`, `titulo`, `t
 ```yaml
 ---
 tipo: evento
-categoria: clima        # clima | manejo | analise | fitossanidade | qualidade | colheita | observacao
+categoria: clima        # clima | manejo | fenologia | analise | fitossanidade | qualidade | colheita | observacao
 data: 2026-06-15
+ingerido_em: 2026-06-16
 local: macaia
+setores: [setor-03]
+ruas: []
 quadras: [q3]
 variedades: [syrah]
 safra: 2026
+ciclo: null
 estagio_fenologico: maturacao
 tags: [geada]
 fontes: [raw/registros-ciclos-videira/2026-06-15-macaia.md]
+granola_id: null
 atualizado_em: 2026-06-16
 ---
 ```
 
-**Quadra** (`wiki/quadras/`): `tipo: quadra`, `local`, `variedades`, `porta_enxerto`, `ano_plantio`,
-`area_ha`, `espacamento`, `sistema_conducao`.
+**Setor** (`wiki/setores/`): `tipo: setor`, `codigo`, `local`, `ruas`, `variedades`, `quadras`,
+`area_ha`, `fontes`.
 
-**Variedade** (`wiki/variedades/`): `tipo: variedade`, `locais`, `quadras`, `tags`.
+**Quadra** (`wiki/quadras/`): `tipo: quadra`, `local`, `setores`, `variedades`, `porta_enxerto`,
+`ano_plantio`, `area_ha`, `espacamento`, `sistema_conducao`.
+
+**Variedade** (`wiki/variedades/`): `tipo: variedade`, `locais`, `setores`, `quadras`, `tags`.
 
 **Safra** (`wiki/safras/`): `tipo: safra`, `ano`, `locais`.
+
+**Histórico mensal de setor** (`wiki/historicos/setores/`): `tipo: historico-mensal-setor`,
+`setor`, `ano`, `mes`, `data_inicio`, `data_fim`. É um índice factual regenerável, nunca a fonte
+primária do evento.
 
 **Vinho** (`wiki/vinhos/`): `tipo: vinho`, `variedades`, `safras`.
 
@@ -116,8 +135,11 @@ atualizado_em: 2026-06-16
 
 - Use wikilinks `[[nome-do-arquivo]]` (compatível com Obsidian) para conectar páginas.
 - **Ligações bidirecionais**: ao criar uma correlação/hipótese, adicione um link de volta a partir
-  das páginas de quadra/variedade/safra/evento envolvidas.
-- Toda página nova entra no `index.md`.
+  das páginas de setor/quadra/variedade/safra/evento envolvidas.
+- Todo evento de campo aponta para seu setor. O histórico mensal aponta para os eventos e para o
+  setor; a página do setor aponta para seus históricos mensais.
+- Entidades, gabaritos e históricos mensais novos entram no `index.md`. Eventos atômicos ficam
+  catalogados nos históricos mensais e nas safras, sem inflar o índice raiz.
 
 ---
 
@@ -140,12 +162,15 @@ raw/            fontes brutas imutáveis (espelha as fontes do caderno)
 wiki/
   overview.md   síntese geral
   locais/       macaia (São Geraldo = expansão futura)
+  setores/      cadastro canônico dos setores do vinhedo
   quadras/      páginas por quadra/talhão
   variedades/   páginas por variedade
   safras/       hub temporal: uma página por ano
   vinhos/       páginas por produto
   temas/        solo, clima, irrigacao, nutricao, fitossanidade, poda-desfolha...
-  eventos/      linha do tempo factual e datada
+  eventos/      fatos atômicos, datados e ancorados por setor quando forem de campo
+  historicos/
+    setores/    índices mensais por setor; um subdiretório por setor
   correlacoes/  correlações descobertas (com defasagem e confiança)
   hipoteses/    hipóteses em acompanhamento
   recomendacoes/ recomendações questionadas | validadas | sugeridas
@@ -160,22 +185,35 @@ Arquivos `_modelo-*.md` são **gabaritos**; copie-os ao criar páginas novas.
 ## 8. Operações
 
 ### Ingerir
-1. Leia a fonte em `raw/` (ou puxe o registro de voz via MCP Granola e salve em
-   `raw/registros-manejo/` ou `raw/registros-ciclos-videira/`, conforme o conteúdo).
-2. Discuta os pontos-chave com o humano.
-3. Se for um fato datado, crie/atualize a página em `wiki/eventos/` com ancoragem temporal.
-4. Atualize as páginas de entidade afetadas (quadra, variedade, safra, vinho) e de tema.
-5. Adicione a linha do tempo da `safra` correspondente.
-6. Proponha correlações/hipóteses candidatas em suas pastas (sem alterar os fatos).
-7. Atualize `index.md` e adicione entrada em `log.md`.
+1. A rotina diária puxa cada gravação do Granola e salva uma única cópia imutável em
+   `raw/registros-manejo/` ou `raw/registros-ciclos-videira/`, conforme o registro. Uma gravação
+   mista continua sendo uma única fonte, mesmo que origine eventos de categorias diferentes.
+2. Use `granola_id` como chave de idempotência. Se esse ID já tiver sido ingerido, não duplique a
+   fonte, o evento nem os links dos índices.
+3. Divida a gravação em eventos factuais homogêneos. Diferenças de data, setor, operação,
+   observação ou estágio fenológico exigem eventos separados.
+4. Para manejo e fenologia, valide `data`, `setores`, `safra`, `estagio_fenologico`, `fontes`,
+   `granola_id` e `ingerido_em`. Registre `ruas` quando informadas.
+5. Não adivinhe setor, rua, data, ciclo ou estágio. Preserve a fonte e registre uma entrada
+   `pendencia` em `log.md` com o campo ambíguo, sem criar um fato falsamente preciso.
+6. Crie ou atualize o índice mensal de cada setor em
+   `wiki/historicos/setores/<setor>/AAAA-MM-<setor>.md`, mantendo uma linha por evento, em ordem
+   cronológica. Não copie a narrativa completa do evento para o histórico.
+7. Atualize as páginas de setor, variedade, safra e tema afetadas. Adicione o evento à linha do
+   tempo da safra e o histórico mensal ao `index.md` quando o mês surgir pela primeira vez.
+8. Adicione uma entrada `ingest` em `log.md`. A rotina de ingestão não precisa carregar históricos
+   anteriores nem propor relações; seu papel é registrar e indexar os fatos corretamente.
 
 ### Consultar
 1. Leia primeiro o `index.md` para achar páginas relevantes; depois aprofunde.
-2. Para perguntas temporais, varra `wiki/eventos/` por data/estágio fenológico e a linha do tempo
-   da(s) safra(s).
-3. Consulte as APIs vivas quando precisar de números atuais (ver `dados-vivos/`).
-4. Responda **com citações** (links para páginas e caminhos de fontes).
-5. Arquive boas respostas de volta como páginas novas (ex.: uma correlação descoberta).
+2. Para qualquer pergunta relacionada a setor, rua, evolução, comparação ou possível padrão de
+   campo, use a skill `.cursor/skills/consultar-historico-setorial/SKILL.md`. Ela define quando e
+   como abrir os históricos mensais e os eventos completos; o usuário não precisa pedir essa busca.
+3. Para outras perguntas temporais, varra `wiki/eventos/` por data/estágio fenológico e a linha do
+   tempo da(s) safra(s).
+4. Consulte as APIs vivas quando precisar de números atuais (ver `dados-vivos/`).
+5. Responda **com citações** (links para páginas e caminhos de fontes).
+6. Arquive boas respostas de volta como páginas novas (ex.: uma correlação descoberta).
 
 ### Pesquisar conhecimento externo
 - O agente pode pesquisar fontes externas sempre que julgar útil; `raw/publicacoes/` não é uma
@@ -219,6 +257,7 @@ filtrável por ferramentas unix:
 ## [AAAA-MM-DD] ingest | <título da fonte>
 ## [AAAA-MM-DD] query  | <pergunta>
 ## [AAAA-MM-DD] lint   | <resumo>
+## [AAAA-MM-DD] pendencia | <fonte e campo ambíguo>
 ```
 
 `grep "^## \[" log.md | tail -5` mostra as 5 últimas entradas.

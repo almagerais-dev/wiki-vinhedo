@@ -31,9 +31,14 @@ _Uma coluna por local ativo (hoje só Macaia; adicionar colunas ao expandir)._
 
 _Lista cronológica de links para `wiki/eventos/` desta safra._
 
+## Históricos mensais por setor
+
+_Links para os índices em `wiki/historicos/setores/`, permitindo percorrer manejo e fenologia por
+setor sem duplicar os eventos._
+
 ## Manejo relevante
 
-_Podas/desfolhas, irrigação, adubação, pulverização (sínteses do software de gestão)._
+_Podas/desfolhas, irrigação, adubação e pulverização sintetizadas a partir dos registros de manejo._
 
 ## Resultados
 

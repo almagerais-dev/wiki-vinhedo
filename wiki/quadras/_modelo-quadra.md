@@ -2,6 +2,7 @@
 tipo: quadra
 titulo: <Nome/código da quadra>
 local: macaia
+setores: []
 variedades: []
 porta_enxerto: <ex.: 1103-paulsen>
 ano_plantio: <AAAA>
@@ -17,6 +18,7 @@ atualizado_em: <AAAA-MM-DD>
 ## Ficha
 
 - **Local:** [[<local>]]
+- **Setores relacionados:** [[<setor>]]
 - **Variedade(s):** [[<variedade>]]
 - **Porta-enxerto / plantio / área / condução:** ver frontmatter.
 
