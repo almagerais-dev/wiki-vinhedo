@@ -10,6 +10,9 @@ Padrão de referência: [LLM Wiki (Karpathy)](https://gist.github.com/karpathy/4
 ## 1. Papéis e camadas
 
 - `raw/` — **fontes brutas, imutáveis**. Você lê, **nunca edita nem apaga**. É a fonte da verdade.
+- `raw/publicacoes/` reúne as publicações curadas pelo time, sem subdivisões temáticas. Essa coleção
+  local é uma base preferencial, mas **não limita a pesquisa**: o agente tem liberdade para buscar
+  conhecimento externo sempre que isso ajudar a responder, interpretar ou recomendar.
 - `wiki/` — **conhecimento que você gera e mantém**. Você é o dono desta camada.
 - `dados-vivos/` — **documentação de acesso** às APIs vivas (clima via WS Clima; gestão da vinícola
   via InnoVint/Sutter). Aqui ficam playbooks de consulta, IDs da Alma Gerais e exemplos HTTP
@@ -69,7 +72,7 @@ Nomes de arquivos de evento **começam pela data** para ordenarem sozinhos no te
 ## 5. Frontmatter por tipo de página (YAML)
 
 Sempre inicie páginas com frontmatter YAML. Campos comuns: `tipo`, `titulo`, `tags`, `fontes`
-(lista de caminhos em `raw/` ou `dados-vivos/`), `atualizado_em`.
+(lista de caminhos em `raw/` ou `dados-vivos/` e/ou URLs externas), `atualizado_em`.
 
 **Evento** (`wiki/eventos/`):
 ```yaml
@@ -83,7 +86,7 @@ variedades: [syrah]
 safra: 2026
 estagio_fenologico: maturacao
 tags: [geada]
-fontes: [raw/observacoes-campo/2026-06-15-macaia.md]
+fontes: [raw/registros-ciclos-videira/2026-06-15-macaia.md]
 atualizado_em: 2026-06-16
 ---
 ```
@@ -122,12 +125,16 @@ atualizado_em: 2026-06-16
 
 ```
 raw/            fontes brutas imutáveis (espelha as fontes do caderno)
-  publicacoes/  variedades | solos-irrigacao | fitossanitario | fichas-produtos
-  analises/     solo | planta
-  qualidade-uva/    fisico-quimico | sanitario | sensorial
-  qualidade-vinho/  flor | prensa
-  consultoria/  agronomica | enologica
-  observacoes-campo/  transcrições de voz (Granola MCP)
+  publicacoes/  todas as publicações, sem subdivisões temáticas
+  fichas-tecnicas/
+    comercial/  fichas de produtos comerciais
+    biologicos/ fichas de produtos biológicos
+  analises/     análises de solo, planta e outras matrizes
+  qualidade-uva/    resultados físico-químicos, sanitários e sensoriais
+  qualidade-vinho/  resultados de flor, prensa e outras avaliações
+  consultoria/  relatórios de consultoria atualmente agronômica
+  registros-manejo/ registros datados das operações de manejo
+  registros-ciclos-videira/ registros datados dos ciclos e estágios fenológicos
   mapa-plantio/ mapas, fotos de drone, variedades plantadas
   assets/       imagens/anexos
 wiki/
@@ -153,8 +160,8 @@ Arquivos `_modelo-*.md` são **gabaritos**; copie-os ao criar páginas novas.
 ## 8. Operações
 
 ### Ingerir
-1. Leia a fonte em `raw/` (ou puxe a observação de voz via MCP Granola e salve em
-   `raw/observacoes-campo/`).
+1. Leia a fonte em `raw/` (ou puxe o registro de voz via MCP Granola e salve em
+   `raw/registros-manejo/` ou `raw/registros-ciclos-videira/`, conforme o conteúdo).
 2. Discuta os pontos-chave com o humano.
 3. Se for um fato datado, crie/atualize a página em `wiki/eventos/` com ancoragem temporal.
 4. Atualize as páginas de entidade afetadas (quadra, variedade, safra, vinho) e de tema.
@@ -169,6 +176,18 @@ Arquivos `_modelo-*.md` são **gabaritos**; copie-os ao criar páginas novas.
 3. Consulte as APIs vivas quando precisar de números atuais (ver `dados-vivos/`).
 4. Responda **com citações** (links para páginas e caminhos de fontes).
 5. Arquive boas respostas de volta como páginas novas (ex.: uma correlação descoberta).
+
+### Pesquisar conhecimento externo
+- O agente pode pesquisar fontes externas sempre que julgar útil; `raw/publicacoes/` não é uma
+  fronteira do conhecimento.
+- Dê preferência a estudos revisados por pares, instituições técnicas e fontes primárias ligadas à
+  viticultura em **clima tropical**, especialmente quando forem aplicáveis às condições de Minas
+  Gerais. Referências de clima subtropical, temperado ou de outros países também podem ser usadas
+  quando ajudarem a estabelecer padrões ou trouxerem conhecimento transferível.
+- Registre título, autoria ou instituição, URL/DOI e data da consulta. Quando uma síntese usar fonte
+  externa, inclua a URL em `fontes` e descreva no corpo da página por que ela é aplicável a Macaia.
+- Conhecimento externo embasa interpretações e recomendações, mas não transforma uma generalização
+  bibliográfica em fato observado na Alma Gerais. Fatos do vinhedo continuam exigindo fonte datada.
 
 ### Revisar (lint)
 - Contradições entre páginas; afirmações vencidas por fontes novas; páginas órfãs; conceitos sem

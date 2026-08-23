@@ -16,8 +16,8 @@ atualizado_em: <AAAA-MM-DD>
 
 ## Qualidade
 
-- **Flor:** _ver `raw/qualidade-vinho/flor/`._
-- **Prensa:** _ver `raw/qualidade-vinho/prensa/`._
+_Ver resultados consolidados em `raw/qualidade-vinho/`, identificando no nome ou nos metadados de
+cada arquivo se a amostra corresponde a flor, prensa ou outra avaliação._
 
 ## Da uva ao vinho
 

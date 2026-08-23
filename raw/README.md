@@ -5,23 +5,22 @@ correspondente. As pastas espelham as fontes de dados do projeto:
 
 | Pasta | Conteúdo |
 |---|---|
-| `publicacoes/variedades/` | Artigos sobre comportamento de variedades |
-| `publicacoes/solos-irrigacao/` | Publicações de solo e irrigação |
-| `publicacoes/fitossanitario/` | Controle fitossanitário |
-| `publicacoes/fichas-produtos/` | Fichas técnicas de produtos comerciais |
-| `analises/solo/` | Resultados de análises de solo |
-| `analises/planta/` | Resultados de análises de planta |
-| `qualidade-uva/fisico-quimico/` | Qualidade da uva — físico-químicos |
-| `qualidade-uva/sanitario/` | Qualidade da uva — sanitários |
-| `qualidade-uva/sensorial/` | Qualidade da uva — sensoriais |
-| `qualidade-vinho/flor/` | Qualidade do vinho — flor |
-| `qualidade-vinho/prensa/` | Qualidade do vinho — prensa |
-| `consultoria/agronomica/` | Relatórios de recomendação agronômica |
-| `consultoria/enologica/` | Relatórios de recomendação enológica |
-| `observacoes-campo/` | Transcrições de observações por voz (Granola MCP) |
+| `publicacoes/` | Todas as publicações que embasam a produção, sem subdivisões temáticas |
+| `fichas-tecnicas/comercial/` | Fichas técnicas de produtos comerciais |
+| `fichas-tecnicas/biologicos/` | Fichas técnicas de produtos biológicos |
+| `analises/` | Resultados de análises de solo, planta e outras matrizes |
+| `qualidade-uva/` | Resultados físico-químicos, sanitários e sensoriais da uva |
+| `qualidade-vinho/` | Resultados de flor, prensa e outras avaliações do vinho |
+| `consultoria/` | Relatórios de consultoria, atualmente agronômica |
+| `registros-manejo/` | Registros datados das operações de manejo |
+| `registros-ciclos-videira/` | Registros datados dos ciclos e estágios fenológicos da videira |
 | `mapa-plantio/` | Mapas de plantio, fotos de drone, variedades plantadas |
 | `assets/` | Imagens e anexos |
 
 Dica: nomeie arquivos datados começando pela data (`AAAA-MM-DD-...`) para ordenarem no tempo.
+As publicações curadas nesta pasta não restringem a pesquisa do agente: ele pode consultar fontes
+externas, priorizando estudos sobre viticultura em clima tropical e usando referências
+internacionais quando forem relevantes. A síntese na `wiki/` deve citar a URL/DOI e a data da
+consulta, sem confundir conhecimento geral com fato observado na Alma Gerais.
 Estação meteorológica e software de gestão da vinícola **não** ficam aqui — são APIs vivas
 (ver `dados-vivos/`).

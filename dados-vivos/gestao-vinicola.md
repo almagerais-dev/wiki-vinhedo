@@ -17,7 +17,7 @@ Schema OpenAPI (máquina): `https://sutter.innovint.us/api/v1/schema/`
 
 > InnoVint é software de **vinícola/adega** (cellar), não um ERP de manejo de campo. Eventos de
 > manejo no vinhedo (pulverização, poda, irrigação) podem não existir aqui — quando faltarem,
-> buscar em `raw/` / observações de campo.
+> buscar em `raw/registros-manejo/` e `raw/registros-ciclos-videira/`.
 
 ## Conexão
 

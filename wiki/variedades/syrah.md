@@ -31,4 +31,4 @@ _A preencher por safra._
 
 ## Fontes
 
-_Links para `raw/publicacoes/variedades/`._
+_Links para `raw/publicacoes/` e fontes externas pertinentes._

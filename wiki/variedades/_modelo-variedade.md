@@ -24,4 +24,4 @@ _Notas por fase (brotação, floração, maturação...) conforme observado nas 
 
 ## Fontes
 
-_Links para `raw/publicacoes/variedades/` e demais fontes._
+_Links para `raw/publicacoes/` e fontes externas pertinentes._

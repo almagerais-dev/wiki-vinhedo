@@ -22,7 +22,7 @@ contradições. Você cura as fontes e faz as perguntas; o agente faz todo o fic
 
 | Camada | Pasta | Quem escreve | O que é |
 |---|---|---|---|
-| Fontes brutas | `raw/` | Humanos | Fonte da verdade, **imutável**. O agente lê, nunca altera. |
+| Fontes brutas | `raw/` | Humanos | Fonte da verdade local, **imutável**. O agente lê, nunca altera. |
 | Wiki | `wiki/` | Agente | Conhecimento gerado: entidades, temas, eventos, correlações, hipóteses. |
 | Dados vivos | `dados-vivos/` | Humanos + agente | *Como acessar* as APIs (WS Clima e InnoVint). Não guarda dados crus. |
 | Schema | `AGENTS.md` | Humanos + agente | As regras e workflows que o agente segue. |
@@ -32,6 +32,8 @@ Navegação: `index.md` (catálogo de páginas) e `log.md` (histórico cronológ
 ## Como usar (resumo)
 
 - **Ingerir**: coloque uma fonte em `raw/` e peça ao agente para processá-la.
+- **Pesquisar**: o agente pode buscar conhecimento externo, priorizando estudos de viticultura em
+  clima tropical sem excluir referências internacionais relevantes.
 - **Perguntar**: faça perguntas; boas respostas viram páginas novas na `wiki/`.
 - **Revisar**: peça periodicamente uma revisão (contradições, dados vencidos, lacunas).
 
