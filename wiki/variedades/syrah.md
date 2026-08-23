@@ -19,7 +19,7 @@ observado no nosso solo e clima de altitude.
 ## Onde está plantada
 
 - **Locais:** [[macaia]]
-- **Quadras:** [[_modelo-quadra|q3]]
+- **Quadras:** [[q3]]
 
 ## Comportamento por estágio fenológico
 

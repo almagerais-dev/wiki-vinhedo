@@ -3,7 +3,7 @@ tipo: local
 titulo: Macaia
 slug: macaia
 fontes: [dados-vivos/estacao-meteorologica.md, dados-vivos/gestao-vinicola.md]
-atualizado_em: 2026-07-14
+atualizado_em: 2026-08-23
 ---
 
 # Macaia
@@ -19,7 +19,9 @@ Local de cultivo da Alma Gerais.
 
 ## Quadras
 
-_Links para as quadras deste local (`wiki/quadras/`)._
+- [[q3]], [[q4]], [[q5]], [[q7]] — páginas criadas para ancorar eventos; fichas ainda a levantar.
+- Os relatos de campo usam "setor N"; a equivalência com as quadras `qN` ainda precisa ser
+  confirmada com o time.
 
 ## Variedades plantadas
 
@@ -31,4 +33,6 @@ _Links para `wiki/variedades/`._
   zero registros; ver [[clima]].
 - O InnoVint reúne operação de adega e origens de fruta próprias e de terceiros; uma origem
   cadastrada não é automaticamente uma quadra de Macaia. Ver [[operacao-de-adega]].
-- Eventos ligados: [[2026-01-14-macaia-recebimentos-uva-safra-2026]].
+- Eventos ligados: [[2026-01-14-macaia-recebimentos-uva-safra-2026]],
+  [[2026-08-23-macaia-poda-setores-5-7]],
+  [[2026-08-23-macaia-pulverizacao-mildio-setores-3-4]].

@@ -1,6 +1,6 @@
 ---
 tipo: indice
-atualizado_em: 2026-07-14
+atualizado_em: 2026-08-23
 ---
 
 # Índice da wiki-vinhedo
@@ -20,6 +20,7 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 ## Quadras
 
 - `_modelo-quadra` — gabarito para páginas de quadra.
+- [[q3]], [[q4]], [[q5]], [[q7]] — quadras de Macaia citadas em eventos; fichas a levantar.
 
 ## Variedades
 
@@ -40,12 +41,15 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 - `_modelo-tema` — gabarito para páginas de tema.
 - [[clima]] — cobertura e limites atuais da estação de Macaia.
 - [[operacao-de-adega]] — modelo dos dados e retrato operacional do InnoVint.
+- [[fitossanidade]] — doenças, monitoramento e aplicações no vinhedo.
 
 ## Eventos (linha do tempo)
 
 - `_modelo-evento` — gabarito para eventos datados.
 - [[2026-01-14-macaia-recebimentos-uva-safra-2026]] — recebimentos consolidados da safra 2026.
 - [[2026-06-15-macaia-geada-q3]] — exemplo de evento.
+- [[2026-08-23-macaia-poda-setores-5-7]] — poda nos setores 5 e 7.
+- [[2026-08-23-macaia-pulverizacao-mildio-setores-3-4]] — pulverização contra míldio nos setores 3 e 4.
 
 ## Correlações
 

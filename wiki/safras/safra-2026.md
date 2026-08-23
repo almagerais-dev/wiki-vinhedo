@@ -4,7 +4,7 @@ titulo: Safra 2026
 ano: 2026
 locais: [macaia]
 fontes: [dados-vivos/estacao-meteorologica.md, dados-vivos/gestao-vinicola.md]
-atualizado_em: 2026-07-14
+atualizado_em: 2026-08-23
 ---
 
 # Safra 2026
@@ -31,8 +31,17 @@ calcular um resumo climático factual da safra a partir da API. Ver [[clima]].
 
 ## Manejo relevante
 
-Não há dados de manejo de campo ingeridos. O InnoVint registra a operação da adega, não poda,
-pulverização ou irrigação.
+O InnoVint registra a operação da adega, não poda, pulverização ou irrigação; o manejo de campo
+chega por observações em `raw/observacoes-campo/`.
+
+Duas operações de 2026-08-23 estão registradas mas **ainda não atribuídas a uma safra**, porque o
+relato não informou o ciclo:
+
+- [[2026-08-23-macaia-poda-setores-5-7]]
+- [[2026-08-23-macaia-pulverizacao-mildio-setores-3-4]]
+
+Ao confirmar o ciclo com o time, preencher o campo `safra` desses eventos e movê-los para a linha do
+tempo da safra correspondente.
 
 ## Resultados
 
