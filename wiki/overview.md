@@ -2,7 +2,10 @@
 tipo: overview
 titulo: Visão geral do vinhedo
 locais: [macaia]
-atualizado_em: 2026-07-14
+fontes:
+  - raw/mapa-plantio/plantio-alma-gerais-vivert.geojson
+  - raw/mapa-plantio/2026-08-25-confirmacao-talhao-setor.md
+atualizado_em: 2026-08-25
 ---
 
 # Visão geral — Vinhedo Alma Gerais
@@ -18,7 +21,7 @@ vinhedo, com links para os hubs principais. Deve caber "de olhada" e sempre apon
 ## Como navegar
 
 - Perguntas sobre **um período** → comece pela safra: [[safra-2026]] e a pasta `wiki/safras/`.
-- Perguntas sobre **uma área** → páginas de quadra em `wiki/quadras/`.
+- Perguntas sobre **uma área** → páginas de setor em `wiki/setores/`.
 - Perguntas sobre **uma casta** → páginas de variedade (ex.: [[syrah]]).
 - Perguntas sobre **"por que aconteceu"** → `wiki/correlacoes/` e `wiki/hipoteses/` (sempre com
   evidência datada; correlação não é causalidade).
@@ -31,5 +34,7 @@ vinhedo, com links para os hubs principais. Deve caber "de olhada" e sempre apon
   [[safra-2026]].
 - **Adega:** única vinícola no escopo é `Alma Gerais`; origens cadastradas incluem áreas próprias e
   fornecedores. Ver [[operacao-de-adega]].
-- **Lacunas:** faltam fontes de campo para fenologia, manejo e mapeamento confirmado de
-  origens/blocos do InnoVint para quadras de Macaia.
+- **Mapa de plantio:** dez setores operacionais georreferenciados, com área total de 9,7952 ha. Ver
+  [[macaia]] e as páginas [[setor-01]] a [[setor-10]].
+- **Lacunas:** faltam fontes de campo para fenologia e manejo, além de ruas, variedades e relações
+  confirmadas entre setores e quadras.
