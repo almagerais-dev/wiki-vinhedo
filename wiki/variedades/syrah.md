@@ -5,7 +5,8 @@ locais: [macaia]
 setores: []
 quadras: [q3]
 tags: [tinta]
-atualizado_em: 2026-07-08
+fontes: [raw/mapa-plantio/2026-08-25-confirmacao-talhao-setor.md]
+atualizado_em: 2026-08-25
 ---
 
 # Syrah
@@ -20,7 +21,7 @@ observado no nosso solo e clima de altitude.
 ## Onde está plantada
 
 - **Locais:** [[macaia]]
-- **Setores:** _a confirmar no cadastro dos 12 setores._
+- **Setores:** _a confirmar entre os dez setores cadastrados._
 - **Quadras:** [[_modelo-quadra|q3]]
 
 ## Comportamento por estágio fenológico

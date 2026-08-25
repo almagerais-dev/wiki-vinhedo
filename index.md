@@ -1,6 +1,6 @@
 ---
 tipo: indice
-atualizado_em: 2026-08-23
+atualizado_em: 2026-08-25
 ---
 
 # Índice da wiki-vinhedo
@@ -19,6 +19,7 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 - `raw/analises/`, `raw/qualidade-uva/`, `raw/qualidade-vinho/` e `raw/consultoria/` — documentos
   consolidados, sem subdivisões.
 - `raw/registros-manejo/` e `raw/registros-ciclos-videira/` — registros datados de campo.
+- `raw/mapa-plantio/` — mapa georreferenciado e confirmações cadastrais dos setores.
 
 ## Locais
 
@@ -32,7 +33,16 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 ## Setores
 
 - [[_modelo-setor]] — gabarito para o cadastro canônico de setor.
-- _Os 12 setores de Macaia aguardam códigos, ruas e relação com quadras/talhões confirmados._
+- [[setor-01]] — Talhão 1 na fonte; 0,4669 ha.
+- [[setor-02]] — Talhão 2 na fonte; 1,2918 ha.
+- [[setor-03]] — Talhão 3 na fonte; 1,2088 ha.
+- [[setor-04]] — Talhão 4 na fonte; 1,0799 ha.
+- [[setor-05]] — Talhão 5 na fonte; 1,0614 ha.
+- [[setor-06]] — Talhão 6 na fonte; 1,0759 ha.
+- [[setor-07]] — Talhão 7 na fonte; 0,9067 ha.
+- [[setor-08]] — Talhão 8 na fonte; 0,2711 ha.
+- [[setor-09]] — Talhão 9 na fonte; 1,0859 ha.
+- [[setor-10]] — Talhão 10 na fonte; 1,3468 ha.
 
 ## Variedades
 
