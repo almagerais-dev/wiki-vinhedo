@@ -8,7 +8,6 @@ fontes:
   - raw/mapa-plantio/2026-08-29-mapa-de-plantio-alma-gerais-vivert.json
   - raw/mapa-plantio/2026-08-29-plantio-vivert.geojson
   - raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md
-  - raw/mapa-plantio/plantio-alma-gerais-vivert.geojson
   - raw/mapa-plantio/2026-08-25-confirmacao-talhao-setor.md
 atualizado_em: 2026-08-29
 ---
@@ -23,13 +22,13 @@ Local de cultivo da Alma Gerais.
 - **Elevação informada pela estação:** 827 m
 - **Estação meteorológica:** WS Clima `966` (única usada pela wiki)
 - **Gestão da vinícola:** InnoVint / Sutter, vinícola `Alma Gerais` (única usada pela wiki)
-- **Área total dos setores mapeados:** 10,7641 ha
+- **Área total dos setores mapeados:** 10,7374 ha
 - **Plantas no mapa de plantio:** 35.921
 - **Produção anual esperada no mapa de plantio:** 63.479,8 kg
 
-A área total soma 9,7952 ha dos setores [[setor-01]] a [[setor-10]] (propriedades da fonte
-2026-08-25) com 0,3498 ha do [[setor-11]] e 0,6191 ha do [[setor-12]] (áreas geodésicas WGS84
-calculadas sobre os polígonos de 2026-08-29).
+A área total soma 9,7685 ha dos setores [[setor-01]] a [[setor-10]] com 0,3498 ha do [[setor-11]] e
+0,6191 ha do [[setor-12]]. Todas as doze áreas são geodésicas WGS84, calculadas sobre as partes do
+MultiPolygon de 2026-08-29.
 
 As plantas e a produção esperada vêm da linha `TOTAL VIVERT` do mapa de plantio de 2026-08-29 e
 coincidem com a soma dos 18 trechos plantados. O objeto `totais` do mesmo JSON duplica esses
@@ -49,7 +48,7 @@ Macaia:
 - [[setor-11]] e [[setor-12]]
 
 As geometrias vigentes estão em `raw/mapa-plantio/2026-08-29-plantio-vivert.geojson`. As partes
-1 a 10 coincidem com os talhões da fonte de 2026-08-25. O mapa de plantio de 2026-08-29 registra
+1 a 10 correspondem aos talhões da confirmação de 2026-08-25. O mapa de plantio de 2026-08-29 registra
 setores 1 a 12, com ruas e variedades.
 
 No JSON de plantio, cada item de `talhoes` é um **trecho de ruas** dentro de um setor, não o

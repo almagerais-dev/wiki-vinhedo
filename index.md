@@ -34,16 +34,16 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 ## Setores
 
 - [[_modelo-setor]] — gabarito para o cadastro canônico de setor.
-- [[setor-01]] — Sauvignon Blanc; ruas 1–47; 0,4669 ha.
-- [[setor-02]] — Syrah; ruas 1–39; 1,2918 ha.
-- [[setor-03]] — Syrah; ruas 1–36; 1,2088 ha.
-- [[setor-04]] — Sauvignon Blanc; ruas 1–38; 1,0799 ha.
-- [[setor-05]] — Cabernet Franc; ruas 1–42; 1,0614 ha.
-- [[setor-06]] — Cabernet Franc e Cabernet Sauvignon; ruas 1–38; 1,0759 ha.
-- [[setor-07]] — Cabernet Franc; ruas 1–24; 0,9067 ha.
-- [[setor-08]] — Cabernet Sauvignon; ruas 1–18 plantadas, 19–42 sem plantio; 0,2711 ha.
-- [[setor-09]] — PIWI'S e Cabernet Franc; ruas 1–71, com 10–41 sem plantio; 1,0859 ha.
-- [[setor-10]] — Sauvignon Blanc, Cabernet Franc e Syrah; ruas 1–10; 1,3468 ha.
+- [[setor-01]] — Sauvignon Blanc; ruas 1–47; 0,4657 ha.
+- [[setor-02]] — Syrah; ruas 1–39; 1,2883 ha.
+- [[setor-03]] — Syrah; ruas 1–36; 1,2055 ha.
+- [[setor-04]] — Sauvignon Blanc; ruas 1–38; 1,0769 ha.
+- [[setor-05]] — Cabernet Franc; ruas 1–42; 1,0585 ha.
+- [[setor-06]] — Cabernet Franc e Cabernet Sauvignon; ruas 1–38; 1,0730 ha.
+- [[setor-07]] — Cabernet Franc; ruas 1–24; 0,9042 ha.
+- [[setor-08]] — Cabernet Sauvignon; ruas 1–18 plantadas, 19–42 sem plantio; 0,2704 ha.
+- [[setor-09]] — PIWI'S e Cabernet Franc; ruas 1–71, com 10–41 sem plantio; 1,0829 ha.
+- [[setor-10]] — Sauvignon Blanc, Cabernet Franc e Syrah; ruas 1–10; 1,3431 ha.
 - [[setor-11]] — Margoth, Cabernet Franc e Marselan; ruas 1–46; 0,3498 ha.
 - [[setor-12]] — Marselan; ruas 1–47; 0,6191 ha.
 

@@ -6,7 +6,7 @@ local: macaia
 ruas: ["1-38"]
 variedades: [sauvignon-blanc]
 quadras: []
-area_ha: 1.0799
+area_ha: 1.0769
 geometria_id: 4
 nome_na_fonte: Talhao 4
 tags: [mapa-plantio]
@@ -14,7 +14,6 @@ fontes:
   - raw/mapa-plantio/2026-08-29-mapa-de-plantio-alma-gerais-vivert.json
   - raw/mapa-plantio/2026-08-29-plantio-vivert.geojson
   - raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md
-  - raw/mapa-plantio/plantio-alma-gerais-vivert.geojson
   - raw/mapa-plantio/2026-08-25-confirmacao-talhao-setor.md
 atualizado_em: 2026-08-29
 ---
@@ -24,12 +23,12 @@ atualizado_em: 2026-08-29
 ## Cadastro
 
 - **Local:** [[macaia]]
-- **Identificação na fonte:** `Talhao 4` na coleção de 2026-08-25, normalizado como `setor-04`.
+- **Identificação na fonte:** `Talhao 4` na confirmação de 2026-08-25, normalizado como `setor-04`.
   Na coleção de 2026-08-29 corresponde à parte `4` do MultiPolygon `Plantio Vivert`.
-- **Área:** 1,0799 ha (propriedade da fonte 2026-08-25; a geometria vigente não traz área).
+- **Área:** 1,0769 ha, calculada sobre o polígono em elipsoide WGS84 (geodésica);
+  a coleção de 2026-08-29 não traz `area_ha`.
 - **Geometria vigente:** parte `4` do MultiPolygon em
-  `raw/mapa-plantio/2026-08-29-plantio-vivert.geojson`. Os vértices coincidem com a feição
-  `id: 4` de `raw/mapa-plantio/plantio-alma-gerais-vivert.geojson` (diferença só de precisão decimal).
+  `raw/mapa-plantio/2026-08-29-plantio-vivert.geojson`.
 - **Ruas:** 1 a 38.
 - **Variedades:** [[sauvignon-blanc]].
 - **Quadras relacionadas:** a fonte de plantio não relaciona quadras.
@@ -61,5 +60,4 @@ _Links para interpretações relacionadas. Os fatos permanecem nos eventos e his
 - `raw/mapa-plantio/2026-08-29-mapa-de-plantio-alma-gerais-vivert.json`
 - `raw/mapa-plantio/2026-08-29-plantio-vivert.geojson`
 - `raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md`
-- `raw/mapa-plantio/plantio-alma-gerais-vivert.geojson`
 - `raw/mapa-plantio/2026-08-25-confirmacao-talhao-setor.md`
