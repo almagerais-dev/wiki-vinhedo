@@ -87,3 +87,5 @@ polígono georreferenciado nem uma quadra.
 - O InnoVint reúne operação de adega e origens de fruta próprias e de terceiros; uma origem
   cadastrada não é automaticamente uma quadra de Macaia. Ver [[operacao-de-adega]].
 - Eventos ligados: [[2026-01-14-macaia-recebimentos-uva-safra-2026]].
+- A campanha de poda de agosto de 2026 é o primeiro manejo de campo ingerido: ver [[safra-2027]],
+  [[poda-desfolha]] e [[irrigacao]]. Doze setores têm histórico mensal de 2026-08.

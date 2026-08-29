@@ -48,7 +48,9 @@ fonte.
 
 ## Históricos mensais
 
-_Links para `wiki/historicos/setores/setor-04/`, do mais recente para o mais antigo._
+Do mais recente para o mais antigo:
+
+- [[2026-08-setor-04]] — início do preparo de poda com Ethrel (unidade da dose pendente).
 
 ## Correlações e hipóteses
 

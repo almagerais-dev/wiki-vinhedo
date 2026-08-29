@@ -48,7 +48,9 @@ fonte.
 
 ## Históricos mensais
 
-_Links para `wiki/historicos/setores/setor-03/`, do mais recente para o mais antigo._
+Do mais recente para o mais antigo:
+
+- [[2026-08-setor-03]] — preparo de poda com Ethrel e poda (fonte usa "T3").
 
 ## Correlações e hipóteses
 

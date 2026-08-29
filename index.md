@@ -18,7 +18,8 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 - `raw/fichas-tecnicas/comercial/` e `raw/fichas-tecnicas/biologicos/` — fichas de produtos.
 - `raw/analises/`, `raw/qualidade-uva/`, `raw/qualidade-vinho/` e `raw/consultoria/` — documentos
   consolidados, sem subdivisões.
-- `raw/registros-manejo/` e `raw/registros-ciclos-videira/` — registros datados de campo.
+- `raw/registros-manejo/` e `raw/registros-ciclos-videira/` — registros datados de campo. As 14
+  gravações do Granola de 2026-08-28 estão em `raw/registros-manejo/`.
 - `raw/mapa-plantio/` — mapa georreferenciado e confirmações cadastrais dos setores.
 
 ## Locais
@@ -61,6 +62,7 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 
 - `_modelo-safra` — gabarito para páginas de safra.
 - [[safra-2026]] — exemplo de hub temporal de safra.
+- [[safra-2027]] — ciclo aberto pela poda de agosto de 2026 (convenção de numeração a confirmar).
 
 ## Vinhos
 
@@ -71,6 +73,8 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 - `_modelo-tema` — gabarito para páginas de tema.
 - [[clima]] — cobertura e limites atuais da estação de Macaia.
 - [[operacao-de-adega]] — modelo dos dados e retrato operacional do InnoVint.
+- [[poda-desfolha]] — protocolo de preparo, poda e quebra de dormência observado em Macaia.
+- [[irrigacao]] — lâminas do ciclo de poda e fertirrigações registradas.
 
 ## Eventos (linha do tempo)
 
@@ -81,7 +85,9 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 ## Históricos mensais por setor
 
 - [[_modelo-historico-mensal-setor]] — gabarito de índice cronológico mensal.
-- _Os históricos reais serão criados pela rotina de ingestão no primeiro evento de cada mês/setor._
+- 2026-08: [[2026-08-setor-01]], [[2026-08-setor-02]], [[2026-08-setor-03]], [[2026-08-setor-04]],
+  [[2026-08-setor-05]], [[2026-08-setor-06]], [[2026-08-setor-07]], [[2026-08-setor-08]],
+  [[2026-08-setor-09]], [[2026-08-setor-10]], [[2026-08-setor-11]] e [[2026-08-setor-12]].
 
 ## Correlações
 
@@ -94,6 +100,7 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 ## Recomendações
 
 - `_modelo-recomendacao` — gabarito para recomendações.
+- [[irrigacao-pre-e-pos-poda-2026]] — 30 mm antes da poda e 21 mm por semana depois (agronômica).
 
 ## Dados vivos
 

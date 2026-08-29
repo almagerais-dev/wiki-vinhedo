@@ -50,7 +50,9 @@ fonte.
 
 ## Históricos mensais
 
-_Links para `wiki/historicos/setores/setor-09/`, do mais recente para o mais antigo._
+Do mais recente para o mais antigo:
+
+- [[2026-08-setor-09]] — preparo de poda com Ethrel e poda.
 
 ## Correlações e hipóteses
 
