@@ -3,14 +3,15 @@ tipo: setor
 titulo: Setor 02
 codigo: setor-02
 local: macaia
-ruas: []
-variedades: []
+ruas: ["1-39"]
+variedades: [syrah]
 quadras: []
 area_ha: 1.2918
 geometria_id: 2
 nome_na_fonte: Talhao 2
 tags: [mapa-plantio]
 fontes:
+  - raw/mapa-plantio/2026-08-29-mapa-de-plantio-alma-gerais-vivert.json
   - raw/mapa-plantio/2026-08-29-plantio-vivert.geojson
   - raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md
   - raw/mapa-plantio/plantio-alma-gerais-vivert.geojson
@@ -29,7 +30,21 @@ atualizado_em: 2026-08-29
 - **Geometria vigente:** parte `2` do MultiPolygon em
   `raw/mapa-plantio/2026-08-29-plantio-vivert.geojson`. Os vértices coincidem com a feição
   `id: 2` de `raw/mapa-plantio/plantio-alma-gerais-vivert.geojson` (diferença só de precisão decimal).
-- **Ruas, variedades e quadras relacionadas:** ainda não informadas.
+- **Ruas:** 1 a 39.
+- **Variedades:** [[syrah]].
+- **Quadras relacionadas:** a fonte de plantio não relaciona quadras.
+- **Plantas:** 3.877 (mapa de plantio de 2026-08-29).
+- **Produção anual esperada:** 9.692,5 kg (valor de planejamento da fonte; não é colheita observada).
+
+## Plantio
+
+Blocos do mapa de plantio `Alma Gerais Vivert` (2026-08-29). Cada linha da fonte é um trecho de
+ruas dentro do setor, não uma quadra. `kg/planta` e a produção anual são valores **esperados** da
+fonte.
+
+| Ruas | Variedade | Plantas | Ano de plantio | Clone | Porta-enxerto | kg/planta esperado | Produção anual esperada (kg) |
+|---|---|---:|---|---|---|---:|---:|
+| 1 a 39 | [[syrah]] | 3.877 | 2020 | 242 | 1103P | 2,5 | 9.692,5 |
 
 ## Históricos mensais
 
@@ -43,6 +58,7 @@ _Links para interpretações relacionadas. Os fatos permanecem nos eventos e his
 
 ## Fontes cadastrais
 
+- `raw/mapa-plantio/2026-08-29-mapa-de-plantio-alma-gerais-vivert.json`
 - `raw/mapa-plantio/2026-08-29-plantio-vivert.geojson`
 - `raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md`
 - `raw/mapa-plantio/plantio-alma-gerais-vivert.geojson`
