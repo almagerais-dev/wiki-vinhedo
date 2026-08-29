@@ -13,3 +13,5 @@ Filtrar as últimas entradas: `grep "^## \[" log.md | tail -5`.
 ## [2026-08-23] update | Fontes brutas simplificadas; fichas técnicas e registros de manejo/ciclos separados; pesquisa externa orientada a clima tropical
 ## [2026-08-23] update | Modelo de eventos por setor, históricos mensais e skill de consulta setorial adicionados
 ## [2026-08-25] ingest | Mapa georreferenciado dos dez setores de Macaia cadastrado; área total de 9,7952 ha
+## [2026-08-29] ingest | Coleção Plantio Vivert com 12 polígonos; setores 11 e 12 cadastrados; geometria vigente atualizada; área total 10,7641 ha
+## [2026-08-29] pendencia | 2026-08-29-plantio-vivert.geojson: polígonos 11 e 12 sem rótulo de talhão; numerados setor-11 e setor-12 pela ordem na coleção

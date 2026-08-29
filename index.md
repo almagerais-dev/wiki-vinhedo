@@ -1,6 +1,6 @@
 ---
 tipo: indice
-atualizado_em: 2026-08-25
+atualizado_em: 2026-08-29
 ---
 
 # Índice da wiki-vinhedo
@@ -43,6 +43,8 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 - [[setor-08]] — Talhão 8 na fonte; 0,2711 ha.
 - [[setor-09]] — Talhão 9 na fonte; 1,0859 ha.
 - [[setor-10]] — Talhão 10 na fonte; 1,3468 ha.
+- [[setor-11]] — polígono 11 da coleção Plantio Vivert; 0,3498 ha.
+- [[setor-12]] — polígono 12 da coleção Plantio Vivert; 0,6191 ha.
 
 ## Variedades
 
