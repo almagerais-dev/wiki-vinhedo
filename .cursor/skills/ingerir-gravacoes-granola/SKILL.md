@@ -11,6 +11,9 @@ Procedimento obrigatório de ingestão. O `AGENTS.md` define as **regras** (sche
 Papel da ingestão: registrar e indexar fatos corretamente. Não é hora de propor correlações,
 hipóteses ou recomendações próprias.
 
+Rodando pela Automation diária do Cursor, o texto das instruções e a configuração recomendada estão
+em `automacao-diaria.md`, nesta mesma pasta. Ao mudar o procedimento aqui, revise aquele arquivo.
+
 ## 1. Confirmar a conta do Granola
 
 Chame `get_account_info` e informe ao usuário o e-mail e o workspace. Se a busca de gravações voltar
