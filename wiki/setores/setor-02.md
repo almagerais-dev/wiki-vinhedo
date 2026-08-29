@@ -33,7 +33,9 @@ atualizado_em: 2026-08-29
 
 ## Históricos mensais
 
-_Links para `wiki/historicos/setores/setor-02/`, do mais recente para o mais antigo._
+Do mais recente para o mais antigo:
+
+- [[2026-08-setor-02]] — início do preparo de poda com Ethrel.
 
 ## Correlações e hipóteses
 

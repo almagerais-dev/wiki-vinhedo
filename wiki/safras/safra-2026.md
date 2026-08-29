@@ -48,4 +48,5 @@ Esses valores são um retrato operacional e podem mudar. Ver [[operacao-de-adega
 
 ## Comparação com outras safras
 
-Ainda não há sínteses equivalentes de outras safras na wiki.
+Ainda não há sínteses equivalentes de outras safras na wiki. [[safra-2027]] já reúne manejo de
+campo, mas nenhum resultado de adega, portanto as duas páginas não são comparáveis hoje.

@@ -31,7 +31,9 @@ atualizado_em: 2026-08-29
 
 ## Históricos mensais
 
-_Links para `wiki/historicos/setores/setor-11/`, do mais recente para o mais antigo._
+Do mais recente para o mais antigo:
+
+- [[2026-08-setor-11]] — preparo de poda, poda e Dormex.
 
 ## Correlações e hipóteses
 
