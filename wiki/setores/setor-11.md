@@ -14,6 +14,7 @@ fontes:
   - raw/mapa-plantio/2026-08-29-mapa-de-plantio-alma-gerais-vivert.json
   - raw/mapa-plantio/2026-08-29-plantio-vivert.geojson
   - raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md
+  - raw/mapa-plantio/2026-08-29-mapa-rotulado-setores.png
 atualizado_em: 2026-08-29
 ---
 
@@ -22,10 +23,11 @@ atualizado_em: 2026-08-29
 ## Cadastro
 
 - **Local:** [[macaia]]
-- **Identificação na fonte:** parte `11` do MultiPolygon `Plantio Vivert`, sem
-  rótulo de talhão no GeoJSON. O mapa de plantio de 2026-08-29 registra este recorte como setor 11.
-- **Área:** 0,3498 ha, calculada sobre o polígono em elipsoide WGS84 (geodésica);
-  a coleção de 2026-08-29 não traz `area_ha`.
+- **Identificação na fonte:** parte `11` do MultiPolygon `Plantio Vivert`, ligada a
+  `setor-11` pela imagem rotulada de 2026-08-29. As partes não carregam atributo e a ordem
+  delas no arquivo **não** acompanha a numeração dos setores.
+- **Área:** 0,3498 ha, geodésica WGS84 calculada sobre a parte `11`; a coleção de 2026-08-29
+  não traz `area_ha`.
 - **Geometria vigente:** parte `11` do MultiPolygon em
   `raw/mapa-plantio/2026-08-29-plantio-vivert.geojson`.
 - **Ruas:** 1 a 7, 8 a 23, 24 a 46.
@@ -61,3 +63,4 @@ _Links para interpretações relacionadas. Os fatos permanecem nos eventos e his
 - `raw/mapa-plantio/2026-08-29-mapa-de-plantio-alma-gerais-vivert.json`
 - `raw/mapa-plantio/2026-08-29-plantio-vivert.geojson`
 - `raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md`
+- `raw/mapa-plantio/2026-08-29-mapa-rotulado-setores.png`

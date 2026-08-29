@@ -6,16 +6,15 @@ local: macaia
 ruas: ["1-42"]
 variedades: [cabernet-franc]
 quadras: []
-area_ha: 1.0614
-geometria_id: 5
-nome_na_fonte: Talhao 5
+area_ha: 0.9042
+geometria_id: 7
+nome_na_fonte: null
 tags: [mapa-plantio]
 fontes:
   - raw/mapa-plantio/2026-08-29-mapa-de-plantio-alma-gerais-vivert.json
   - raw/mapa-plantio/2026-08-29-plantio-vivert.geojson
   - raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md
-  - raw/mapa-plantio/plantio-alma-gerais-vivert.geojson
-  - raw/mapa-plantio/2026-08-25-confirmacao-talhao-setor.md
+  - raw/mapa-plantio/2026-08-29-mapa-rotulado-setores.png
 atualizado_em: 2026-08-29
 ---
 
@@ -24,12 +23,13 @@ atualizado_em: 2026-08-29
 ## Cadastro
 
 - **Local:** [[macaia]]
-- **Identificação na fonte:** `Talhao 5` na coleção de 2026-08-25, normalizado como `setor-05`.
-  Na coleção de 2026-08-29 corresponde à parte `5` do MultiPolygon `Plantio Vivert`.
-- **Área:** 1,0614 ha (propriedade da fonte 2026-08-25; a geometria vigente não traz área).
-- **Geometria vigente:** parte `5` do MultiPolygon em
-  `raw/mapa-plantio/2026-08-29-plantio-vivert.geojson`. Os vértices coincidem com a feição
-  `id: 5` de `raw/mapa-plantio/plantio-alma-gerais-vivert.geojson` (diferença só de precisão decimal).
+- **Identificação na fonte:** parte `7` do MultiPolygon `Plantio Vivert`, ligada a
+  `setor-05` pela imagem rotulada de 2026-08-29. As partes não carregam atributo e a ordem
+  delas no arquivo **não** acompanha a numeração dos setores.
+- **Área:** 0,9042 ha, geodésica WGS84 calculada sobre a parte `7`; a coleção de 2026-08-29
+  não traz `area_ha`.
+- **Geometria vigente:** parte `7` do MultiPolygon em
+  `raw/mapa-plantio/2026-08-29-plantio-vivert.geojson`.
 - **Ruas:** 1 a 42.
 - **Variedades:** [[cabernet-franc]].
 - **Quadras relacionadas:** a fonte de plantio não relaciona quadras.
@@ -61,5 +61,4 @@ _Links para interpretações relacionadas. Os fatos permanecem nos eventos e his
 - `raw/mapa-plantio/2026-08-29-mapa-de-plantio-alma-gerais-vivert.json`
 - `raw/mapa-plantio/2026-08-29-plantio-vivert.geojson`
 - `raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md`
-- `raw/mapa-plantio/plantio-alma-gerais-vivert.geojson`
-- `raw/mapa-plantio/2026-08-25-confirmacao-talhao-setor.md`
+- `raw/mapa-plantio/2026-08-29-mapa-rotulado-setores.png`

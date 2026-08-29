@@ -28,8 +28,8 @@ como "Setor T3" e grafa o produto como "etréol".
 
 - **Safra:** [[safra-2027]]
 - **Local:** [[macaia]]
-- **Setor(es):** [[setor-03]] — normalização de "T3" pela equivalência já documentada entre o
-  `Talhao 3` da fonte cadastral e `setor-03` (`raw/mapa-plantio/2026-08-25-confirmacao-talhao-setor.md`).
+- **Setor(es):** [[setor-03]] — "T3" normalizado pela numeração operacional dos setores, que é a
+  usada em campo e no mapa de plantio (`raw/mapa-plantio/2026-08-29-mapa-rotulado-setores.png`).
 - **Rua(s):** —
 - **Quadra(s) / variedade(s):** — / —
 - **Estágio fenológico:** não declarado na fonte; registrado como `dormencia` porque a operação
