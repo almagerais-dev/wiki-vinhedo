@@ -40,3 +40,8 @@ Navegação: `index.md` (catálogo de páginas) e `log.md` (histórico cronológ
 - **Revisar**: peça periodicamente uma revisão (contradições, dados vencidos, lacunas).
 
 As convenções detalhadas estão em `AGENTS.md`.
+
+## Git
+
+Não há branches de trabalho nem pull requests para o time revisar. O agente grava direto
+na `main`. Se o Cursor ainda abrir um PR, o GitHub o incorpora sozinho na `main`.

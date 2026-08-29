@@ -273,3 +273,20 @@ Não há dependências para instalar, nem serviço para subir, nem suíte de tes
 - Validação = coerência do conteúdo: âncoras temporais presentes, `index.md`/`log.md` atualizados,
   wikilinks válidos e separação fato/interpretação respeitada.
 - Preserve `raw/` como imutável.
+
+### Git: sempre na `main`
+
+Quem usa a wiki no futuro não opera Git. Este repositório **não** usa branches de trabalho
+nem pull requests. A diretriz abaixo é do time e **substitui** o fluxo padrão de Cloud Agent
+(criar `cursor/...` e abrir PR para `main`).
+
+1. Permaneça na branch `main`. Não rode `git checkout -b` nem crie branch `cursor/...`.
+2. Ao terminar o trabalho: `git add`, `git commit` e `git push origin main`.
+3. Não abra pull request — nem com a ferramenta de PR, nem com `gh pr create`.
+4. Se o ambiente já estiver numa branch `cursor/...`, leve as alterações para `main` e faça
+   push **somente** em `main`. Não deixe o resultado só na branch de trabalho.
+5. Não peça revisão de PR. O conteúdo precisa aparecer em `origin/main` sem passo extra.
+
+Se o Cloud Agent da plataforma ainda criar um PR `cursor/...` → `main`, o workflow
+`.github/workflows/incorporar-na-main.yml` incorpora esse PR automaticamente. Isso é
+rede de segurança, não o fluxo desejado.
