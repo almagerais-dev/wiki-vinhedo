@@ -14,7 +14,6 @@ fontes:
   - raw/mapa-plantio/2026-08-29-mapa-de-plantio-alma-gerais-vivert.json
   - raw/mapa-plantio/2026-08-29-plantio-vivert.geojson
   - raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md
-  - raw/mapa-plantio/2026-08-25-confirmacao-talhao-setor.md
 atualizado_em: 2026-08-29
 ---
 
@@ -23,8 +22,9 @@ atualizado_em: 2026-08-29
 ## Cadastro
 
 - **Local:** [[macaia]]
-- **Identificação na fonte:** `Talhao 6` na confirmação de 2026-08-25, normalizado como `setor-06`.
-  Na coleção de 2026-08-29 corresponde à parte `6` do MultiPolygon `Plantio Vivert`.
+- **Identificação na fonte:** parte `6` do MultiPolygon `Plantio Vivert` na coleção de
+  2026-08-29, normalizada como `setor-06`. A confirmação dos doze setores registra que essa
+  parte corresponde ao `Talhao 6` do mapa anterior.
 - **Área:** 1,0730 ha, calculada sobre o polígono em elipsoide WGS84 (geodésica);
   a coleção de 2026-08-29 não traz `area_ha`.
 - **Geometria vigente:** parte `6` do MultiPolygon em
@@ -61,4 +61,3 @@ _Links para interpretações relacionadas. Os fatos permanecem nos eventos e his
 - `raw/mapa-plantio/2026-08-29-mapa-de-plantio-alma-gerais-vivert.json`
 - `raw/mapa-plantio/2026-08-29-plantio-vivert.geojson`
 - `raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md`
-- `raw/mapa-plantio/2026-08-25-confirmacao-talhao-setor.md`

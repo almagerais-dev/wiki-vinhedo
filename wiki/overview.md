@@ -6,7 +6,6 @@ fontes:
   - raw/mapa-plantio/2026-08-29-mapa-de-plantio-alma-gerais-vivert.json
   - raw/mapa-plantio/2026-08-29-plantio-vivert.geojson
   - raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md
-  - raw/mapa-plantio/2026-08-25-confirmacao-talhao-setor.md
 atualizado_em: 2026-08-29
 ---
 

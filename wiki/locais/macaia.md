@@ -8,7 +8,6 @@ fontes:
   - raw/mapa-plantio/2026-08-29-mapa-de-plantio-alma-gerais-vivert.json
   - raw/mapa-plantio/2026-08-29-plantio-vivert.geojson
   - raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md
-  - raw/mapa-plantio/2026-08-25-confirmacao-talhao-setor.md
 atualizado_em: 2026-08-29
 ---
 
@@ -48,7 +47,8 @@ Macaia:
 - [[setor-11]] e [[setor-12]]
 
 As geometrias vigentes estão em `raw/mapa-plantio/2026-08-29-plantio-vivert.geojson`. As partes
-1 a 10 correspondem aos talhões da confirmação de 2026-08-25. O mapa de plantio de 2026-08-29 registra
+1 a 10 correspondem aos talhões do mapa anterior, conforme
+`raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md`. O mapa de plantio de 2026-08-29 registra
 setores 1 a 12, com ruas e variedades.
 
 No JSON de plantio, cada item de `talhoes` é um **trecho de ruas** dentro de um setor, não o

@@ -82,7 +82,7 @@ O nome do arquivo deve começar pela data do frontmatter — o lint confere.
   como a fonte grafou. Nomes comerciais distintos (Basfoliar Black Gold e Black Evoluto) **não** são
   unificados.
 - **Setores:** só use equivalência já documentada. "T3" → `setor-03` vale porque
-  `raw/mapa-plantio/2026-08-25-confirmacao-talhao-setor.md` registra a relação talhão/setor; diga
+  `raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md` registra a relação talhão/setor; diga
   isso no evento. Sem relação documentada, é pendência.
 - **Ruas e variedades:** preencha somente se a gravação disser. Não herde variedade do cadastro do
   setor: vários setores têm mais de uma, e isso seria interpretação dentro de página factual.

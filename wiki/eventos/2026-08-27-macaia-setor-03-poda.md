@@ -29,7 +29,8 @@ preparo com Ethrel.
 - **Safra:** [[safra-2027]]
 - **Local:** [[macaia]]
 - **Setor(es):** [[setor-03]] — normalização de "T3" pela equivalência já documentada entre o
-  `Talhao 3` da fonte cadastral e `setor-03`.
+  `Talhao 3` do mapa anterior e `setor-03`
+  (`raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md`).
 - **Rua(s):** —
 - **Quadra(s) / variedade(s):** — / —
 - **Estágio fenológico:** não declarado na fonte; registrado como `dormencia` porque a operação
