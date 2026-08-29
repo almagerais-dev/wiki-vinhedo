@@ -108,3 +108,10 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 - `dados-vivos/gestao-vinicola.md` — InnoVint / Sutter (vinícola)
 - `dados-vivos/queries/exemplos-wsclima.md`
 - `dados-vivos/queries/exemplos-innovint.md`
+
+## Ferramentas
+
+- `tools/granola-ingeridos.py` — registro de idempotência do Granola: lista as gravações já
+  ingeridas, o estado de cada uma e a janela a consultar. Rodar **antes** de cada ingestão.
+- `tools/validar-wiki.py` — lint estrutural (frontmatter, wikilinks, âncoras temporais, fontes
+  citadas). Rodar **ao fechar** cada ingestão.
