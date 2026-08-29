@@ -11,9 +11,11 @@ geometria_id: 8
 nome_na_fonte: Talhao 8
 tags: [mapa-plantio]
 fontes:
+  - raw/mapa-plantio/2026-08-29-plantio-vivert.geojson
+  - raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md
   - raw/mapa-plantio/plantio-alma-gerais-vivert.geojson
   - raw/mapa-plantio/2026-08-25-confirmacao-talhao-setor.md
-atualizado_em: 2026-08-25
+atualizado_em: 2026-08-29
 ---
 
 # Setor 08
@@ -21,9 +23,12 @@ atualizado_em: 2026-08-25
 ## Cadastro
 
 - **Local:** [[macaia]]
-- **Identificação na fonte:** `Talhao 8`, normalizado como `setor-08`.
-- **Área:** 0,2711 ha.
-- **Geometria:** feição `id: 8` em `raw/mapa-plantio/plantio-alma-gerais-vivert.geojson`.
+- **Identificação na fonte:** `Talhao 8` na coleção de 2026-08-25, normalizado como `setor-08`.
+  Na coleção de 2026-08-29 corresponde à parte `8` do MultiPolygon `Plantio Vivert`.
+- **Área:** 0,2711 ha (propriedade da fonte 2026-08-25; a geometria vigente não traz área).
+- **Geometria vigente:** parte `8` do MultiPolygon em
+  `raw/mapa-plantio/2026-08-29-plantio-vivert.geojson`. Os vértices coincidem com a feição
+  `id: 8` de `raw/mapa-plantio/plantio-alma-gerais-vivert.geojson` (diferença só de precisão decimal).
 - **Ruas, variedades e quadras relacionadas:** ainda não informadas.
 
 ## Históricos mensais
@@ -36,5 +41,7 @@ _Links para interpretações relacionadas. Os fatos permanecem nos eventos e his
 
 ## Fontes cadastrais
 
+- `raw/mapa-plantio/2026-08-29-plantio-vivert.geojson`
+- `raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md`
 - `raw/mapa-plantio/plantio-alma-gerais-vivert.geojson`
 - `raw/mapa-plantio/2026-08-25-confirmacao-talhao-setor.md`
