@@ -175,7 +175,8 @@ wiki/
   hipoteses/    hipóteses em acompanhamento
   recomendacoes/ recomendações questionadas | validadas | sugeridas
 dados-vivos/    estacao-meteorologica.md | gestao-vinicola.md | queries/
-tools/          scripts opcionais (busca/ingestão) quando a wiki crescer
+tools/          granola-ingeridos.py (idempotência) | validar-wiki.py (lint estrutural)
+.cursor/skills/ ingerir-gravacoes-granola/ | consultar-historico-setorial/
 ```
 
 Arquivos `_modelo-*.md` são **gabaritos**; copie-os ao criar páginas novas.
@@ -185,11 +186,29 @@ Arquivos `_modelo-*.md` são **gabaritos**; copie-os ao criar páginas novas.
 ## 8. Operações
 
 ### Ingerir
+
+Toda ingestão de gravações do Granola segue a skill
+`.cursor/skills/ingerir-gravacoes-granola/SKILL.md`, que detalha a execução na ordem correta e as
+armadilhas conhecidas da transcrição automática. O usuário não precisa pedir a skill. As regras
+abaixo continuam valendo e prevalecem em caso de conflito.
+
+0. **Antes de puxar qualquer coisa**, rode `python3 tools/granola-ingeridos.py`. Ele lê o
+   repositório e informa a data da gravação mais recente já ingerida — use-a para definir a janela
+   de consulta ao Granola. Com os IDs em mão, rode
+   `python3 tools/granola-ingeridos.py <id> ...` para classificar cada um:
+   - `NOVO` — ingerir;
+   - `JA INGERIDO` — fonte e páginas já existem; não duplicar nada;
+   - `SO FONTE` — a fonte existe, mas nenhuma página foi gerada (pendência aberta). Não recriar a
+     fonte; se a informação que faltava chegou, resolva a pendência criando os eventos;
+   - `NO LOG` — sem fonte, porém citada no `log.md` (por exemplo, gravação descartada por não
+     tratar do vinhedo). Leia a entrada antes de decidir.
 1. A rotina diária puxa cada gravação do Granola e salva uma única cópia imutável em
    `raw/registros-manejo/` ou `raw/registros-ciclos-videira/`, conforme o registro. Uma gravação
    mista continua sendo uma única fonte, mesmo que origine eventos de categorias diferentes.
 2. Use `granola_id` como chave de idempotência. Se esse ID já tiver sido ingerido, não duplique a
-   fonte, o evento nem os links dos índices.
+   fonte, o evento nem os links dos índices. O registro de idempotência **é o próprio repositório**:
+   todo arquivo em `raw/registros-*/` carrega `granola_id` no frontmatter, e cada página derivada
+   repete o ID. Não existe estado fora do repo.
 3. Divida a gravação em eventos factuais homogêneos. Diferenças de data, setor, operação,
    observação ou estágio fenológico exigem eventos separados.
 4. Para manejo e fenologia, valide `data`, `setores`, `safra`, `estagio_fenologico`, `fontes`,
@@ -203,6 +222,11 @@ Arquivos `_modelo-*.md` são **gabaritos**; copie-os ao criar páginas novas.
    tempo da safra e o histórico mensal ao `index.md` quando o mês surgir pela primeira vez.
 8. Adicione uma entrada `ingest` em `log.md`. A rotina de ingestão não precisa carregar históricos
    anteriores nem propor relações; seu papel é registrar e indexar os fatos corretamente.
+9. Cite a gravação pelo prefixo de 8 caracteres do `granola_id` nas entradas de `log.md`, inclusive
+   ao descartar uma gravação. É assim que `tools/granola-ingeridos.py` reconhece o estado `NO LOG` e
+   evita que a mesma nota volte à fila a cada rodada.
+10. Feche a ingestão rodando `python3 tools/validar-wiki.py`. Ele confere frontmatter, wikilinks,
+    âncoras temporais e existência das fontes citadas; erros devem ser resolvidos antes do commit.
 
 ### Consultar
 1. Leia primeiro o `index.md` para achar páginas relevantes; depois aprofunde.
