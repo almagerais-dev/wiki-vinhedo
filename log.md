@@ -13,4 +13,3 @@ Filtrar as últimas entradas: `grep "^## \[" log.md | tail -5`.
 ## [2026-08-23] update | Fontes brutas simplificadas; fichas técnicas e registros de manejo/ciclos separados; pesquisa externa orientada a clima tropical
 ## [2026-08-23] update | Modelo de eventos por setor, históricos mensais e skill de consulta setorial adicionados
 ## [2026-08-25] ingest | Mapa georreferenciado dos dez setores de Macaia cadastrado; área total de 9,7952 ha
-## [2026-08-29] update | Política git: agentes fazem push direto na main; PRs cursor/* são incorporados automaticamente
