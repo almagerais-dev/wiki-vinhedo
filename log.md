@@ -15,3 +15,6 @@ Filtrar as últimas entradas: `grep "^## \[" log.md | tail -5`.
 ## [2026-08-25] ingest | Mapa georreferenciado dos dez setores de Macaia cadastrado; área total de 9,7952 ha
 ## [2026-08-29] ingest | Coleção Plantio Vivert com 12 polígonos; setores 11 e 12 cadastrados; geometria vigente atualizada; área total 10,7641 ha
 ## [2026-08-29] pendencia | 2026-08-29-plantio-vivert.geojson: polígonos 11 e 12 sem rótulo de talhão; numerados setor-11 e setor-12 pela ordem na coleção
+## [2026-08-29] ingest | Mapa de plantio Alma Gerais Vivert: ruas, variedades, plantas e produção esperada dos 12 setores; 35.921 plantas; 63.479,8 kg esperados
+## [2026-08-29] pendencia | 2026-08-29-mapa-de-plantio-alma-gerais-vivert.json: objeto totais duplica plantas (71842 vs 35921) e produção esperada (126959.6 vs 63479.8 kg)
+## [2026-08-29] pendencia | 2026-08-29-mapa-de-plantio-alma-gerais-vivert.json: setor-09 ruas 1-9 com rótulo PIWI´S sem cultivar, clone nem porta-enxerto

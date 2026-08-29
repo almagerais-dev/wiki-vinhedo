@@ -33,23 +33,29 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 ## Setores
 
 - [[_modelo-setor]] — gabarito para o cadastro canônico de setor.
-- [[setor-01]] — Talhão 1 na fonte; 0,4669 ha.
-- [[setor-02]] — Talhão 2 na fonte; 1,2918 ha.
-- [[setor-03]] — Talhão 3 na fonte; 1,2088 ha.
-- [[setor-04]] — Talhão 4 na fonte; 1,0799 ha.
-- [[setor-05]] — Talhão 5 na fonte; 1,0614 ha.
-- [[setor-06]] — Talhão 6 na fonte; 1,0759 ha.
-- [[setor-07]] — Talhão 7 na fonte; 0,9067 ha.
-- [[setor-08]] — Talhão 8 na fonte; 0,2711 ha.
-- [[setor-09]] — Talhão 9 na fonte; 1,0859 ha.
-- [[setor-10]] — Talhão 10 na fonte; 1,3468 ha.
-- [[setor-11]] — polígono 11 da coleção Plantio Vivert; 0,3498 ha.
-- [[setor-12]] — polígono 12 da coleção Plantio Vivert; 0,6191 ha.
+- [[setor-01]] — Sauvignon Blanc; ruas 1–47; 0,4669 ha.
+- [[setor-02]] — Syrah; ruas 1–39; 1,2918 ha.
+- [[setor-03]] — Syrah; ruas 1–36; 1,2088 ha.
+- [[setor-04]] — Sauvignon Blanc; ruas 1–38; 1,0799 ha.
+- [[setor-05]] — Cabernet Franc; ruas 1–42; 1,0614 ha.
+- [[setor-06]] — Cabernet Franc e Cabernet Sauvignon; ruas 1–38; 1,0759 ha.
+- [[setor-07]] — Cabernet Franc; ruas 1–24; 0,9067 ha.
+- [[setor-08]] — Cabernet Sauvignon; ruas 1–18 plantadas, 19–42 sem plantio; 0,2711 ha.
+- [[setor-09]] — PIWI'S e Cabernet Franc; ruas 1–71, com 10–41 sem plantio; 1,0859 ha.
+- [[setor-10]] — Sauvignon Blanc, Cabernet Franc e Syrah; ruas 1–10; 1,3468 ha.
+- [[setor-11]] — Margoth, Cabernet Franc e Marselan; ruas 1–46; 0,3498 ha.
+- [[setor-12]] — Marselan; ruas 1–47; 0,6191 ha.
 
 ## Variedades
 
 - `_modelo-variedade` — gabarito para páginas de variedade.
-- [[syrah]] — exemplo de página de variedade.
+- [[cabernet-franc]] — 8.536 plantas; setores 05, 06, 07, 09, 10 e 11.
+- [[cabernet-sauvignon]] — 5.689 plantas; setores 06 e 08.
+- [[margoth]] — 250 plantas; setor 11.
+- [[marselan]] — 2.965 plantas; setores 11 e 12.
+- [[piwis]] — 500 plantas; rótulo `PIWI´S` na fonte, cultivar não informado.
+- [[sauvignon-blanc]] — 8.870 plantas; setores 01, 04 e 10.
+- [[syrah]] — 9.111 plantas; setores 02, 03 e 10.
 
 ## Safras
 

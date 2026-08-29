@@ -3,6 +3,7 @@ tipo: overview
 titulo: Visão geral do vinhedo
 locais: [macaia]
 fontes:
+  - raw/mapa-plantio/2026-08-29-mapa-de-plantio-alma-gerais-vivert.json
   - raw/mapa-plantio/2026-08-29-plantio-vivert.geojson
   - raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md
   - raw/mapa-plantio/plantio-alma-gerais-vivert.geojson
@@ -24,7 +25,7 @@ vinhedo, com links para os hubs principais. Deve caber "de olhada" e sempre apon
 
 - Perguntas sobre **um período** → comece pela safra: [[safra-2026]] e a pasta `wiki/safras/`.
 - Perguntas sobre **uma área** → páginas de setor em `wiki/setores/`.
-- Perguntas sobre **uma casta** → páginas de variedade (ex.: [[syrah]]).
+- Perguntas sobre **uma casta** → páginas de variedade em `wiki/variedades/` (ex.: [[syrah]]).
 - Perguntas sobre **"por que aconteceu"** → `wiki/correlacoes/` e `wiki/hipoteses/` (sempre com
   evidência datada; correlação não é causalidade).
 
@@ -36,7 +37,7 @@ vinhedo, com links para os hubs principais. Deve caber "de olhada" e sempre apon
   [[safra-2026]].
 - **Adega:** única vinícola no escopo é `Alma Gerais`; origens cadastradas incluem áreas próprias e
   fornecedores. Ver [[operacao-de-adega]].
-- **Mapa de plantio:** doze setores operacionais georreferenciados, com área total de 10,7641 ha. Ver
-  [[macaia]] e as páginas [[setor-01]] a [[setor-12]].
-- **Lacunas:** faltam fontes de campo para fenologia e manejo, além de ruas, variedades e relações
-  confirmadas entre setores e quadras.
+- **Mapa de plantio:** doze setores georreferenciados (10,7641 ha) com ruas, variedades e 35.921
+  plantas no cadastro de 2026-08-29. Ver [[macaia]] e as páginas [[setor-01]] a [[setor-12]].
+- **Lacunas:** faltam fontes de campo para fenologia e manejo, e relações confirmadas entre setores
+  e quadras.
