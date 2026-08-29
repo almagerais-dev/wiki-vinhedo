@@ -109,6 +109,11 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 - `dados-vivos/queries/exemplos-wsclima.md`
 - `dados-vivos/queries/exemplos-innovint.md`
 
+## Skills
+
+- `.cursor/skills/ingerir-gravacoes-granola/` — procedimento de ingestão das gravações do Granola.
+- `.cursor/skills/consultar-historico-setorial/` — consulta ao histórico de setores e ruas.
+
 ## Ferramentas
 
 - `tools/granola-ingeridos.py` — registro de idempotência do Granola: lista as gravações já

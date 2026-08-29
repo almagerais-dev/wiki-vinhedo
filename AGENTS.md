@@ -176,6 +176,7 @@ wiki/
   recomendacoes/ recomendações questionadas | validadas | sugeridas
 dados-vivos/    estacao-meteorologica.md | gestao-vinicola.md | queries/
 tools/          granola-ingeridos.py (idempotência) | validar-wiki.py (lint estrutural)
+.cursor/skills/ ingerir-gravacoes-granola/ | consultar-historico-setorial/
 ```
 
 Arquivos `_modelo-*.md` são **gabaritos**; copie-os ao criar páginas novas.
@@ -185,6 +186,12 @@ Arquivos `_modelo-*.md` são **gabaritos**; copie-os ao criar páginas novas.
 ## 8. Operações
 
 ### Ingerir
+
+Toda ingestão de gravações do Granola segue a skill
+`.cursor/skills/ingerir-gravacoes-granola/SKILL.md`, que detalha a execução na ordem correta e as
+armadilhas conhecidas da transcrição automática. O usuário não precisa pedir a skill. As regras
+abaixo continuam valendo e prevalecem em caso de conflito.
+
 0. **Antes de puxar qualquer coisa**, rode `python3 tools/granola-ingeridos.py`. Ele lê o
    repositório e informa a data da gravação mais recente já ingerida — use-a para definir a janela
    de consulta ao Granola. Com os IDs em mão, rode
