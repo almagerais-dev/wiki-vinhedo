@@ -8,12 +8,13 @@ variedades: [syrah]
 quadras: []
 area_ha: 1.2055
 geometria_id: 3
-nome_na_fonte: Talhao 3
+nome_na_fonte: null
 tags: [mapa-plantio]
 fontes:
   - raw/mapa-plantio/2026-08-29-mapa-de-plantio-alma-gerais-vivert.json
   - raw/mapa-plantio/2026-08-29-plantio-vivert.geojson
   - raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md
+  - raw/mapa-plantio/2026-08-29-mapa-rotulado-setores.png
 atualizado_em: 2026-08-29
 ---
 
@@ -22,11 +23,11 @@ atualizado_em: 2026-08-29
 ## Cadastro
 
 - **Local:** [[macaia]]
-- **Identificação na fonte:** parte `3` do MultiPolygon `Plantio Vivert` na coleção de
-  2026-08-29, normalizada como `setor-03`. A confirmação dos doze setores registra que essa
-  parte corresponde ao `Talhao 3` do mapa anterior.
-- **Área:** 1,2055 ha, calculada sobre o polígono em elipsoide WGS84 (geodésica);
-  a coleção de 2026-08-29 não traz `area_ha`.
+- **Identificação na fonte:** parte `3` do MultiPolygon `Plantio Vivert`, ligada a
+  `setor-03` pela imagem rotulada de 2026-08-29. As partes não carregam atributo e a ordem
+  delas no arquivo **não** acompanha a numeração dos setores.
+- **Área:** 1,2055 ha, geodésica WGS84 calculada sobre a parte `3`; a coleção de 2026-08-29
+  não traz `area_ha`.
 - **Geometria vigente:** parte `3` do MultiPolygon em
   `raw/mapa-plantio/2026-08-29-plantio-vivert.geojson`.
 - **Ruas:** 1 a 36.
@@ -60,3 +61,4 @@ _Links para interpretações relacionadas. Os fatos permanecem nos eventos e his
 - `raw/mapa-plantio/2026-08-29-mapa-de-plantio-alma-gerais-vivert.json`
 - `raw/mapa-plantio/2026-08-29-plantio-vivert.geojson`
 - `raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md`
+- `raw/mapa-plantio/2026-08-29-mapa-rotulado-setores.png`

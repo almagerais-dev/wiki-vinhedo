@@ -8,6 +8,7 @@ fontes:
   - raw/mapa-plantio/2026-08-29-mapa-de-plantio-alma-gerais-vivert.json
   - raw/mapa-plantio/2026-08-29-plantio-vivert.geojson
   - raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md
+  - raw/mapa-plantio/2026-08-29-mapa-rotulado-setores.png
 atualizado_em: 2026-08-29
 ---
 
@@ -25,9 +26,8 @@ Local de cultivo da Alma Gerais.
 - **Plantas no mapa de plantio:** 35.921
 - **Produção anual esperada no mapa de plantio:** 63.479,8 kg
 
-A área total soma 9,7685 ha dos setores [[setor-01]] a [[setor-10]] com 0,3498 ha do [[setor-11]] e
-0,6191 ha do [[setor-12]]. Todas as doze áreas são geodésicas WGS84, calculadas sobre as partes do
-MultiPolygon de 2026-08-29.
+As doze áreas são geodésicas WGS84, calculadas sobre as partes do MultiPolygon de 2026-08-29 e
+atribuídas a cada setor pela correspondência da imagem rotulada.
 
 As plantas e a produção esperada vêm da linha `TOTAL VIVERT` do mapa de plantio de 2026-08-29 e
 coincidem com a soma dos 18 trechos plantados. O objeto `totais` do mesmo JSON duplica esses
@@ -46,10 +46,33 @@ Macaia:
 - [[setor-06]], [[setor-07]], [[setor-08]], [[setor-09]] e [[setor-10]]
 - [[setor-11]] e [[setor-12]]
 
-As geometrias vigentes estão em `raw/mapa-plantio/2026-08-29-plantio-vivert.geojson`. As partes
-1 a 10 correspondem aos talhões do mapa anterior, conforme
-`raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md`. O mapa de plantio de 2026-08-29 registra
-setores 1 a 12, com ruas e variedades.
+As geometrias vigentes estão em `raw/mapa-plantio/2026-08-29-plantio-vivert.geojson`. O arquivo tem
+uma única feição, um MultiPolygon com doze partes, e **nenhuma parte carrega atributo** — a feição
+inteira só tem a propriedade `name: Plantio Vivert`. O mapa de plantio de 2026-08-29 é o oposto:
+numera os setores 1 a 12 com ruas e variedades, mas não tem coordenada alguma. A ligação entre
+geometria e cadastro, portanto, não está em nenhum dos dois arquivos.
+
+Quem fecha essa ligação é `raw/mapa-plantio/2026-08-29-mapa-rotulado-setores.png`, a imagem de
+satélite com os doze contornos e os números operacionais desenhados pelo time. **A ordem das partes
+no GeoJSON não acompanha a numeração dos setores**, e nove dos doze diferem:
+
+| Setor | Parte do MultiPolygon | Área (ha) |
+|---|---:|---:|
+| [[setor-01]] | 5 | 1,0585 |
+| [[setor-02]] | 4 | 1,0769 |
+| [[setor-03]] | 3 | 1,2055 |
+| [[setor-04]] | 6 | 1,0730 |
+| [[setor-05]] | 7 | 0,9042 |
+| [[setor-06]] | 2 | 1,2883 |
+| [[setor-07]] | 1 | 0,4657 |
+| [[setor-08]] | 9 | 1,0829 |
+| [[setor-09]] | 10 | 1,3431 |
+| [[setor-10]] | 8 | 0,2704 |
+| [[setor-11]] | 11 | 0,3498 |
+| [[setor-12]] | 12 | 0,6191 |
+
+Só os setores 03, 11 e 12 têm parte de mesmo número. Qualquer consulta que recorte a geometria por
+setor precisa passar por esta tabela; usar a ordem do arquivo troca as áreas de nove setores.
 
 No JSON de plantio, cada item de `talhoes` é um **trecho de ruas** dentro de um setor, não o
 polígono georreferenciado nem uma quadra.

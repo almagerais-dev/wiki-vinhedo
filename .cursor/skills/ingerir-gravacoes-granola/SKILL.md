@@ -81,9 +81,11 @@ O nome do arquivo deve começar pela data do frontmatter — o lint confere.
 - **Produtos:** normalize a grafia (Ethrel, Dormex, MAP, Basfoliar) e registre no corpo do evento
   como a fonte grafou. Nomes comerciais distintos (Basfoliar Black Gold e Black Evoluto) **não** são
   unificados.
-- **Setores:** só use equivalência já documentada. "T3" → `setor-03` vale porque
-  `raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md` registra a relação talhão/setor; diga
-  isso no evento. Sem relação documentada, é pendência.
+- **Setores:** só use equivalência já documentada. "T3" → `setor-03` vale porque a numeração
+  operacional dos setores é a de `raw/mapa-plantio/2026-08-29-mapa-rotulado-setores.png`; diga isso
+  no evento. Sem relação documentada, é pendência. **Nunca** derive setor da ordem das partes do
+  MultiPolygon em `2026-08-29-plantio-vivert.geojson`: ela não acompanha a numeração dos setores
+  (ver a tabela em [[macaia]]).
 - **Ruas e variedades:** preencha somente se a gravação disser. Não herde variedade do cadastro do
   setor: vários setores têm mais de uma, e isso seria interpretação dentro de página factual.
 - **Safra:** as gravações não a nomeiam. A convenção vigente é o ano da colheita do ciclo (poda de

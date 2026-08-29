@@ -6,14 +6,15 @@ local: macaia
 ruas: ["1-42"]
 variedades: [cabernet-franc]
 quadras: []
-area_ha: 1.0585
-geometria_id: 5
-nome_na_fonte: Talhao 5
+area_ha: 0.9042
+geometria_id: 7
+nome_na_fonte: null
 tags: [mapa-plantio]
 fontes:
   - raw/mapa-plantio/2026-08-29-mapa-de-plantio-alma-gerais-vivert.json
   - raw/mapa-plantio/2026-08-29-plantio-vivert.geojson
   - raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md
+  - raw/mapa-plantio/2026-08-29-mapa-rotulado-setores.png
 atualizado_em: 2026-08-29
 ---
 
@@ -22,12 +23,12 @@ atualizado_em: 2026-08-29
 ## Cadastro
 
 - **Local:** [[macaia]]
-- **Identificação na fonte:** parte `5` do MultiPolygon `Plantio Vivert` na coleção de
-  2026-08-29, normalizada como `setor-05`. A confirmação dos doze setores registra que essa
-  parte corresponde ao `Talhao 5` do mapa anterior.
-- **Área:** 1,0585 ha, calculada sobre o polígono em elipsoide WGS84 (geodésica);
-  a coleção de 2026-08-29 não traz `area_ha`.
-- **Geometria vigente:** parte `5` do MultiPolygon em
+- **Identificação na fonte:** parte `7` do MultiPolygon `Plantio Vivert`, ligada a
+  `setor-05` pela imagem rotulada de 2026-08-29. As partes não carregam atributo e a ordem
+  delas no arquivo **não** acompanha a numeração dos setores.
+- **Área:** 0,9042 ha, geodésica WGS84 calculada sobre a parte `7`; a coleção de 2026-08-29
+  não traz `area_ha`.
+- **Geometria vigente:** parte `7` do MultiPolygon em
   `raw/mapa-plantio/2026-08-29-plantio-vivert.geojson`.
 - **Ruas:** 1 a 42.
 - **Variedades:** [[cabernet-franc]].
@@ -60,3 +61,4 @@ _Links para interpretações relacionadas. Os fatos permanecem nos eventos e his
 - `raw/mapa-plantio/2026-08-29-mapa-de-plantio-alma-gerais-vivert.json`
 - `raw/mapa-plantio/2026-08-29-plantio-vivert.geojson`
 - `raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md`
+- `raw/mapa-plantio/2026-08-29-mapa-rotulado-setores.png`
