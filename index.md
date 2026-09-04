@@ -1,6 +1,6 @@
 ---
 tipo: indice
-atualizado_em: 2026-08-29
+atualizado_em: 2026-09-04
 ---
 
 # Índice da wiki-vinhedo
@@ -18,8 +18,9 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 - `raw/fichas-tecnicas/comercial/` e `raw/fichas-tecnicas/biologicos/` — fichas de produtos.
 - `raw/analises/`, `raw/qualidade-uva/`, `raw/qualidade-vinho/` e `raw/consultoria/` — documentos
   consolidados, sem subdivisões.
-- `raw/registros-manejo/` e `raw/registros-ciclos-videira/` — registros datados de campo. As 14
-  gravações do Granola de 2026-08-28 estão em `raw/registros-manejo/`.
+- `raw/registros-manejo/` e `raw/registros-ciclos-videira/` — registros datados de campo. As 24
+  gravações do Granola já ingeridas (14 de 2026-08-28, 2 de 2026-08-31 e 8 de 2026-09-03) estão em
+  `raw/registros-manejo/`.
 - `raw/mapa-plantio/` — mapa georreferenciado, imagem rotulada com a numeração operacional dos
   setores e confirmações cadastrais.
 
@@ -76,6 +77,7 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 - [[operacao-de-adega]] — modelo dos dados e retrato operacional do InnoVint.
 - [[poda-desfolha]] — protocolo de preparo, poda e quebra de dormência observado em Macaia.
 - [[irrigacao]] — lâminas do ciclo de poda e fertirrigações registradas.
+- [[fitossanidade]] — pulverizações registradas e o estágio "gema algodão".
 
 ## Eventos (linha do tempo)
 
@@ -89,6 +91,9 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 - 2026-08: [[2026-08-setor-01]], [[2026-08-setor-02]], [[2026-08-setor-03]], [[2026-08-setor-04]],
   [[2026-08-setor-05]], [[2026-08-setor-06]], [[2026-08-setor-07]], [[2026-08-setor-08]],
   [[2026-08-setor-09]], [[2026-08-setor-10]], [[2026-08-setor-11]] e [[2026-08-setor-12]].
+- 2026-09: [[2026-09-setor-01]], [[2026-09-setor-02]], [[2026-09-setor-03]], [[2026-09-setor-05]],
+  [[2026-09-setor-06]], [[2026-09-setor-07]], [[2026-09-setor-08]], [[2026-09-setor-09]],
+  [[2026-09-setor-11]] e [[2026-09-setor-12]]. Setores 04 e 10 sem operação registrada no mês.
 
 ## Correlações
 
