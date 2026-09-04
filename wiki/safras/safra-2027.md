@@ -14,7 +14,17 @@ fontes:
   - raw/registros-manejo/2026-08-28-macaia-setor-04-preparo-poda.md
   - raw/registros-manejo/2026-08-28-macaia-setor-10-preparo-poda.md
   - raw/registros-manejo/2026-08-28-macaia-setor-01-segunda-fertirrigacao.md
-atualizado_em: 2026-08-29
+  - raw/registros-manejo/2026-08-31-macaia-setor-03-produto-nao-identificado.md
+  - raw/registros-manejo/2026-08-31-macaia-dormex-8-litros-por-hectare.md
+  - raw/registros-manejo/2026-09-03-macaia-setores-11-12-fertirrigacao.md
+  - raw/registros-manejo/2026-09-03-macaia-setor-03-fertilizacao-map.md
+  - raw/registros-manejo/2026-09-03-macaia-setores-06-07-fertirrigacao-e-pulverizacao.md
+  - raw/registros-manejo/2026-09-03-macaia-setores-05-08-fertirrigacao-e-pulverizacao.md
+  - raw/registros-manejo/2026-09-03-macaia-setor-01-pulverizacao-gema-algodao.md
+  - raw/registros-manejo/2026-09-03-macaia-setor-02-preparo-e-poda.md
+  - raw/registros-manejo/2026-09-03-macaia-setor-09-fertirrigacao-data-ausente.md
+  - raw/registros-manejo/2026-09-03-macaia-setores-06-07-registro-interrompido.md
+atualizado_em: 2026-09-04
 ---
 
 # Safra 2027
@@ -39,9 +49,13 @@ Ainda não consultado para este ciclo. Ver [[clima]] para os limites atuais da e
 | Véraison | |
 | Colheita | |
 
-Nenhuma gravação declarou estágio fenológico. Os eventos de preparo, poda e Dormex foram ancorados
-em `dormencia` pela natureza da operação; as fertirrigações posteriores à poda ficaram com o estágio
-nulo.
+Nenhuma gravação declarou um estágio do vocabulário controlado. Os eventos de preparo, poda e Dormex
+foram ancorados em `dormencia` pela natureza da operação; as fertirrigações posteriores à poda
+ficaram com o estágio nulo.
+
+As gravações de 2026-09-03 introduzem o estágio "gema algodão" para as pulverizações de 2026-09-02.
+É a primeira vez que uma fonte nomeia um estágio, mas o nome está fora da lista do `AGENTS.md` e a
+correspondência ainda não foi confirmada pela equipe; ver [[fitossanidade]].
 
 ## Linha do tempo (eventos)
 
@@ -64,14 +78,25 @@ nulo.
 - 2026-08-27 — [[2026-08-27-macaia-setor-09-poda]]
 - 2026-08-28 — [[2026-08-28-macaia-setores-11-12-dormex]]
 - 2026-08-28 — [[2026-08-28-macaia-setor-01-segunda-fertirrigacao-map]]
+- 2026-08-31 — [[2026-08-31-macaia-setor-03-dormex]]
+- 2026-09-01 — [[2026-09-01-macaia-setores-11-12-fertirrigacao-map]]
+- 2026-09-01 — [[2026-09-01-macaia-setor-03-fertirrigacao-map]]
+- 2026-09-02 — [[2026-09-02-macaia-setores-06-07-fertirrigacao-map]]
+- 2026-09-02 — [[2026-09-02-macaia-setor-01-pulverizacao-gema-algodao]]
+- 2026-09-02 — [[2026-09-02-macaia-setores-05-08-pulverizacao-gema-algodao]]
+- 2026-09-03 — [[2026-09-03-macaia-setor-02-poda]]
 
 ## Manejo relevante
 
 Primeiro conjunto de manejo de campo ingerido na wiki. A campanha de poda de agosto de 2026 está
-sintetizada em [[poda-desfolha]]; as lâminas e fertirrigações, em [[irrigacao]].
+sintetizada em [[poda-desfolha]]; as lâminas e fertirrigações, em [[irrigacao]]; as pulverizações de
+setembro, em [[fitossanidade]].
 
-Setores com ciclo completo registrado (preparo, poda, quebra de dormência e fertirrigação): 05, 06,
-07 e 08. Setores com registro parcial: 01, 02, 03, 04, 09, 10, 11 e 12.
+Setores com ciclo completo registrado (preparo, poda, quebra de dormência e fertirrigação): 03, 05,
+06, 07, 08, 11 e 12. Setores com registro parcial: 01, 02, 04, 09 e 10.
+
+Setembro abre uma segunda frente de operações: as primeiras fertirrigações dos setores 03, 11 e 12,
+a segunda dos setores 06 e 07, e a primeira pulverização fitossanitária da wiki.
 
 ## Resultados
 

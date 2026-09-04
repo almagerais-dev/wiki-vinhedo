@@ -15,7 +15,7 @@ fontes:
   - raw/mapa-plantio/2026-08-29-plantio-vivert.geojson
   - raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md
   - raw/mapa-plantio/2026-08-29-mapa-rotulado-setores.png
-atualizado_em: 2026-08-29
+atualizado_em: 2026-09-04
 ---
 
 # Setor 09
@@ -52,6 +52,7 @@ fonte.
 
 Do mais recente para o mais antigo:
 
+- [[2026-09-setor-09]] — sem evento ancorado; fertirrigação relatada sem data.
 - [[2026-08-setor-09]] — preparo de poda com Ethrel e poda.
 
 ## Correlações e hipóteses
