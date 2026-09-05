@@ -15,7 +15,10 @@ fontes:
   - raw/registros-manejo/2026-08-31-macaia-setor-03-produto-nao-identificado.md
   - raw/registros-manejo/2026-08-31-macaia-dormex-8-litros-por-hectare.md
   - raw/registros-manejo/2026-09-03-macaia-setor-02-preparo-e-poda.md
-atualizado_em: 2026-09-04
+  - raw/registros-manejo/2026-09-04-macaia-setor-10-poda-e-dormex.md
+  - raw/registros-manejo/2026-09-04-macaia-setor-04-poda-e-dormex.md
+  - raw/registros-manejo/2026-09-04-macaia-setor-02-dormex-e-data-de-poda-divergente.md
+atualizado_em: 2026-09-05
 ---
 
 # Poda e desfolha
@@ -40,25 +43,31 @@ Isto descreve o que as gravações mostram; não é uma recomendação da wiki.
 | [[setor-09]] | 2026-08-14 — 2 L/ha | 2026-08-27 | — |
 | [[setor-11]], [[setor-12]] | 2026-08-14 — produto não informado | 2026-08-26 | 2026-08-28 — 8 L/ha |
 | [[setor-03]] | 2026-08-15 — 2 L/ha | 2026-08-27 | 2026-08-31 — 8 L/ha |
-| [[setor-02]] | 2026-08-26 — 2 L/ha | 2026-09-03 (início) | — |
-| [[setor-04]] | 2026-08-26 — 2,5, unidade pendente | — | — |
-| [[setor-10]] | 2026-08-26 — 2 L/ha | — | — |
+| [[setor-02]] | 2026-08-26 — 2 L/ha | 2026-09-03 (início); 2026-09-02 numa segunda gravação | 2026-09-04 — 8 L/ha |
+| [[setor-04]] | 2026-08-26 — 2,5, unidade pendente | 2026-09-03 | 2026-09-04 — 8 L/ha |
+| [[setor-10]] | 2026-08-26 — 2 L/ha | 2026-09-03 | 2026-09-04 — 8 L/ha |
 
 Traço (—) significa ausência de registro nas gravações ingeridas, não ausência da operação.
 
 ## Fatos que chamam atenção
 
 - A dose de Dormex sobe conforme a campanha avança: 6 L/ha em 21/08, 7 L/ha em 24/08 e 8 L/ha em
-  28/08 e 31/08. As fontes não explicam o critério.
+  28/08, 31/08 e 04/09. As fontes não explicam o critério.
+- Os três setores podados em 03/09 (02, 04 e 10) receberam Dormex no dia seguinte, 04/09. Nos
+  setores de agosto o intervalo entre poda e Dormex foi de 2 a 4 dias. Registro factual, sem causa
+  atribuída.
 - O intervalo entre preparo e poda é de 12 a 15 dias nos setores 03, 05, 06, 07, 08, 09, 11 e 12, e
   de 8 dias no setor 02 (preparo em 26/08, poda em 03/09). A wiki não atribui causa a essa
   diferença.
-- Os setores 04 e 10 iniciaram o preparo em 26/08 e, até 2026-09-04, não tinham poda registrada.
+- O intervalo de 8 dias entre preparo e poda repete-se nos setores 04 e 10, que fizeram preparo em
+  26/08 e poda em 03/09, como o setor 02.
+- A data da poda do setor 02 aparece como 2026-09-03 na gravação `421d5ab2` e como 2026-09-02 na
+  gravação `64ff15dd`. A divergência está aberta como `pendencia` de 2026-09-05.
 - Nenhuma gravação menciona desfolha.
 
 ## Nomenclatura dos produtos
 
-As transcrições grafam o Ethrel como "Etrel", "etréol", "etréu", "E-TREO" e "Etreo", e o Dormex como
+As transcrições grafam o Ethrel como "Etrel", "etréol", "etréu", "E-TREO", "Etreo", "Etreol" e "etreal", e o Dormex como
 "Doormex". A wiki normaliza para **Ethrel** e **Dormex** e preserva a grafia original nas fontes
 brutas.
 
