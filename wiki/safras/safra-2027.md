@@ -27,7 +27,17 @@ fontes:
   - raw/registros-manejo/2026-09-04-macaia-setor-10-poda-e-dormex.md
   - raw/registros-manejo/2026-09-04-macaia-setor-04-poda-e-dormex.md
   - raw/registros-manejo/2026-09-04-macaia-setor-02-dormex-e-data-de-poda-divergente.md
-atualizado_em: 2026-09-05
+  - raw/registros-manejo/2026-09-11-macaia-setor-03-fertirrigacao-e-pulverizacao.md
+  - raw/registros-manejo/2026-09-11-macaia-setor-09-fertirrigacao.md
+  - raw/registros-manejo/2026-09-11-macaia-setor-10-fertirrigacao.md
+  - raw/registros-manejo/2026-09-11-macaia-setor-02-fertirrigacao.md
+  - raw/registros-manejo/2026-09-11-macaia-setor-02-correcao-de-data.md
+  - raw/registros-manejo/2026-09-11-macaia-setores-11-12-fertirrigacao-e-pulverizacao.md
+  - raw/registros-manejo/2026-09-11-macaia-setores-06-07-pulverizacao.md
+  - raw/registros-manejo/2026-09-11-macaia-setor-01-pulverizacao-data-impossivel.md
+  - raw/registros-manejo/2026-09-11-macaia-setor-04-fertirrigacao-data-impossivel.md
+  - raw/registros-manejo/2026-09-11-macaia-variedades-piwi-poda-dormex-fertirrigacao.md
+atualizado_em: 2026-09-12
 ---
 
 # Safra 2027
@@ -93,6 +103,13 @@ correspondência ainda não foi confirmada pela equipe; ver [[fitossanidade]].
 - 2026-09-04 — [[2026-09-04-macaia-setor-02-dormex]]
 - 2026-09-04 — [[2026-09-04-macaia-setor-04-dormex]]
 - 2026-09-04 — [[2026-09-04-macaia-setor-10-dormex]]
+- 2026-09-09 — [[2026-09-09-macaia-setor-02-fertirrigacao-map]]
+- 2026-09-09 — [[2026-09-09-macaia-setor-03-fertirrigacao-map]]
+- 2026-09-09 — [[2026-09-09-macaia-setor-03-pulverizacao-gema-algodao]]
+- 2026-09-09 — [[2026-09-09-macaia-setor-09-fertirrigacao-map]]
+- 2026-09-09 — [[2026-09-09-macaia-setor-10-fertirrigacao-map]]
+- 2026-09-09 — [[2026-09-09-macaia-setores-11-12-fertirrigacao-map]]
+- 2026-09-10 — [[2026-09-10-macaia-setores-06-07-pulverizacao]]
 
 ## Manejo relevante
 
@@ -100,9 +117,8 @@ Primeiro conjunto de manejo de campo ingerido na wiki. A campanha de poda de ago
 sintetizada em [[poda-desfolha]]; as lâminas e fertirrigações, em [[irrigacao]]; as pulverizações de
 setembro, em [[fitossanidade]].
 
-Setores com ciclo completo registrado (preparo, poda, quebra de dormência e fertirrigação): 03, 05,
-06, 07, 08, 11 e 12. Setores com registro parcial: 01, 02, 04, 09 e 10 — os setores 02, 04 e 10 já
-têm preparo, poda e Dormex, faltando apenas fertirrigação.
+Setores com ciclo completo registrado (preparo, poda, quebra de dormência e fertirrigação): 02, 03,
+05, 06, 07, 08, 10, 11 e 12. Setores com registro parcial: 01, 04 e 09.
 
 As gravações de 2026-09-04 fecham a poda dos setores 02, 04 e 10 e registram Dormex a 8 L/ha nos
 três em 2026-09-04. A dose de 8 L/ha repete a do setor 03 em 2026-08-31 e é maior que os 6,5 L/ha
@@ -111,6 +127,19 @@ intenção a essa diferença.
 
 Setembro abre uma segunda frente de operações: as primeiras fertirrigações dos setores 03, 11 e 12,
 a segunda dos setores 06 e 07, e a primeira pulverização fitossanitária da wiki.
+
+As gravações de 2026-09-11 registram uma rodada de fertirrigação em 2026-09-09 com a mesma
+composição em todos os setores que a declaram — 15 g de MAP por planta e 1 L/ha de coadjuvante
+foliar Basfoliar — nos setores 02, 03, 09, 10, 11 e 12, mais uma pulverização no setor 03 no mesmo
+dia e outra nos setores 06 e 07 em 2026-09-10. Nos setores 03, 11 e 12 esta rodada cai oito dias
+depois da fertirrigação de 2026-09-01, o mesmo intervalo que separava a de 2026-08-25 da de
+2026-09-02 nos setores 06 e 07. Nos setores 02 e 10 ela chega cinco dias depois do Dormex de
+2026-09-04. O registro é factual; a wiki não atribui a esse espaçamento intenção nem causa.
+
+Quatro fatos relatados nessa mesma rodada continuam **fora** da linha do tempo por falta de âncora:
+a pulverização do setor 01, a fertirrigação do setor 04, a pulverização dos setores 11 e 12 e o
+conjunto poda/Dormex/fertirrigação das variedades PIWI. Ver as `pendencia` de 2026-09-12 em
+`log.md`.
 
 ## Resultados
 

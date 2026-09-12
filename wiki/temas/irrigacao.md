@@ -12,7 +12,14 @@ fontes:
   - raw/registros-manejo/2026-09-03-macaia-setores-06-07-fertirrigacao-e-pulverizacao.md
   - raw/registros-manejo/2026-09-03-macaia-setores-05-08-fertirrigacao-e-pulverizacao.md
   - raw/registros-manejo/2026-09-03-macaia-setor-09-fertirrigacao-data-ausente.md
-atualizado_em: 2026-09-04
+  - raw/registros-manejo/2026-09-11-macaia-setor-02-fertirrigacao.md
+  - raw/registros-manejo/2026-09-11-macaia-setor-02-correcao-de-data.md
+  - raw/registros-manejo/2026-09-11-macaia-setor-03-fertirrigacao-e-pulverizacao.md
+  - raw/registros-manejo/2026-09-11-macaia-setor-09-fertirrigacao.md
+  - raw/registros-manejo/2026-09-11-macaia-setor-10-fertirrigacao.md
+  - raw/registros-manejo/2026-09-11-macaia-setores-11-12-fertirrigacao-e-pulverizacao.md
+  - raw/registros-manejo/2026-09-11-macaia-setor-04-fertirrigacao-data-impossivel.md
+atualizado_em: 2026-09-12
 ---
 
 # Irrigação e fertirrigação
@@ -34,6 +41,11 @@ foi executada.
 | 2026-09-01 | [[setor-11]], [[setor-12]] | MAP 15 g/planta + Basfoliar 1 L/ha, nome comercial pendente | [[2026-09-01-macaia-setores-11-12-fertirrigacao-map]] |
 | 2026-09-01 | [[setor-03]] | MAP 15 g/planta + Basfoliar 1 L/ha, nome comercial pendente | [[2026-09-01-macaia-setor-03-fertirrigacao-map]] |
 | 2026-09-02 | [[setor-06]], [[setor-07]] | MAP 15 g/planta + Basfoliar 1 L/ha, nome comercial pendente | [[2026-09-02-macaia-setores-06-07-fertirrigacao-map]] |
+| 2026-09-09 | [[setor-02]] | MAP 15 g/planta + Basfoliar 1 L/ha, nome comercial pendente | [[2026-09-09-macaia-setor-02-fertirrigacao-map]] |
+| 2026-09-09 | [[setor-03]] | MAP 15 g/planta + Basfoliar Black Evoluto 1 L/ha | [[2026-09-09-macaia-setor-03-fertirrigacao-map]] |
+| 2026-09-09 | [[setor-09]] | MAP 15 g/planta + Basfoliar Black Evoluto 1 L/ha | [[2026-09-09-macaia-setor-09-fertirrigacao-map]] |
+| 2026-09-09 | [[setor-10]] | MAP 15 g/planta + Basfoliar 1 L/ha, nome comercial pendente | [[2026-09-09-macaia-setor-10-fertirrigacao-map]] |
+| 2026-09-09 | [[setor-11]], [[setor-12]] | MAP 15 g/planta + Basfoliar Black Evoluto 1 L/ha | [[2026-09-09-macaia-setores-11-12-fertirrigacao-map]] |
 
 A dose de MAP é constante (15 g por planta) e o coadjuvante foliar entra sempre a 1 L/ha, em todas
 as fertirrigações registradas até agora. As gravações citam dois nomes comerciais — Basfoliar Black
@@ -45,14 +57,23 @@ Evolute", "Black Gold Evolutum" e "Black Evolut Purectar". Nenhuma dessas quatro
 decidir qual dos dois produtos entrou, e por isso as linhas de setembro dizem apenas "Basfoliar,
 nome comercial pendente". Ver a `pendencia` de 2026-09-04 em `log.md`.
 
+A rodada de 2026-09-09, gravada em 2026-09-11, melhora parcialmente esse quadro: nos setores 03,
+09, 11 e 12 a fonte diz "Basfoliar Black Evoluto" sem misturar os nomes, e essas linhas nomeiam o
+produto. Nos setores 02 e 10 a mistura continua ("Black Gold Evoluto", "Black Gold Evolut") e a
+pendência segue aberta.
+
 ## Lacunas
 
 - A fertirrigação do [[setor-01]] é descrita como "a segunda"; a primeira não foi gravada.
 - A segunda fertirrigação dos setores [[setor-05]] e [[setor-08]] está relatada em `7001804b` com
   data "2 de novembro de 2026", posterior à gravação, e não gerou evento.
-- A fertirrigação do [[setor-09]] está relatada em `689a0544`, mas a transcrição termina em "no
-  dia" e a data não existe na fonte; também não gerou evento.
-- Não há fertirrigação registrada para os setores 02, 04 e 10.
+- A fertirrigação do [[setor-09]] relatada em `689a0544` continua sem data na fonte e sem evento; a
+  de 2026-09-09, de outra gravação, é a primeira ancorada nesse setor.
+- A fertirrigação do [[setor-04]] está relatada em `7b8893e7` com data "9 de novembro de 2026",
+  posterior à gravação, e não gerou evento. É o único setor sem nenhuma fertirrigação ancorada no
+  ciclo, junto do [[setor-01]], cuja primeira nunca foi gravada.
+- O conjunto de poda, Dormex e fertirrigação das variedades PIWI, em `8648725d`, não tem setor
+  identificado e não gerou evento.
 - Nenhuma leitura de lâmina efetivamente aplicada foi consultada na estação; ver [[clima]].
 
 ## Interpretações relacionadas
