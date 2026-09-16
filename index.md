@@ -1,6 +1,6 @@
 ---
 tipo: indice
-atualizado_em: 2026-09-05
+atualizado_em: 2026-09-16
 ---
 
 # Índice da wiki-vinhedo
@@ -18,9 +18,9 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 - `raw/fichas-tecnicas/comercial/` e `raw/fichas-tecnicas/biologicos/` — fichas de produtos.
 - `raw/analises/`, `raw/qualidade-uva/`, `raw/qualidade-vinho/` e `raw/consultoria/` — documentos
   consolidados, sem subdivisões.
-- `raw/registros-manejo/` e `raw/registros-ciclos-videira/` — registros datados de campo. As 24
-  gravações do Granola já ingeridas (14 de 2026-08-28, 2 de 2026-08-31 e 8 de 2026-09-03) estão em
-  `raw/registros-manejo/`.
+- `raw/registros-manejo/` e `raw/registros-ciclos-videira/` — registros datados de campo. São 48
+  gravações do Granola ingeridas: 43 em `raw/registros-manejo/` (operações) e 5 em
+  `raw/registros-ciclos-videira/` (início da brotação, gravadas em 2026-09-15).
 - `raw/mapa-plantio/` — mapa georreferenciado, imagem rotulada com a numeração operacional dos
   setores e confirmações cadastrais.
 
@@ -78,6 +78,7 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 - [[poda-desfolha]] — protocolo de preparo, poda e quebra de dormência observado em Macaia.
 - [[irrigacao]] — lâminas do ciclo de poda e fertirrigações registradas.
 - [[fitossanidade]] — pulverizações registradas e o estágio "gema algodão".
+- [[fenologia]] — datas de início da brotação por setor e as lacunas de estágio.
 
 ## Eventos (linha do tempo)
 
