@@ -18,7 +18,9 @@ fontes:
   - raw/registros-manejo/2026-09-04-macaia-setor-10-poda-e-dormex.md
   - raw/registros-manejo/2026-09-04-macaia-setor-04-poda-e-dormex.md
   - raw/registros-manejo/2026-09-04-macaia-setor-02-dormex-e-data-de-poda-divergente.md
-atualizado_em: 2026-09-05
+  - raw/registros-manejo/2026-09-15-macaia-setor-01-primeiro-desbrote.md
+  - raw/registros-manejo/2026-09-15-macaia-setor-01-desbrote-correcao-de-data.md
+atualizado_em: 2026-09-16
 ---
 
 # Poda e desfolha
@@ -64,6 +66,20 @@ Traço (—) significa ausência de registro nas gravações ingeridas, não aus
 - A data da poda do setor 02 aparece como 2026-09-03 na gravação `421d5ab2` e como 2026-09-02 na
   gravação `64ff15dd`. A divergência está aberta como `pendencia` de 2026-09-05.
 - Nenhuma gravação menciona desfolha.
+- O setor 01 é o único sem preparo nem poda registrados, e é o primeiro a ter poda verde: o primeiro
+  desbrote, em 2026-09-15 ([[2026-09-15-macaia-setor-01-primeiro-desbrote]]), sete dias depois do
+  início da brotação do setor. A wiki não tem como situar esse desbrote em relação a uma poda que
+  nenhuma gravação registrou.
+
+## Poda verde (safra 2027)
+
+| Data | Setor | Operação | Evento |
+|---|---|---|---|
+| 2026-09-15 | [[setor-01]] | Primeiro desbrote | [[2026-09-15-macaia-setor-01-primeiro-desbrote]] |
+
+Nenhum outro setor tem desbrote registrado, e nenhuma gravação informa ruas, área trabalhada,
+número de brotos removidos ou critério de seleção. Ver [[fenologia]] para as datas de brotação que
+antecedem a operação.
 
 ## Nomenclatura dos produtos
 

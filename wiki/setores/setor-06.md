@@ -15,7 +15,7 @@ fontes:
   - raw/mapa-plantio/2026-08-29-plantio-vivert.geojson
   - raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md
   - raw/mapa-plantio/2026-08-29-mapa-rotulado-setores.png
-atualizado_em: 2026-09-12
+atualizado_em: 2026-09-16
 ---
 
 # Setor 06
@@ -51,7 +51,7 @@ fonte.
 
 Do mais recente para o mais antigo:
 
-- [[2026-09-setor-06]] — segunda fertirrigação com MAP e pulverização com Cercobin.
+- [[2026-09-setor-06]] — segunda fertirrigação com MAP e pulverizações com Cercobin e com Zorvec.
 - [[2026-08-setor-06]] — preparo de poda, poda, Dormex e fertirrigação.
 
 ## Correlações e hipóteses

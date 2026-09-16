@@ -15,7 +15,7 @@ fontes:
   - raw/mapa-plantio/2026-08-29-plantio-vivert.geojson
   - raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md
   - raw/mapa-plantio/2026-08-29-mapa-rotulado-setores.png
-atualizado_em: 2026-09-12
+atualizado_em: 2026-09-16
 ---
 
 # Setor 12
@@ -50,7 +50,7 @@ fonte.
 
 Do mais recente para o mais antigo:
 
-- [[2026-09-setor-12]] — primeira e segunda fertirrigações com MAP.
+- [[2026-09-setor-12]] — primeira e segunda fertirrigações com MAP e o início da brotação.
 - [[2026-08-setor-12]] — preparo de poda, poda e Dormex.
 
 ## Correlações e hipóteses
