@@ -24,7 +24,10 @@ fontes:
   - raw/registros-manejo/2026-09-03-macaia-setor-02-preparo-e-poda.md
   - raw/registros-manejo/2026-09-03-macaia-setor-09-fertirrigacao-data-ausente.md
   - raw/registros-manejo/2026-09-03-macaia-setores-06-07-registro-interrompido.md
-atualizado_em: 2026-09-04
+  - raw/registros-manejo/2026-09-04-macaia-setor-10-poda-e-dormex.md
+  - raw/registros-manejo/2026-09-04-macaia-setor-04-poda-e-dormex.md
+  - raw/registros-manejo/2026-09-04-macaia-setor-02-dormex-e-data-de-poda-divergente.md
+atualizado_em: 2026-09-05
 ---
 
 # Safra 2027
@@ -85,6 +88,11 @@ correspondência ainda não foi confirmada pela equipe; ver [[fitossanidade]].
 - 2026-09-02 — [[2026-09-02-macaia-setor-01-pulverizacao-gema-algodao]]
 - 2026-09-02 — [[2026-09-02-macaia-setores-05-08-pulverizacao-gema-algodao]]
 - 2026-09-03 — [[2026-09-03-macaia-setor-02-poda]]
+- 2026-09-03 — [[2026-09-03-macaia-setor-04-poda]]
+- 2026-09-03 — [[2026-09-03-macaia-setor-10-poda]]
+- 2026-09-04 — [[2026-09-04-macaia-setor-02-dormex]]
+- 2026-09-04 — [[2026-09-04-macaia-setor-04-dormex]]
+- 2026-09-04 — [[2026-09-04-macaia-setor-10-dormex]]
 
 ## Manejo relevante
 
@@ -93,7 +101,13 @@ sintetizada em [[poda-desfolha]]; as lâminas e fertirrigações, em [[irrigacao
 setembro, em [[fitossanidade]].
 
 Setores com ciclo completo registrado (preparo, poda, quebra de dormência e fertirrigação): 03, 05,
-06, 07, 08, 11 e 12. Setores com registro parcial: 01, 02, 04, 09 e 10.
+06, 07, 08, 11 e 12. Setores com registro parcial: 01, 02, 04, 09 e 10 — os setores 02, 04 e 10 já
+têm preparo, poda e Dormex, faltando apenas fertirrigação.
+
+As gravações de 2026-09-04 fecham a poda dos setores 02, 04 e 10 e registram Dormex a 8 L/ha nos
+três em 2026-09-04. A dose de 8 L/ha repete a do setor 03 em 2026-08-31 e é maior que os 6,5 L/ha
+dos setores 05 a 08, 06, 07, 11 e 12 em agosto. O registro é factual; a wiki não atribui causa nem
+intenção a essa diferença.
 
 Setembro abre uma segunda frente de operações: as primeiras fertirrigações dos setores 03, 11 e 12,
 a segunda dos setores 06 e 07, e a primeira pulverização fitossanitária da wiki.

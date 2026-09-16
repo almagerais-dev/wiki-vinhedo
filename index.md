@@ -1,6 +1,6 @@
 ---
 tipo: indice
-atualizado_em: 2026-09-04
+atualizado_em: 2026-09-05
 ---
 
 # Índice da wiki-vinhedo
@@ -91,9 +91,9 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 - 2026-08: [[2026-08-setor-01]], [[2026-08-setor-02]], [[2026-08-setor-03]], [[2026-08-setor-04]],
   [[2026-08-setor-05]], [[2026-08-setor-06]], [[2026-08-setor-07]], [[2026-08-setor-08]],
   [[2026-08-setor-09]], [[2026-08-setor-10]], [[2026-08-setor-11]] e [[2026-08-setor-12]].
-- 2026-09: [[2026-09-setor-01]], [[2026-09-setor-02]], [[2026-09-setor-03]], [[2026-09-setor-05]],
-  [[2026-09-setor-06]], [[2026-09-setor-07]], [[2026-09-setor-08]], [[2026-09-setor-09]],
-  [[2026-09-setor-11]] e [[2026-09-setor-12]]. Setores 04 e 10 sem operação registrada no mês.
+- 2026-09: [[2026-09-setor-01]], [[2026-09-setor-02]], [[2026-09-setor-03]], [[2026-09-setor-04]],
+  [[2026-09-setor-05]], [[2026-09-setor-06]], [[2026-09-setor-07]], [[2026-09-setor-08]],
+  [[2026-09-setor-09]], [[2026-09-setor-10]], [[2026-09-setor-11]] e [[2026-09-setor-12]].
 
 ## Correlações
 
