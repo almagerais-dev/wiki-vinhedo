@@ -15,7 +15,7 @@ fontes:
   - raw/mapa-plantio/2026-08-29-plantio-vivert.geojson
   - raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md
   - raw/mapa-plantio/2026-08-29-mapa-rotulado-setores.png
-atualizado_em: 2026-09-04
+atualizado_em: 2026-09-12
 ---
 
 # Setor 03
@@ -50,7 +50,7 @@ fonte.
 
 Do mais recente para o mais antigo:
 
-- [[2026-09-setor-03]] — primeira fertirrigação com MAP.
+- [[2026-09-setor-03]] — duas fertirrigações com MAP e a primeira pulverização do setor.
 - [[2026-08-setor-03]] — preparo de poda com Ethrel, poda e Dormex (fonte usa "T3").
 
 ## Correlações e hipóteses
