@@ -37,7 +37,18 @@ fontes:
   - raw/registros-manejo/2026-09-11-macaia-setor-01-pulverizacao-data-impossivel.md
   - raw/registros-manejo/2026-09-11-macaia-setor-04-fertirrigacao-data-impossivel.md
   - raw/registros-manejo/2026-09-11-macaia-variedades-piwi-poda-dormex-fertirrigacao.md
-atualizado_em: 2026-09-12
+  - raw/registros-ciclos-videira/2026-09-15-macaia-setor-01-inicio-brotacao.md
+  - raw/registros-ciclos-videira/2026-09-15-macaia-setor-03-inicio-brotacao.md
+  - raw/registros-ciclos-videira/2026-09-15-macaia-setor-09-inicio-brotacao.md
+  - raw/registros-ciclos-videira/2026-09-15-macaia-setores-11-12-inicio-brotacao.md
+  - raw/registros-ciclos-videira/2026-09-15-macaia-setores-05-08-inicio-brotacao-data-impossivel.md
+  - raw/registros-manejo/2026-09-15-macaia-setor-01-pulverizacao-zorvec.md
+  - raw/registros-manejo/2026-09-15-macaia-setores-06-07-pulverizacao-zorvec.md
+  - raw/registros-manejo/2026-09-15-macaia-setores-05-08-pulverizacao-produto-nao-transcrito.md
+  - raw/registros-manejo/2026-09-15-macaia-setor-09-pulverizacao-cercobin.md
+  - raw/registros-manejo/2026-09-15-macaia-setor-01-primeiro-desbrote.md
+  - raw/registros-manejo/2026-09-15-macaia-setor-01-desbrote-correcao-de-data.md
+atualizado_em: 2026-09-16
 ---
 
 # Safra 2027
@@ -57,18 +68,29 @@ Ainda não consultado para este ciclo. Ver [[clima]] para os limites atuais da e
 
 | Estágio | Macaia |
 |---|---|
-| Brotação | |
+| Brotação | 2026-09-08 (setor 01) a 2026-09-14 (setores 03 e 09); setores 11 e 12 em 2026-09-11 |
 | Floração | |
 | Véraison | |
 | Colheita | |
 
-Nenhuma gravação declarou um estágio do vocabulário controlado. Os eventos de preparo, poda e Dormex
-foram ancorados em `dormencia` pela natureza da operação; as fertirrigações posteriores à poda
-ficaram com o estágio nulo.
+As gravações de 2026-09-15 são as primeiras a declarar um estágio do vocabulário controlado, e a
+brotação passa a ter data por setor:
 
-As gravações de 2026-09-03 introduzem o estágio "gema algodão" para as pulverizações de 2026-09-02.
-É a primeira vez que uma fonte nomeia um estágio, mas o nome está fora da lista do `AGENTS.md` e a
-correspondência ainda não foi confirmada pela equipe; ver [[fitossanidade]].
+| Setor | Início da brotação | Dias desde a poda | Evento |
+|---|---|---:|---|
+| [[setor-01]] | 2026-09-08 | sem poda registrada | [[2026-09-08-macaia-setor-01-inicio-brotacao]] |
+| [[setor-11]], [[setor-12]] | 2026-09-11 | 16 | [[2026-09-11-macaia-setores-11-12-inicio-brotacao]] |
+| [[setor-03]] | 2026-09-14 | 18 | [[2026-09-14-macaia-setor-03-inicio-brotacao]] |
+| [[setor-09]] | 2026-09-14 | 18 | [[2026-09-14-macaia-setor-09-inicio-brotacao]] |
+
+Os setores 05 e 08 têm a brotação gravada em `c90294f7`, mas com data impossível ("11 de novembro de
+2026"), e ficaram fora da tabela. Os setores 02, 04, 06, 07 e 10 não têm brotação registrada.
+
+Antes desta rodada, os eventos de preparo, poda e Dormex foram ancorados em `dormencia` pela
+natureza da operação e as fertirrigações posteriores à poda ficaram com o estágio nulo. As
+gravações de 2026-09-03 introduzem o estágio "gema algodão" para as pulverizações de 2026-09-02:
+o nome está fora da lista do `AGENTS.md` e a correspondência ainda não foi confirmada pela equipe;
+ver [[fitossanidade]].
 
 ## Linha do tempo (eventos)
 
@@ -109,7 +131,16 @@ correspondência ainda não foi confirmada pela equipe; ver [[fitossanidade]].
 - 2026-09-09 — [[2026-09-09-macaia-setor-09-fertirrigacao-map]]
 - 2026-09-09 — [[2026-09-09-macaia-setor-10-fertirrigacao-map]]
 - 2026-09-09 — [[2026-09-09-macaia-setores-11-12-fertirrigacao-map]]
+- 2026-09-08 — [[2026-09-08-macaia-setor-01-inicio-brotacao]]
 - 2026-09-10 — [[2026-09-10-macaia-setores-06-07-pulverizacao]]
+- 2026-09-10 — [[2026-09-10-macaia-setor-09-pulverizacao]]
+- 2026-09-11 — [[2026-09-11-macaia-setores-11-12-inicio-brotacao]]
+- 2026-09-14 — [[2026-09-14-macaia-setor-03-inicio-brotacao]]
+- 2026-09-14 — [[2026-09-14-macaia-setor-09-inicio-brotacao]]
+- 2026-09-14 — [[2026-09-14-macaia-setor-01-pulverizacao-zorvec]]
+- 2026-09-14 — [[2026-09-14-macaia-setores-06-07-pulverizacao-zorvec]]
+- 2026-09-14 — [[2026-09-14-macaia-setores-05-08-pulverizacao]]
+- 2026-09-15 — [[2026-09-15-macaia-setor-01-primeiro-desbrote]]
 
 ## Manejo relevante
 
@@ -140,6 +171,16 @@ Quatro fatos relatados nessa mesma rodada continuam **fora** da linha do tempo p
 a pulverização do setor 01, a fertirrigação do setor 04, a pulverização dos setores 11 e 12 e o
 conjunto poda/Dormex/fertirrigação das variedades PIWI. Ver as `pendencia` de 2026-09-12 em
 `log.md`.
+
+As gravações de 2026-09-15 mudam a natureza do que o ciclo registra. Além do início da brotação em
+cinco setores, elas trazem uma nova rodada de pulverização em 2026-09-14 nos setores 01, 05, 06, 07
+e 08 com uma calda diferente de todas as anteriores — 400 ml de Zorvec e 600 ml de Absolut Fix em
+200 L/ha, sem o Cercobin presente de 2026-09-02 a 2026-09-10 —, cujas gravações declaram a chuva
+como motivo, e a primeira operação de poda verde da wiki: o primeiro desbrote do setor 01 em
+2026-09-15 ([[2026-09-15-macaia-setor-01-primeiro-desbrote]]). A mesma rodada de gravações fecha uma
+lacuna anterior: a pulverização do setor 09 em 2026-09-10
+([[2026-09-10-macaia-setor-09-pulverizacao]]), a primeira do setor, que traz o inseticida de volta à
+calda ao lado do Cercobin e do Absoluto Fix.
 
 ## Resultados
 

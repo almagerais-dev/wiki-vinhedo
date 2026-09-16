@@ -15,7 +15,7 @@ fontes:
   - raw/mapa-plantio/2026-08-29-plantio-vivert.geojson
   - raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md
   - raw/mapa-plantio/2026-08-29-mapa-rotulado-setores.png
-atualizado_em: 2026-09-04
+atualizado_em: 2026-09-16
 ---
 
 # Setor 08
@@ -51,7 +51,8 @@ fonte.
 
 Do mais recente para o mais antigo:
 
-- [[2026-09-setor-08]] — pulverização de gema algodão.
+- [[2026-09-setor-08]] — pulverização de gema algodão e a de 2026-09-14, com o primeiro produto não
+  transcrito.
 - [[2026-08-setor-08]] — preparo de poda, poda, Dormex e fertirrigação.
 
 ## Correlações e hipóteses

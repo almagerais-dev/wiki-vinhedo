@@ -15,7 +15,7 @@ fontes:
   - raw/mapa-plantio/2026-08-29-plantio-vivert.geojson
   - raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md
   - raw/mapa-plantio/2026-08-29-mapa-rotulado-setores.png
-atualizado_em: 2026-09-04
+atualizado_em: 2026-09-16
 ---
 
 # Setor 01
@@ -50,7 +50,8 @@ fonte.
 
 Do mais recente para o mais antigo:
 
-- [[2026-09-setor-01]] — pulverização de gema algodão.
+- [[2026-09-setor-01]] — pulverizações de gema algodão e com Zorvec, início da brotação e o primeiro
+  desbrote.
 - [[2026-08-setor-01]] — segunda fertirrigação com MAP.
 
 ## Correlações e hipóteses
