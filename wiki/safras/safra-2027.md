@@ -48,7 +48,13 @@ fontes:
   - raw/registros-manejo/2026-09-15-macaia-setor-09-pulverizacao-cercobin.md
   - raw/registros-manejo/2026-09-15-macaia-setor-01-primeiro-desbrote.md
   - raw/registros-manejo/2026-09-15-macaia-setor-01-desbrote-correcao-de-data.md
-atualizado_em: 2026-09-16
+  - raw/registros-manejo/2026-09-18-macaia-setor-01-pulverizacao.md
+  - raw/registros-manejo/2026-09-18-macaia-setor-02-fertirrigacao-e-pulverizacao.md
+  - raw/registros-manejo/2026-09-18-macaia-setor-04-fertirrigacao-e-pulverizacao.md
+  - raw/registros-manejo/2026-09-18-macaia-setor-04-correcao-de-data.md
+  - raw/registros-manejo/2026-09-18-macaia-setor-10-fertirrigacao-e-pulverizacao.md
+  - raw/registros-manejo/2026-09-18-macaia-setor-nao-identificado-desbrote-e-pulverizacao.md
+atualizado_em: 2026-09-19
 ---
 
 # Safra 2027
@@ -141,6 +147,12 @@ ver [[fitossanidade]].
 - 2026-09-14 — [[2026-09-14-macaia-setores-06-07-pulverizacao-zorvec]]
 - 2026-09-14 — [[2026-09-14-macaia-setores-05-08-pulverizacao]]
 - 2026-09-15 — [[2026-09-15-macaia-setor-01-primeiro-desbrote]]
+- 2026-09-16 — [[2026-09-16-macaia-setor-02-pulverizacao-cercobin]]
+- 2026-09-16 — [[2026-09-16-macaia-setor-04-fertirrigacao-map]]
+- 2026-09-16 — [[2026-09-16-macaia-setor-04-pulverizacao-cercobin]]
+- 2026-09-16 — [[2026-09-16-macaia-setor-10-fertirrigacao-map]]
+- 2026-09-16 — [[2026-09-16-macaia-setor-10-pulverizacao-cercobin]]
+- 2026-09-18 — [[2026-09-18-macaia-setor-01-pulverizacao]]
 
 ## Manejo relevante
 
@@ -181,6 +193,21 @@ como motivo, e a primeira operação de poda verde da wiki: o primeiro desbrote 
 lacuna anterior: a pulverização do setor 09 em 2026-09-10
 ([[2026-09-10-macaia-setor-09-pulverizacao]]), a primeira do setor, que traz o inseticida de volta à
 calda ao lado do Cercobin e do Absoluto Fix.
+
+As gravações de 2026-09-18 acrescentam duas frentes. Em 2026-09-16, os setores 02, 04 e 10 recebem o
+mesmo par de operações — fertirrigação com 15 g de MAP por planta e 1 L/ha de Basfoliar Black Gold,
+e pulverização com 600 g de Cercobin e 600 ml de Absolut Fix em 200 L/ha —, com a ressalva de que a
+fertirrigação do setor 02 ficou sem âncora de data. São as primeiras pulverizações registradas dos
+setores 02, 04 e 10, e a primeira fertirrigação ancorada do setor 04, treze dias depois da poda.
+Nesses três setores a calda volta a ser a dupla Cercobin + Absolut Fix, sem o Zorvec que entrou em
+2026-09-14 nos setores 01, 05, 06, 07 e 08 e sem o inseticida das caldas de setembro.
+
+Em 2026-09-18 o setor 01 recebe uma **terceira composição de calda** no ciclo
+([[2026-09-18-macaia-setor-01-pulverizacao]]): 600 g de "cruzate", 800 g de "Iara Cristamag" e
+500 ml de "base foliar top" em 200 L/ha, sem Cercobin, sem Zorvec e sem Absolut Fix. Os três
+produtos são novos na wiki, nenhum tem ficha técnica no repositório e os nomes comerciais seguem
+pendentes. A data da fertirrigação do setor 02 e o setor da gravação `4fc624c1` continuam **fora**
+da linha do tempo por falta de âncora; ver as `pendencia` de 2026-09-19 em `log.md`.
 
 ## Resultados
 

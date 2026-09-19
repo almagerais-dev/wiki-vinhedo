@@ -20,7 +20,8 @@ fontes:
   - raw/registros-manejo/2026-09-04-macaia-setor-02-dormex-e-data-de-poda-divergente.md
   - raw/registros-manejo/2026-09-15-macaia-setor-01-primeiro-desbrote.md
   - raw/registros-manejo/2026-09-15-macaia-setor-01-desbrote-correcao-de-data.md
-atualizado_em: 2026-09-16
+  - raw/registros-manejo/2026-09-18-macaia-setor-nao-identificado-desbrote-e-pulverizacao.md
+atualizado_em: 2026-09-19
 ---
 
 # Poda e desfolha
@@ -78,7 +79,11 @@ Traço (—) significa ausência de registro nas gravações ingeridas, não aus
 | 2026-09-15 | [[setor-01]] | Primeiro desbrote | [[2026-09-15-macaia-setor-01-primeiro-desbrote]] |
 
 Nenhum outro setor tem desbrote registrado, e nenhuma gravação informa ruas, área trabalhada,
-número de brotos removidos ou critério de seleção. Ver [[fenologia]] para as datas de brotação que
+número de brotos removidos ou critério de seleção.
+
+A gravação `4fc624c1`, de 2026-09-18, relata um desbrote em 2026-09-15 sem declarar setor. Se for do
+setor 01, é o mesmo fato da linha acima; se for de outro setor, é um desbrote que a wiki não
+registrou. Nada foi ancorado por conta dela; ver a `pendencia` de 2026-09-19 em `log.md`. Ver [[fenologia]] para as datas de brotação que
 antecedem a operação.
 
 ## Nomenclatura dos produtos
