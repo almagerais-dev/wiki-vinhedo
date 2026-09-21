@@ -102,6 +102,10 @@ torna essa regra especialmente relevante numa conferência de calendário.
 
 ## Condições de aplicação e reentrada
 
+- **Condições climáticas para aplicações terrestres (bula):** "Temperatura ambiente: máximo 28ºC.
+  Umidade relativa do ar (UR): mínima 70%. Velocidade do vento: 2 a 10 km/hora. Aplicar nas horas
+  mais amenas do dia (manhã e fim da tarde)." É a janela mais estreita desta remessa: os outros
+  produtos pedem temperatura abaixo de 30 °C e umidade acima de 55%.
 - **Intervalo de reentrada (item 1.3 da bula):** não entrar na área antes da secagem da calda, no
   mínimo 24 horas após a aplicação; antes disso, somente com o EPI de aplicação.
 

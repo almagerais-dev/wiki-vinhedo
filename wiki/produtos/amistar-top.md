@@ -115,6 +115,9 @@ pitanga, quiabo, rabanete, romã, rosa, rúcula, seriguela, tomate e uva.
 
 ## Condições de aplicação e reentrada
 
+- **Condições meteorológicas (bula):** "Temperatura do ar: Abaixo de 30°C. Umidade relativa do ar:
+  Acima de 55%. Velocidade do vento: Média entre 3 km/h e 10 km/h. Evitar aplicações durante os
+  horários mais quentes do dia."
 - **Intervalo de reentrada:** não entrar na área antes da secagem completa da calda, no mínimo
   24 horas após a aplicação; antes disso, somente com o EPI de aplicação.
 - **Equipamento:** costal manual ou motorizado, ou tratorizado com barra, ou autopropelido,

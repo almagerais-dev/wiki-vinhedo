@@ -23,3 +23,5 @@ abamectin-72-ec-nortox-ficha-emergencia.pdf | presente | esperado que apresente 
 # a wiki afirma que a bula nao registra a cultura; negar tambem e afirmar
 abamectin-72-ec-nortox-bula.pdf | ausente | a bula nao menciona videira | /\bvideiras?\b/
 abamectin-72-ec-nortox-bula.pdf | ausente | a bula nao tem linha de cultura uva | /\buvas?\b/
+abamectin-72-ec-nortox-bula.pdf | presente | condicoes terrestres: max 28 C, UR min 70%, vento 2-10 km/h | Temperatura ambiente: máximo 28ºC Umidade relativa do ar (UR): mínima 70% Velocidade do vento: 2 a 10 km/hora
+abamectin-72-ec-nortox-bula.pdf | presente | aplicar nas horas mais amenas do dia | Aplicar nas horas mais amenas do dia
