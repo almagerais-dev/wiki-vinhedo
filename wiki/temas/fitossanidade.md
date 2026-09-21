@@ -1,7 +1,7 @@
 ---
 tipo: tema
 titulo: Fitossanidade
-tags: [fitossanidade, pulverizacao, gema-algodao, cercobin, civant-prime, absolut-fix, zorvec]
+tags: [fitossanidade, pulverizacao, gema-algodao, cercobin, civant-prime, absolut-fix, zorvec, produto-pendente]
 fontes:
   - raw/registros-manejo/2026-09-03-macaia-setor-01-pulverizacao-gema-algodao.md
   - raw/registros-manejo/2026-09-03-macaia-setores-05-08-fertirrigacao-e-pulverizacao.md
@@ -14,7 +14,12 @@ fontes:
   - raw/registros-manejo/2026-09-15-macaia-setor-01-pulverizacao-zorvec.md
   - raw/registros-manejo/2026-09-15-macaia-setores-06-07-pulverizacao-zorvec.md
   - raw/registros-manejo/2026-09-15-macaia-setores-05-08-pulverizacao-produto-nao-transcrito.md
-atualizado_em: 2026-09-16
+  - raw/registros-manejo/2026-09-18-macaia-setor-02-fertirrigacao-e-pulverizacao.md
+  - raw/registros-manejo/2026-09-18-macaia-setor-04-fertirrigacao-e-pulverizacao.md
+  - raw/registros-manejo/2026-09-18-macaia-setor-10-fertirrigacao-e-pulverizacao.md
+  - raw/registros-manejo/2026-09-18-macaia-setor-01-pulverizacao.md
+  - raw/registros-manejo/2026-09-18-macaia-setor-nao-identificado-desbrote-e-pulverizacao.md
+atualizado_em: 2026-09-19
 ---
 
 # Fitossanidade
@@ -34,6 +39,10 @@ das fertirrigações com MAP descritas em [[irrigacao]]. A calda é idêntica no
 | 2026-09-14 | [[setor-01]] | Zorvec 400 ml + Absoluto Fix 600 ml, em 200 L/ha | [[2026-09-14-macaia-setor-01-pulverizacao-zorvec]] |
 | 2026-09-14 | [[setor-06]], [[setor-07]] | Zorvec 400 ml + Absolut Fix 600 ml, em 200 L/ha | [[2026-09-14-macaia-setores-06-07-pulverizacao-zorvec]] |
 | 2026-09-14 | [[setor-05]], [[setor-08]] | produto não transcrito 400 ml + Absolut Fix 600 ml, em 200 L/ha | [[2026-09-14-macaia-setores-05-08-pulverizacao]] |
+| 2026-09-16 | [[setor-02]] | Cercobin 600 g + Absolut Fix 600 ml, em 200 L/ha | [[2026-09-16-macaia-setor-02-pulverizacao-cercobin]] |
+| 2026-09-16 | [[setor-04]] | Cercobin 600 g/ha + Absolut Fix 600 ml, em 200 L/ha | [[2026-09-16-macaia-setor-04-pulverizacao-cercobin]] |
+| 2026-09-16 | [[setor-10]] | Cercobin 600 g + Absolut Fix 600 ml, em 200 L/ha | [[2026-09-16-macaia-setor-10-pulverizacao-cercobin]] |
+| 2026-09-18 | [[setor-01]] | "cruzate" 600 g + "Iara Cristamag" 800 g + "base foliar top" 500 ml, em 200 L/ha | [[2026-09-18-macaia-setor-01-pulverizacao]] |
 
 As gravações não dizem contra o que se pulveriza, nem a área tratada, nem se as doses de 600 g,
 500 ml e 600 ml são por hectare ou por tanque de 200 L. A wiki registra como a fonte diz.
@@ -54,6 +63,14 @@ e ficou pendente, ainda que a dose e o restante da calda coincidam com os das gr
 A pulverização do setor 09 em 2026-09-10, gravada só em 2026-09-15, é a primeira do setor e a única
 depois de 2026-09-02 a manter o inseticida na calda.
 
+A quarta rodada, gravada em 2026-09-18, fecha a lacuna dos setores 02, 04 e 10 e abre uma calda nova.
+Em 2026-09-16 os três setores recebem Cercobin 600 g + Absolut Fix 600 ml em 200 L/ha, ou seja, o
+Cercobin volta à calda nos setores que não tinham nenhuma pulverização registrada, enquanto os
+setores tratados em 2026-09-14 tinham recebido Zorvec. Em 2026-09-18 o setor 01 recebe uma terceira
+composição, sem nenhum dos produtos anteriores: "cruzate" 600 g, "Iara Cristamag" 800 g e
+"base foliar top" 500 ml em 200 L/ha. Os três nomes estão pendentes. O registro é factual; a wiki
+não atribui intenção nem causa à alternância das caldas.
+
 ## O estágio "gema algodão"
 
 As três gravações situam a operação no estágio que o agrônomo chama de "gema algodão". Esse nome não
@@ -71,6 +88,12 @@ Cercobin (tiofanato-metílico), Civant Prime e Absolut Fix aparecem pela primeir
 gravações. Nenhum deles tem ficha técnica em `raw/fichas-tecnicas/`, e as transcrições não trazem
 concentração nem formulação. O Zorvec entra na wiki em 2026-09-14, também sem ficha técnica.
 
+Os três produtos da pulverização de 2026-09-18 no setor 01 entram na wiki sem nome comercial
+resolvido. As duas gravações da sessão os grafam de formas diferentes — "cruzate"/"Cruzate",
+"Iara Cristamag"/"ara cristal mag", "base foliar top"/"baixa-alheiar top" — e nenhum tem ficha
+técnica no repositório. A wiki mantém as grafias da fonte e não escolhe um nome; ver a `pendencia`
+de 2026-09-19.
+
 O inseticida é grafado "Civant Prime" nas gravações de 2026-09-03 e "silvanto prime" na de
 2026-09-15. Nenhuma das duas formas é um nome comercial conhecido, e a wiki mantém as duas como
 grafias da fonte, sem decidir qual é a correta. Grafias do Absolut Fix já vistas: Absoluto Fix,
@@ -84,7 +107,11 @@ Absoluto Fixo, Absolut Fix.
 - A pulverização do [[setor-01]] de `2c664c39` está datada em "10 de novembro de 2026" e a dos
   setores [[setor-11]] e [[setor-12]] de `75804673` traz duas datas contraditórias na mesma fonte.
   Nenhuma das duas gerou evento; ver as `pendencia` de 2026-09-12.
-- Não há pulverização registrada para os setores 02, 04, 10, 11 e 12.
+- Não há pulverização registrada para os setores 11 e 12. Os setores 02, 04 e 10 deixam essa lista
+  com as aplicações de 2026-09-16.
+- A gravação `4fc624c1` relata uma pulverização em 2026-09-18 com a mesma calda do setor 01, mais um
+  desbrote em 2026-09-15, mas **não declara setor**, e nada dela foi ancorado; ver a `pendencia` de
+  2026-09-19.
 - O primeiro produto da pulverização dos setores [[setor-05]] e [[setor-08]] de 2026-09-14 está
   transcrito como "sorvete" e não foi identificado. O evento existe porque data, setores e doses
   estão ancorados, mas o produto segue pendente; ver a `pendencia` de 2026-09-16.
@@ -93,8 +120,9 @@ Absoluto Fixo, Absolut Fix.
   volume de chuva dos dias anteriores a 2026-09-14.
 - A gravação dos setores 06 e 07 de 2026-09-10 chama a operação de "Ovelhização" e, ao contrário
   das de 2026-09-02, não declara o estágio "gema algodão" nem qualquer alvo.
-- Nenhuma ocorrência de doença ou praga foi registrada em gravação até 2026-09-11, o que torna as
-  pulverizações registros de operação, não de resposta a um problema observado.
+- Nenhuma ocorrência de doença ou praga foi registrada em gravação até 2026-09-18, o que torna as
+  pulverizações registros de operação, não de resposta a um problema observado. A única razão
+  declarada em qualquer gravação continua sendo a chuva, em 2026-09-14.
 
 ## Interpretações relacionadas
 

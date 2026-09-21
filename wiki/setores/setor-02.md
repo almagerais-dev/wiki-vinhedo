@@ -15,7 +15,7 @@ fontes:
   - raw/mapa-plantio/2026-08-29-plantio-vivert.geojson
   - raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md
   - raw/mapa-plantio/2026-08-29-mapa-rotulado-setores.png
-atualizado_em: 2026-09-12
+atualizado_em: 2026-09-19
 ---
 
 # Setor 02
@@ -50,7 +50,8 @@ fonte.
 
 Do mais recente para o mais antigo:
 
-- [[2026-09-setor-02]] — início da poda, quebra de dormência com Dormex e primeira fertirrigação.
+- [[2026-09-setor-02]] — início da poda, quebra de dormência com Dormex, primeira fertirrigação e
+  primeira pulverização do setor.
 - [[2026-08-setor-02]] — início do preparo de poda com Ethrel.
 
 ## Correlações e hipóteses

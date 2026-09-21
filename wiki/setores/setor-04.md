@@ -15,7 +15,7 @@ fontes:
   - raw/mapa-plantio/2026-08-29-plantio-vivert.geojson
   - raw/mapa-plantio/2026-08-29-confirmacao-doze-setores.md
   - raw/mapa-plantio/2026-08-29-mapa-rotulado-setores.png
-atualizado_em: 2026-09-05
+atualizado_em: 2026-09-19
 ---
 
 # Setor 04
@@ -50,7 +50,8 @@ fonte.
 
 Do mais recente para o mais antigo:
 
-- [[2026-09-setor-04]] — poda e quebra de dormência com Dormex.
+- [[2026-09-setor-04]] — poda, quebra de dormência com Dormex e a primeira fertirrigação e
+  pulverização ancoradas do setor, em 2026-09-16.
 - [[2026-08-setor-04]] — início do preparo de poda com Ethrel (unidade da dose pendente).
 
 ## Correlações e hipóteses
