@@ -32,3 +32,6 @@ amistar-top-bula.pdf | presente | informacoes medicas repetem a categoria 5 | Cl
 
 # a wiki registra que falta o rotulo: a bula nao traz a lista de culturas registradas na forma do rotulo
 amistar-top-bula.pdf | ausente | a bula nao traz o bloco de culturas registradas do rotulo | CULTURAS PARA AS QUAIS O PRODUTO ESTÁ REGISTRADO
+# o nome do alvo esta quebrado na celula da tabela ("(Plasmopara vití-" numa linha, "cola)" noutra) e
+# a coluna vizinha entra no meio na extracao; da para conferir o genero e o inicio do epiteto
+amistar-top-bula.pdf | presente | alvo na uva: (Plasmopara vitícola) | (Plasmopara vití-

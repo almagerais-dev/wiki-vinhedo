@@ -27,3 +27,5 @@ alion-rotulo.pdf | presente | culturas do rotulo incluem uva | manga, oliveira e
 alion-ficha-emergencia.pdf | presente | orgao ambiental MG (31) 3069-6601 | Minas Gerais (31) 3069-6601
 alion-ficha-emergencia.pdf | presente | ONU 3082 | Número da ONU: 3082
 alion-ficha-emergencia.pdf | presente | numero de risco 90 | de risco: 90
+alion-bula.pdf | presente | alvos da uva: Amaranthus deflexus e Eleusine indica | /Amaranthus\s*deflexus/
+alion-bula.pdf | presente | alvos da uva: Digitaria horizontalis, Bidens pilosa, Lolium multiflorum | /Bidens\s*pilosa/

@@ -22,9 +22,10 @@ Cuidado ao escrever o trecho: a busca literal é por substring, então `500 g/10
 outro.
 
 O texto do PDF é extraído nos dois modos do `pdftotext` (ordem de leitura e `-layout`) e os espaços
-são colapsados, porque tabelas em colunas embaralham a ordem das células de um modo ou de outro. Uma
-asserção `presente` passa se o trecho aparece em qualquer um dos modos; uma `ausente` só passa se o
-trecho não aparece em nenhum deles.
+são colapsados, porque tabelas em colunas embaralham a ordem das células de um modo ou de outro. De
+cada modo sai também uma variante sem a hifenização de fim de linha, senão "Plasmopara vití- cola"
+nunca casaria com o nome que a página escreve. Uma asserção `presente` passa se o trecho aparece em
+qualquer uma das variantes; uma `ausente` só passa se não aparece em nenhuma delas.
 
 Uso:
     python3 tools/conferir-fidelidade.py              # confere todas as páginas
@@ -54,17 +55,20 @@ erros: list[str] = []
 cache: dict[Path, tuple[str, str]] = {}
 
 
-def texto(pdf: Path) -> tuple[str, str]:
-    """Devolve o texto do PDF na ordem de leitura e no modo -layout, com espaços colapsados."""
+def texto(pdf: Path) -> tuple[str, ...]:
+    """Devolve as variantes de texto do PDF: ordem de leitura e -layout, com e sem hifenização."""
     if pdf not in cache:
-        extraidos = []
+        variantes = []
         for argumentos in ([], ["-layout"]):
             saida = subprocess.run(
                 ["pdftotext", *argumentos, str(pdf), "-"],
                 capture_output=True, text=True, check=True,
             )
-            extraidos.append(re.sub(r"\s+", " ", saida.stdout))
-        cache[pdf] = (extraidos[0], extraidos[1])
+            colapsado = re.sub(r"\s+", " ", saida.stdout)
+            variantes.append(colapsado)
+            # junta palavras quebradas por hífen de fim de linha ("vití- cola" -> "vitícola")
+            variantes.append(re.sub(r"(\w)- (\w)", r"\1\2", colapsado))
+        cache[pdf] = tuple(variantes)
     return cache[pdf]
 
 
@@ -102,16 +106,16 @@ def conferir(arquivo: Path) -> tuple[int, int]:
         if pdf is None:
             erros.append(f"{arquivo.relative_to(RAIZ)}: PDF '{nome_pdf}' não existe em raw/")
             continue
-        extraidos = texto(pdf)
+        variantes = texto(pdf)
         alvo = re.sub(r"\s+", " ", agulha)
         if alvo.startswith("/") and alvo.endswith("/") and len(alvo) > 2:
             padrao = re.compile(alvo[1:-1], re.IGNORECASE)
-            achou = any(padrao.search(extraido) for extraido in extraidos)
+            achou = any(padrao.search(extraido) for extraido in variantes)
         elif modo == "presente":
-            achou = any(alvo in extraido for extraido in extraidos)
+            achou = any(alvo in extraido for extraido in variantes)
         else:
             # negar um conceito não depende da caixa em que o documento o escreveu
-            achou = any(alvo.lower() in extraido.lower() for extraido in extraidos)
+            achou = any(alvo.lower() in extraido.lower() for extraido in variantes)
         ok = achou if modo == "presente" else not achou
         conferidas += 1
         if not ok:

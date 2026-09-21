@@ -25,3 +25,4 @@ avatar-ficha-emergencia.pdf | presente | ONU 3082, risco 90, classe 9 | Risco: 9
 
 # a wiki registra que falta o rotulo deste produto
 avatar-bula.pdf | ausente | a bula nao traz a lista de culturas registradas do rotulo | CULTURAS PARA AS QUAIS O PRODUTO ESTÁ REGISTRADO
+avatar-bula.pdf | presente | alvo na uva grafado "Cryptobables gnidiella" | /Cryptobables\s*gnidiella/
