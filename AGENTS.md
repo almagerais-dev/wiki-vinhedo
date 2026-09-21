@@ -119,15 +119,6 @@ primária do evento.
 
 **Vinho** (`wiki/vinhos/`): `tipo: vinho`, `variedades`, `safras`.
 
-**Produto** (`wiki/produtos/`): `tipo: produto`, `nome_comercial`, `funcao` (`fungicida` |
-`inseticida` | `acaricida` | `herbicida` | `adjuvante` | `fertilizante` | `outro`),
-`ingredientes_ativos`, `grupo_quimico`, `codigo_resistencia`, `formulacao`, `registro_mapa`,
-`titular_registro`, `classe_toxicologica`, `classe_ambiental`, `registrado_para_videira` (`sim` |
-`nao` | `nao-aplicavel` | `indeterminado`), `culturas_registradas`, `documentos_disponiveis`,
-`fontes`. Sintetiza **apenas** o que está escrito nos documentos arquivados em
-`raw/fichas-tecnicas/`, e registra a lacuna onde o documento disponível não informa. O catálogo de
-entrada é `wiki/produtos/catalogo-produtos.md` (`tipo: catalogo`).
-
 **Tema** (`wiki/temas/`): `tipo: tema`.
 
 **Correlação** (`wiki/correlacoes/`): `tipo: correlacao`, `defasagem`, `confianca`, `eventos: [...]`.
@@ -158,7 +149,7 @@ entrada é `wiki/produtos/catalogo-produtos.md` (`tipo: catalogo`).
 raw/            fontes brutas imutáveis (espelha as fontes do caderno)
   publicacoes/  todas as publicações, sem subdivisões temáticas
   fichas-tecnicas/
-    comercial/  bulas, rótulos, FDS/FISPQ e fichas de emergência dos produtos comerciais
+    comercial/  fichas de produtos comerciais
     biologicos/ fichas de produtos biológicos
   analises/     análises de solo, planta e outras matrizes
   qualidade-uva/    resultados físico-químicos, sanitários e sensoriais
@@ -176,7 +167,6 @@ wiki/
   variedades/   páginas por variedade
   safras/       hub temporal: uma página por ano
   vinhos/       páginas por produto
-  produtos/     defensivos, adjuvantes e fertilizantes; catalogo-produtos.md é a entrada
   temas/        solo, clima, irrigacao, nutricao, fitossanidade, poda-desfolha...
   eventos/      fatos atômicos, datados e ancorados por setor quando forem de campo
   historicos/
@@ -185,10 +175,8 @@ wiki/
   hipoteses/    hipóteses em acompanhamento
   recomendacoes/ recomendações questionadas | validadas | sugeridas
 dados-vivos/    estacao-meteorologica.md | gestao-vinicola.md | queries/
-tools/          granola-ingeridos.py (idempotência) | validar-wiki.py (lint estrutural) |
-                conferir-fidelidade.py + fidelidade/ (números das páginas de produto × PDFs)
-.cursor/skills/ ingerir-gravacoes-granola/ | consultar-historico-setorial/ |
-                consultar-produtos-e-aplicacoes/
+tools/          granola-ingeridos.py (idempotência) | validar-wiki.py (lint estrutural)
+.cursor/skills/ ingerir-gravacoes-granola/ | consultar-historico-setorial/
 ```
 
 Arquivos `_modelo-*.md` são **gabaritos**; copie-os ao criar páginas novas.
@@ -250,40 +238,6 @@ abaixo continuam valendo e prevalecem em caso de conflito.
 4. Consulte as APIs vivas quando precisar de números atuais (ver `dados-vivos/`).
 5. Responda **com citações** (links para páginas e caminhos de fontes).
 6. Arquive boas respostas de volta como páginas novas (ex.: uma correlação descoberta).
-7. Para qualquer pergunta sobre um produto, calda, dose, alvo, carência, mistura, EPI ou emergência,
-   e sempre que uma aplicação for planejada ou confirmada, use a skill
-   `.cursor/skills/consultar-produtos-e-aplicacoes/SKILL.md`. O usuário não precisa pedir a skill.
-
-### Consultar produtos e conferir aplicações
-
-A base documental dos produtos são os PDFs de `raw/fichas-tecnicas/` (bulas, rótulos, FDS/FISPQ e
-fichas de emergência), sintetizados em `wiki/produtos/` com entrada pelo
-`wiki/produtos/catalogo-produtos.md`. O procedimento completo está na skill
-`consultar-produtos-e-aplicacoes`; as regras que prevalecem são estas:
-
-1. **Procure primeiro nos documentos fornecidos.** Não invente, presuma nem complete informação
-   técnica ausente das fontes consultadas. Se não houver documento do produto, diga isso.
-2. Numa aplicação planejada, faça a conferência técnica cruzando produto, cultura, alvo, dose, época
-   ou estágio, aplicações anteriores, intervalo entre aplicações, carência, número máximo de
-   aplicações, restrições, condições ambientais e os demais requisitos dos documentos. Feche com o
-   que está conforme, o que excede um limite documentado e o que não foi possível verificar.
-3. Para dois ou mais produtos na mesma operação, classifique explicitamente em **compatibilidade
-   documentada**, **incompatibilidade ou restrição documentada** ou **informação insuficiente**. A
-   ausência de incompatibilidade documentada **não** significa compatibilidade, e alegação comercial
-   genérica do fabricante não nomeia produto e continua sendo informação insuficiente.
-4. Em pergunta de segurança, intoxicação, exposição ou acidente, reproduza fielmente a orientação da
-   ficha de segurança, ficha de emergência ou bula aplicável, com os números e as proibições
-   literais, e deixe claro quando o documento manda buscar atendimento ou contato especializado.
-5. **Só registre uma aplicação como realizada quando o usuário confirmar explicitamente.** Aplicação
-   planejada ou discutida não é fato e não gera evento.
-6. Sempre diferencie informação explicitamente encontrada nos documentos de interpretação ou
-   informação complementar. Para segurança, conformidade legal e autorização de uso, não substitua as
-   determinações do rótulo, da bula, do registro vigente, do responsável técnico ou das autoridades
-   competentes.
-7. Ao arquivar documentos de um produto novo, escreva as asserções da página em
-   `tools/fidelidade/<pagina>.txt` e feche a remessa com `python3 tools/conferir-fidelidade.py`, que
-   confere no PDF cada dose, carência, limite e telefone que a página afirma — inclusive o que ela
-   nega ("a bula não registra videira"). Sem asserções a página conta como não conferida.
 
 ### Pesquisar conhecimento externo
 - O agente pode pesquisar fontes externas sempre que julgar útil; `raw/publicacoes/` não é uma

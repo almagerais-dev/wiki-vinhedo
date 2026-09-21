@@ -52,10 +52,4 @@ alvo, motivo nem área tratada, e não diz se as doses são por hectare ou por t
 
 ## Interpretações relacionadas
 
-A segunda remessa de documentos, arquivada em 2026-09-21, trouxe as bulas de dois produtos cujos nomes
-se aproximam de dois dos três nomes desta calda: [[curzate]] e [[basfoliar-top-sl]]. A leitura dessa
-aproximação — e a razão pela qual ela **não** resolve a pendência — está em
-[[identidade-dos-produtos-da-pulverizacao-de-2026-09-18]]. O fato acima permanece como a fonte o
-trouxe.
-
-Ver [[fitossanidade]] para o conjunto das pulverizações do ciclo.
+_Nenhuma registrada._ Ver [[fitossanidade]] para o conjunto das pulverizações do ciclo.

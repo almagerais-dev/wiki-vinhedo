@@ -47,6 +47,4 @@ tratada nem o alvo da aplicação.
 
 ## Interpretações relacionadas
 
-Conferência da dose, da vazão e da época desta aplicação contra a bula do [[cercobin-875-wg]]: [[conferencia-das-aplicacoes-de-cercobin-2026]].
-
-Ver [[fitossanidade]] para o conjunto das pulverizações.
+_Nenhuma registrada._ Ver [[fitossanidade]] para o conjunto das pulverizações.

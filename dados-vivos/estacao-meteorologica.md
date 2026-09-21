@@ -72,16 +72,9 @@ vento, pressão, precipitação, umidade e radiação solar. Na mesma consulta, 
 `966` retornou `count: 0` para todos os períodos testados: 2026-07-14, 2026-07-13 a 2026-07-14,
 2026-07-08 a 2026-07-14, 2026-06-14 a 2026-07-14 e 2026-01-01 a 2026-07-14.
 
-Em 2026-09-21 o quadro se repetiu, durante a conferência das pulverizações de Cercobin
-([[conferencia-das-aplicacoes-de-cercobin-2026]]): a leitura atual devolveu temperatura de 25,8 °C,
-umidade de 63%, vento de 0 km/h com rajada de 8 km/h às 17:00 (GMT-3), e o histórico devolveu
-`count: 0` para 2026-09-01 a 2026-09-20, 2026-09-15 a 2026-09-21, 2026-09-02, 2026-09-16,
-2026-07-01 a 2026-07-07 e 2026-08-01 a 2026-08-31.
-
 Consequência: até o histórico começar a retornar dados, a API sustenta **estado atual**, mas não
-resumos de chuva, extremos, geadas, veranicos ou graus-dia — nem a conferência retroativa da janela
-meteorológica de uma aplicação já realizada, que é o que as bulas dos produtos exigem. Não interpretar
-ausência de linhas como ausência de fenômeno climático.
+resumos de chuva, extremos, geadas, veranicos ou graus-dia. Não interpretar ausência de linhas como
+ausência de fenômeno climático.
 
 ## Como o agente deve usar
 

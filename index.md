@@ -15,9 +15,7 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 ## Fontes brutas
 
 - `raw/publicacoes/` — publicações em uma coleção única.
-- `raw/fichas-tecnicas/comercial/` — bulas, rótulos, FDS/FISPQ e fichas de emergência dos produtos.
-  São 40 documentos de 15 produtos (remessas 1 e 2 de 5; total previsto de 96 documentos).
-- `raw/fichas-tecnicas/biologicos/` — fichas de produtos biológicos (vazia).
+- `raw/fichas-tecnicas/comercial/` e `raw/fichas-tecnicas/biologicos/` — fichas de produtos.
 - `raw/analises/`, `raw/qualidade-uva/`, `raw/qualidade-vinho/` e `raw/consultoria/` — documentos
   consolidados, sem subdivisões.
 - `raw/registros-manejo/` e `raw/registros-ciclos-videira/` — registros datados de campo. São 48
@@ -72,36 +70,6 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 
 - `_modelo-vinho` — gabarito para páginas de vinho.
 
-## Produtos
-
-- [[catalogo-produtos]] — **entrada da base documental dos produtos**: o que está arquivado, quem tem
-  registro para videira, doses, carências, restrições que atravessam produtos e telefones de
-  emergência.
-- `_modelo-produto` — gabarito para páginas de produto.
-- [[aliette]] — fungicida, fosetil-Al; míldio na videira; incompatível com óxido cuproso, MAP e DAP.
-- [[amistar-top]] — fungicida, azoxistrobina + difenoconazol; míldio na uva; FRAC C3 e G1.
-- [[avatar]] — inseticida, indoxacarbe; traça-dos-cachos na uva; carência de 21 dias.
-- [[alion]] — herbicida pré-emergente, indaziflam; uma aplicação por ano; exige planta com 3 anos.
-- [[abamectin-72-ec-nortox]] — acaricida/inseticida, abamectina; **sem registro para videira** na bula.
-- [[assist-ec]] — adjuvante isento de registro, óleo mineral; 0,25 a 1,0% v/v na calda.
-- [[assist]] — inseticida à base de óleo mineral; **só a FDS foi recebida**, sem bula nem rótulo.
-- [[basfoliar-black-evolution-sl]] — fertilizante organomineral; **sem FDS** e sem dose por cultura.
-- [[basfoliar-top-sl]] — fertilizante bioativador com extrato de *Ecklonia maxima*; **sem FDS** e sem
-  dose por cultura.
-- [[cabrio-top]] — fungicida, metiram + piraclostrobina; míldio, oídio e ferrugem na uva; carência de
-  30 dias.
-- [[caramba]] — fungicida, metconazol; cercosporiose na uva é o único alvo registrado na cultura.
-- [[cercobin-875-wg]] — fungicida, tiofanato-metílico; mofo-cinzento na uva. **É o produto efetivamente
-  pulverizado em Macaia em setembro de 2026**; ver [[conferencia-das-aplicacoes-de-cercobin-2026]].
-- [[collis]] — fungicida, boscalida + cresoxim-metílico; oídio na uva; categoria de perigo não
-  classificado.
-- [[comet]] — fungicida, piraclostrobina; **sem registro para videira** na bula, e com duas FDS
-  divergentes.
-- [[completto]] — fungicida, bentiavalicarbe + fluazinam; míldio na uva; **carência de 40 dias**, a mais
-  longa da base.
-- [[curzate]] — fungicida, cimoxanil + mancozebe; míldio na uva a partir da brotação; **proíbe mistura
-  em tanque com qualquer outro agrotóxico**.
-
 ## Temas
 
 - `_modelo-tema` — gabarito para páginas de tema.
@@ -135,20 +103,11 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 ## Hipóteses
 
 - `_modelo-hipotese` — gabarito para hipóteses.
-- [[identidade-dos-produtos-da-pulverizacao-de-2026-09-18]] — "cruzate" e "base foliar top" seriam o
-  [[curzate]] e o [[basfoliar-top-sl]] (aberta, confiança média).
 
 ## Recomendações
 
 - `_modelo-recomendacao` — gabarito para recomendações.
 - [[irrigacao-pre-e-pos-poda-2026]] — 30 mm antes da poda e 21 mm por semana depois (agronômica).
-- [[vazao-de-calda-dos-produtos-registrados-para-videira]] — as bulas pedem 500 a 1000 L/ha para uva e
-  as pulverizações registram 200 L/ha (agente, sugerida).
-- [[conferencia-das-aplicacoes-de-cercobin-2026]] — as oito pulverizações de Cercobin do ciclo contra a
-  bula do produto: concentração, vazão e época divergem (agente, questionada).
-- [[registrar-vento-temperatura-e-umidade-nas-pulverizacoes]] — as bulas exigem uma janela de vento,
-  temperatura e umidade, com **piso** de vento, e nenhuma pulverização registrada anota os três valores
-  (agente, sugerida).
 
 ## Dados vivos
 
@@ -161,8 +120,6 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 
 - `.cursor/skills/ingerir-gravacoes-granola/` — procedimento de ingestão das gravações do Granola.
 - `.cursor/skills/consultar-historico-setorial/` — consulta ao histórico de setores e ruas.
-- `.cursor/skills/consultar-produtos-e-aplicacoes/` — consulta à base documental dos produtos,
-  conferência de aplicações e caldas, e resposta a perguntas de segurança e emergência.
 
 ## Ferramentas
 
@@ -170,6 +127,3 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
   ingeridas, o estado de cada uma e a janela a consultar. Rodar **antes** de cada ingestão.
 - `tools/validar-wiki.py` — lint estrutural (frontmatter, wikilinks, âncoras temporais, fontes
   citadas). Rodar **ao fechar** cada ingestão.
-- `tools/conferir-fidelidade.py` — confere cada número escrito em `wiki/produtos/` contra o PDF
-  arquivado, a partir das asserções de `tools/fidelidade/`. Rodar ao entrar cada remessa de
-  documentos de produto.

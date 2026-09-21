@@ -29,16 +29,6 @@ Ausência de linhas não significa ausência desses fenômenos.
 - Não há publicações nem registros de manejo ou dos ciclos da videira ingeridos em `raw/` até esta
   atualização.
 
-## Onde o clima entra na conferência de aplicações
-
-A leitura atual da estação cobre exatamente os três parâmetros que as bulas dos produtos exigem para a
-aplicação terrestre — vento, temperatura e umidade relativa. Como o histórico da API volta vazio, a
-conferência só é possível **no momento da operação**; depois, o dado não é recuperável.
-
-- [[registrar-vento-temperatura-e-umidade-nas-pulverizacoes]] — as faixas exigidas por produto e o fato
-  de que nenhuma pulverização registrada em Macaia anota esses valores.
-- Janelas por titular: [[catalogo-produtos]].
-
 ## Como se manifesta no nosso vinhedo
 
 - Resumos por safra: [[safra-2026]].

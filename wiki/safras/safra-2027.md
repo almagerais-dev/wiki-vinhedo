@@ -209,21 +209,6 @@ produtos são novos na wiki, nenhum tem ficha técnica no repositório e os nome
 pendentes. A data da fertirrigação do setor 02 e o setor da gravação `4fc624c1` continuam **fora**
 da linha do tempo por falta de âncora; ver as `pendencia` de 2026-09-19 em `log.md`.
 
-### Conferência documental das pulverizações do ciclo
-
-Em 2026-09-21 a base documental de produtos passou a cobrir o Cercobin ([[cercobin-875-wg]]), o
-fungicida usado em oito das pulverizações acima. A conferência dessas aplicações contra a bula está em
-[[conferencia-das-aplicacoes-de-cercobin-2026]]: a quantidade por hectare é compatível com o que a bula
-implica, mas a concentração da calda, a vazão e a época divergem do que o documento indica para uva. A
-hipótese sobre a identidade dos produtos de 2026-09-18 está em
-[[identidade-dos-produtos-da-pulverizacao-de-2026-09-18]]. Nada disso altera os fatos da linha do
-tempo; são interpretações, e vivem em páginas próprias.
-
-Um item da conferência não fecha para nenhuma pulverização do ciclo: as condições ambientais. Todas as
-bulas exigem uma faixa de vento, temperatura e umidade relativa no momento da aplicação, e nenhuma das
-pulverizações registradas anota esses valores — ver
-[[registrar-vento-temperatura-e-umidade-nas-pulverizacoes]].
-
 ## Resultados
 
 Nada colhido ou analisado neste ciclo.
