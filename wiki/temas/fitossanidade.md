@@ -161,3 +161,7 @@ Absoluto Fixo, Absolut Fix.
 - [[identidade-dos-produtos-da-pulverizacao-de-2026-09-18]] — hipótese `aberta`, confiança `media`:
   os produtos grafados "cruzate" e "base foliar top" seriam o [[curzate]] e o [[basfoliar-top-sl]],
   ambos documentados desde 2026-09-21. A pendência de nome de 2026-09-19 continua aberta.
+- [[registrar-vento-temperatura-e-umidade-nas-pulverizacoes]] — toda bula com registro para videira
+  exige uma janela de vento, temperatura e umidade, e o vento tem **piso**, não só teto. Nenhuma
+  pulverização registrada em Macaia anota qualquer um dos três valores, o que deixa esse item da
+  conferência sem como fechar. Recomendação do agente, ainda sem avaliação da agronomia.

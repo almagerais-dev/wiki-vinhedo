@@ -219,6 +219,11 @@ hipótese sobre a identidade dos produtos de 2026-09-18 está em
 [[identidade-dos-produtos-da-pulverizacao-de-2026-09-18]]. Nada disso altera os fatos da linha do
 tempo; são interpretações, e vivem em páginas próprias.
 
+Um item da conferência não fecha para nenhuma pulverização do ciclo: as condições ambientais. Todas as
+bulas exigem uma faixa de vento, temperatura e umidade relativa no momento da aplicação, e nenhuma das
+pulverizações registradas anota esses valores — ver
+[[registrar-vento-temperatura-e-umidade-nas-pulverizacoes]].
+
 ## Resultados
 
 Nada colhido ou analisado neste ciclo.

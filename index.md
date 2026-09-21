@@ -146,6 +146,9 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
   as pulverizações registram 200 L/ha (agente, sugerida).
 - [[conferencia-das-aplicacoes-de-cercobin-2026]] — as oito pulverizações de Cercobin do ciclo contra a
   bula do produto: concentração, vazão e época divergem (agente, questionada).
+- [[registrar-vento-temperatura-e-umidade-nas-pulverizacoes]] — as bulas exigem uma janela de vento,
+  temperatura e umidade, com **piso** de vento, e nenhuma pulverização registrada anota os três valores
+  (agente, sugerida).
 
 ## Dados vivos
 

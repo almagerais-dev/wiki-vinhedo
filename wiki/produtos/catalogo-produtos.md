@@ -128,6 +128,9 @@ Itens que uma conferência de calendário precisa cruzar, todos escritos nos doc
   10 km/h; [[aliette]], [[amistar-top]], [[avatar]] e [[alion]] pedem temperatura abaixo de 30 °C e
   umidade acima de 55%. As bulas BASF acrescentam que chuva nas **4 horas** seguintes à aplicação pode
   comprometer o desempenho. Números atuais saem da estação em `dados-vivos/`.
+  **O vento tem piso, não só teto**, e as bulas BASF dizem por quê: "A ausência de vento pode indicar
+  situação de inversão térmica, que deve ser evitada". Nenhuma pulverização registrada em Macaia anota
+  vento, temperatura ou umidade; ver [[registrar-vento-temperatura-e-umidade-nas-pulverizacoes]].
 
 ## Telefones de emergência por titular
 
