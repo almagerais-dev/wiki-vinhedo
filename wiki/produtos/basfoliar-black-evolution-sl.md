@@ -138,9 +138,10 @@ Para uma consulta de emergência envolvendo este produto, a base documental atua
 - Falta a dose por cultura e a época de aplicação.
 - Falta o número de registro de fertilizante.
 - Falta qualquer documento do **Basfoliar Black Gold**, o outro nome da pendência de 2026-09-04.
-- **Terceiro nome parecido, também não confirmado:** a pulverização de 2026-09-18 no [[setor-01]]
+- **Terceiro nome parecido, agora com documento próprio:** a pulverização de 2026-09-18 no [[setor-01]]
   registra um produto transcrito como "base foliar top" / "baixa-alheiar top" (ver
-  [[2026-09-18-macaia-setor-01-pulverizacao]] e [[fitossanidade]]). A semelhança fonética com a família
-  "Basfoliar" é evidente, mas o nome transcrito termina em "top", e este documento é do
-  "Black Evolution SL". A wiki **não** conclui que sejam o mesmo produto; a pendência de 2026-09-19
-  segue aberta e só a equipe pode resolvê-la.
+  [[2026-09-18-macaia-setor-01-pulverizacao]] e [[fitossanidade]]). A remessa de 2026-09-21 trouxe a
+  bula do [[basfoliar-top-sl]] — outro produto da mesma família, cujo nome termina justamente em "Top".
+  O candidato para esse nome passa a ser aquela página, não esta. A wiki continua **não** concluindo
+  qual produto entrou no tanque; ver [[identidade-dos-produtos-da-pulverizacao-de-2026-09-18]]. A
+  pendência de 2026-09-19 segue aberta e só a equipe pode resolvê-la.
