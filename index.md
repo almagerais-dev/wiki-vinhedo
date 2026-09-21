@@ -16,7 +16,7 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 
 - `raw/publicacoes/` — publicações em uma coleção única.
 - `raw/fichas-tecnicas/comercial/` — bulas, rótulos, FDS/FISPQ e fichas de emergência dos produtos.
-  São 20 documentos de 7 produtos (remessa 1 de 5; total previsto de 96 documentos).
+  São 40 documentos de 15 produtos (remessas 1 e 2 de 5; total previsto de 96 documentos).
 - `raw/fichas-tecnicas/biologicos/` — fichas de produtos biológicos (vazia).
 - `raw/analises/`, `raw/qualidade-uva/`, `raw/qualidade-vinho/` e `raw/consultoria/` — documentos
   consolidados, sem subdivisões.
@@ -86,6 +86,21 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 - [[assist-ec]] — adjuvante isento de registro, óleo mineral; 0,25 a 1,0% v/v na calda.
 - [[assist]] — inseticida à base de óleo mineral; **só a FDS foi recebida**, sem bula nem rótulo.
 - [[basfoliar-black-evolution-sl]] — fertilizante organomineral; **sem FDS** e sem dose por cultura.
+- [[basfoliar-top-sl]] — fertilizante bioativador com extrato de *Ecklonia maxima*; **sem FDS** e sem
+  dose por cultura.
+- [[cabrio-top]] — fungicida, metiram + piraclostrobina; míldio, oídio e ferrugem na uva; carência de
+  30 dias.
+- [[caramba]] — fungicida, metconazol; cercosporiose na uva é o único alvo registrado na cultura.
+- [[cercobin-875-wg]] — fungicida, tiofanato-metílico; mofo-cinzento na uva. **É o produto efetivamente
+  pulverizado em Macaia em setembro de 2026**; ver [[conferencia-das-aplicacoes-de-cercobin-2026]].
+- [[collis]] — fungicida, boscalida + cresoxim-metílico; oídio na uva; categoria de perigo não
+  classificado.
+- [[comet]] — fungicida, piraclostrobina; **sem registro para videira** na bula, e com duas FDS
+  divergentes.
+- [[completto]] — fungicida, bentiavalicarbe + fluazinam; míldio na uva; **carência de 40 dias**, a mais
+  longa da base.
+- [[curzate]] — fungicida, cimoxanil + mancozebe; míldio na uva a partir da brotação; **proíbe mistura
+  em tanque com qualquer outro agrotóxico**.
 
 ## Temas
 
@@ -120,13 +135,17 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 ## Hipóteses
 
 - `_modelo-hipotese` — gabarito para hipóteses.
+- [[identidade-dos-produtos-da-pulverizacao-de-2026-09-18]] — "cruzate" e "base foliar top" seriam o
+  [[curzate]] e o [[basfoliar-top-sl]] (aberta, confiança média).
 
 ## Recomendações
 
 - `_modelo-recomendacao` — gabarito para recomendações.
 - [[irrigacao-pre-e-pos-poda-2026]] — 30 mm antes da poda e 21 mm por semana depois (agronômica).
-- [[vazao-de-calda-dos-produtos-registrados-para-videira]] — as bulas pedem 750 a 1000 L/ha para uva e
+- [[vazao-de-calda-dos-produtos-registrados-para-videira]] — as bulas pedem 500 a 1000 L/ha para uva e
   as pulverizações registram 200 L/ha (agente, sugerida).
+- [[conferencia-das-aplicacoes-de-cercobin-2026]] — as oito pulverizações de Cercobin do ciclo contra a
+  bula do produto: concentração, vazão e época divergem (agente, questionada).
 
 ## Dados vivos
 
