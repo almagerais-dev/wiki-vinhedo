@@ -14,7 +14,7 @@ estagio_fenologico: null
 tags: [pulverizacao, cercobin, absolut-fix]
 fontes: [raw/registros-manejo/2026-09-18-macaia-setor-02-fertirrigacao-e-pulverizacao.md]
 granola_id: 73ef1fb1-0f27-439d-87de-6f65edfc9d21
-atualizado_em: 2026-09-19
+atualizado_em: 2026-09-21
 ---
 
 # 2026-09-16 — Pulverização com Cercobin no setor 02
@@ -22,7 +22,8 @@ atualizado_em: 2026-09-19
 ## O que aconteceu (fato)
 
 Pulverização no setor 02 em 2026-09-16, com 600 g de Cercobin e 600 ml de Absolut Fix, em 200 L de
-calda por hectare. A data é declarada como "feito no dia 16, do 9 de 2026", forma inequívoca.
+calda por hectare. A data é declarada como "feito no dia 16, do 9 de 2026", forma inequívoca. A
+ficha deste nome comercial é [[cercobin-875-wg]]. A gravação não informa a formulação.
 
 É a primeira pulverização registrada para o setor 02 desde 2026-09-02
 ([[2026-09-02-macaia-setor-01-pulverizacao-gema-algodao]] cobre o setor 01, não este). A calda

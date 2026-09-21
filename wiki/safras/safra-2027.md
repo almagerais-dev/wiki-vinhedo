@@ -54,7 +54,7 @@ fontes:
   - raw/registros-manejo/2026-09-18-macaia-setor-04-correcao-de-data.md
   - raw/registros-manejo/2026-09-18-macaia-setor-10-fertirrigacao-e-pulverizacao.md
   - raw/registros-manejo/2026-09-18-macaia-setor-nao-identificado-desbrote-e-pulverizacao.md
-atualizado_em: 2026-09-19
+atualizado_em: 2026-09-21
 ---
 
 # Safra 2027
@@ -205,8 +205,8 @@ Nesses três setores a calda volta a ser a dupla Cercobin + Absolut Fix, sem o Z
 Em 2026-09-18 o setor 01 recebe uma **terceira composição de calda** no ciclo
 ([[2026-09-18-macaia-setor-01-pulverizacao]]): 600 g de "cruzate", 800 g de "Iara Cristamag" e
 500 ml de "base foliar top" em 200 L/ha, sem Cercobin, sem Zorvec e sem Absolut Fix. Os três
-produtos são novos na wiki, nenhum tem ficha técnica no repositório e os nomes comerciais seguem
-pendentes. A data da fertirrigação do setor 02 e o setor da gravação `4fc624c1` continuam **fora**
+produtos são novos na wiki e os nomes comerciais seguem pendentes. Há ficha de [[curzate]] e de
+[[basfoliar-top-sl]]; a gravação não usa esses nomes. A data da fertirrigação do setor 02 e o setor da gravação `4fc624c1` continuam **fora**
 da linha do tempo por falta de âncora; ver as `pendencia` de 2026-09-19 em `log.md`.
 
 ## Resultados

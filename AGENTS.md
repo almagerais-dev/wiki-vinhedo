@@ -119,6 +119,9 @@ primária do evento.
 
 **Vinho** (`wiki/vinhos/`): `tipo: vinho`, `variedades`, `safras`.
 
+**Produto** (`wiki/produtos/`): `tipo: produto`. Sintetiza o documento em `raw/fichas-tecnicas/`.
+Não é fato de campo: o que a bula diz não entra em `wiki/eventos/`.
+
 **Tema** (`wiki/temas/`): `tipo: tema`.
 
 **Correlação** (`wiki/correlacoes/`): `tipo: correlacao`, `defasagem`, `confianca`, `eventos: [...]`.
@@ -167,6 +170,7 @@ wiki/
   variedades/   páginas por variedade
   safras/       hub temporal: uma página por ano
   vinhos/       páginas por produto
+  produtos/     fichas de produtos comerciais e biológicos
   temas/        solo, clima, irrigacao, nutricao, fitossanidade, poda-desfolha...
   eventos/      fatos atômicos, datados e ancorados por setor quando forem de campo
   historicos/

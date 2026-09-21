@@ -19,7 +19,7 @@ fontes:
   - raw/registros-manejo/2026-09-18-macaia-setor-10-fertirrigacao-e-pulverizacao.md
   - raw/registros-manejo/2026-09-18-macaia-setor-01-pulverizacao.md
   - raw/registros-manejo/2026-09-18-macaia-setor-nao-identificado-desbrote-e-pulverizacao.md
-atualizado_em: 2026-09-19
+atualizado_em: 2026-09-21
 ---
 
 # Fitossanidade
@@ -84,15 +84,16 @@ da gravação carrega o mesmo erro. Não há algodão em Macaia; ver a nota na f
 
 ## Nomenclatura dos produtos
 
-Cercobin (tiofanato-metílico), Civant Prime e Absolut Fix aparecem pela primeira vez na wiki nestas
-gravações. Nenhum deles tem ficha técnica em `raw/fichas-tecnicas/`, e as transcrições não trazem
-concentração nem formulação. O Zorvec entra na wiki em 2026-09-14, também sem ficha técnica.
+Cercobin, Civant Prime e Absolut Fix aparecem pela primeira vez na wiki nestas gravações. A ficha
+de [[cercobin-875-wg]] está no repositório; as transcrições não trazem formulação, e o evento
+continua dizendo Cercobin, como a fonte. Civant Prime e Absolut Fix seguem sem ficha. O Zorvec
+entra na wiki em 2026-09-14, também sem ficha técnica.
 
 Os três produtos da pulverização de 2026-09-18 no setor 01 entram na wiki sem nome comercial
-resolvido. As duas gravações da sessão os grafam de formas diferentes — "cruzate"/"Cruzate",
-"Iara Cristamag"/"ara cristal mag", "base foliar top"/"baixa-alheiar top" — e nenhum tem ficha
-técnica no repositório. A wiki mantém as grafias da fonte e não escolhe um nome; ver a `pendencia`
-de 2026-09-19.
+resolvido. As duas gravações os grafam de formas diferentes — "cruzate"/"Cruzate",
+"Iara Cristamag"/"ara cristal mag", "base foliar top"/"baixa-alheiar top". Há ficha de [[curzate]]
+e de [[basfoliar-top-sl]]; nenhuma grafia da fonte é o nome impresso nesses documentos, e a wiki não
+escolhe um nome. Ver a `pendencia` de 2026-09-19.
 
 O inseticida é grafado "Civant Prime" nas gravações de 2026-09-03 e "silvanto prime" na de
 2026-09-15. Nenhuma das duas formas é um nome comercial conhecido, e a wiki mantém as duas como

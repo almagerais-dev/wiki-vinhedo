@@ -14,7 +14,7 @@ estagio_fenologico: null
 tags: [pulverizacao, cercobin, absolut-fix]
 fontes: [raw/registros-manejo/2026-09-11-macaia-setores-06-07-pulverizacao.md]
 granola_id: 891dc4b7-bce7-4c90-aa43-bad711d87ff5
-atualizado_em: 2026-09-12
+atualizado_em: 2026-09-21
 ---
 
 # 2026-09-10 — Pulverização nos setores 06 e 07
@@ -22,7 +22,8 @@ atualizado_em: 2026-09-12
 ## O que aconteceu (fato)
 
 Pulverização nos setores 06 e 07 com 600 g de Cercobin e 600 ml de Absoluto Fix, em 200 L de calda
-por hectare, na data "dia 10 do 9 de 2026".
+por hectare, na data "dia 10 do 9 de 2026". A ficha deste nome comercial é [[cercobin-875-wg]]. A
+gravação não informa a formulação.
 
 É a primeira pulverização com evento próprio nestes setores. A de 2026-09-02, relatada na mesma
 gravação que a fertirrigação de `001b16e3`, ficou sem evento por data impossível e a pendência
