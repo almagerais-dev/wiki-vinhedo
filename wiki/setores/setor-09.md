@@ -58,7 +58,7 @@ Do mais recente para o mais antigo:
 
 ## Correlações e hipóteses
 
-_Links para interpretações relacionadas. Os fatos permanecem nos eventos e históricos mensais._
+- [[conferencia-das-aplicacoes-de-cercobin-2026]] — conferência da pulverização de Cercobin deste setor contra a bula do produto (dose, vazão e época).
 
 ## Fontes cadastrais
 

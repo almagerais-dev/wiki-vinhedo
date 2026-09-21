@@ -1,7 +1,7 @@
 ---
 tipo: tema
 titulo: Fitossanidade
-tags: [fitossanidade, pulverizacao, gema-algodao, cercobin, civant-prime, absolut-fix, zorvec, produto-pendente]
+tags: [fitossanidade, pulverizacao, gema-algodao, cercobin, civant-prime, absolut-fix, zorvec, produto-pendente, conferencia-de-aplicacao]
 fontes:
   - raw/registros-manejo/2026-09-03-macaia-setor-01-pulverizacao-gema-algodao.md
   - raw/registros-manejo/2026-09-03-macaia-setores-05-08-fertirrigacao-e-pulverizacao.md
@@ -19,7 +19,10 @@ fontes:
   - raw/registros-manejo/2026-09-18-macaia-setor-10-fertirrigacao-e-pulverizacao.md
   - raw/registros-manejo/2026-09-18-macaia-setor-01-pulverizacao.md
   - raw/registros-manejo/2026-09-18-macaia-setor-nao-identificado-desbrote-e-pulverizacao.md
-atualizado_em: 2026-09-19
+  - raw/fichas-tecnicas/comercial/cercobin-875-wg-bula.pdf
+  - raw/fichas-tecnicas/comercial/curzate-bula.pdf
+  - raw/fichas-tecnicas/comercial/basfoliar-top-sl-bula.pdf
+atualizado_em: 2026-09-21
 ---
 
 # Fitossanidade
@@ -89,17 +92,31 @@ gravações. Nenhum deles tem ficha técnica em `raw/fichas-tecnicas/`, e as tra
 concentração nem formulação. O Zorvec entra na wiki em 2026-09-14, também sem ficha técnica.
 
 Desde 2026-09-21 existe uma base documental de produtos em `raw/fichas-tecnicas/comercial/`,
-catalogada em [[catalogo-produtos]]. Ela **não** cobre nenhum dos produtos pulverizados acima: os
-documentos recebidos são de Aliette, Amistar Top, Avatar, Alion, Abamectin 72 EC Nortox, Assist,
-Assist EC e Basfoliar Black Evolution SL. Vale registrar que dois dos fungicidas catalogados
-([[aliette]] e [[amistar-top]]) têm míldio da videira como alvo registrado, e que nenhuma gravação
-declara contra o que as caldas de Macaia foram aplicadas — não há como cruzar alvo com produto.
+catalogada em [[catalogo-produtos]]. A primeira remessa não cobria nenhum dos produtos pulverizados
+acima; a segunda, arquivada no mesmo dia, **trouxe a bula do Cercobin** —
+[[cercobin-875-wg]] — e com ela o primeiro cruzamento possível entre documento e histórico de campo.
+O resultado está em [[conferencia-das-aplicacoes-de-cercobin-2026]]: na uva, o único alvo registrado
+do produto é mofo-cinzento (*Botrytis cinerea*), a dose é de 50 a 70 g/100 L de água, a vazão é de 500
+a 1000 L/ha, o limite é de 3 aplicações e a época começa "no início da formação dos cachos" — depois
+do estágio em que as oito aplicações ocorreram.
+
+Civant Prime, Absolut Fix e Zorvec continuam sem ficha técnica, e é por isso que **nenhuma calda do
+ciclo pode ser conferida por inteiro**: a bula do Cercobin não prevê mistura em tanque com nenhum
+produto, e sem os documentos dos acompanhantes não há como classificar a calda em compatível ou
+incompatível. Vale registrar também que nenhuma gravação declara contra o que as caldas foram
+aplicadas — não há como cruzar alvo com produto.
 
 Os três produtos da pulverização de 2026-09-18 no setor 01 entram na wiki sem nome comercial
 resolvido. As duas gravações da sessão os grafam de formas diferentes — "cruzate"/"Cruzate",
 "Iara Cristamag"/"ara cristal mag", "base foliar top"/"baixa-alheiar top" — e nenhum tem ficha
 técnica no repositório. A wiki mantém as grafias da fonte e não escolhe um nome; ver a `pendencia`
 de 2026-09-19.
+
+A remessa de documentos de 2026-09-21 trouxe bulas de dois produtos cujos nomes se aproximam de dois
+desses três: [[curzate]] (fungicida de cimoxanil e mancozebe, registrado para míldio na uva) e
+[[basfoliar-top-sl]] (fertilizante foliar). A aproximação é registrada como hipótese em
+[[identidade-dos-produtos-da-pulverizacao-de-2026-09-18]] e **não** resolve a pendência: documento com
+nome parecido não confirma qual produto entrou no tanque. "Iara Cristamag" continua sem candidato.
 
 O inseticida é grafado "Civant Prime" nas gravações de 2026-09-03 e "silvanto prime" na de
 2026-09-15. Nenhuma das duas formas é um nome comercial conhecido, e a wiki mantém as duas como
@@ -133,8 +150,14 @@ Absoluto Fixo, Absolut Fix.
 
 ## Interpretações relacionadas
 
+- [[conferencia-das-aplicacoes-de-cercobin-2026]] — conferência das oito pulverizações de Cercobin
+  contra a bula do produto, que chegou à base documental em 2026-09-21. Divergem a concentração da
+  calda (300 g/100 L contra 50 a 70 g/100 L), a vazão e a época (a bula manda iniciar na formação dos
+  cachos, e as aplicações foram na brotação). Recomendação do agente, ainda sem avaliação da
+  agronomia.
 - [[vazao-de-calda-dos-produtos-registrados-para-videira]] — as pulverizações registradas usam 200 L
   de calda/ha, e as bulas dos fungicidas e do inseticida registrados para uva na base documental
-  fixam 750 a 1000 L/ha. Recomendação do agente, ainda sem avaliação da agronomia.
-
-_Nenhuma correlação ou hipótese registrada._
+  fixam 500 a 1000 L/ha. Recomendação do agente, ainda sem avaliação da agronomia.
+- [[identidade-dos-produtos-da-pulverizacao-de-2026-09-18]] — hipótese `aberta`, confiança `media`:
+  os produtos grafados "cruzate" e "base foliar top" seriam o [[curzate]] e o [[basfoliar-top-sl]],
+  ambos documentados desde 2026-09-21. A pendência de nome de 2026-09-19 continua aberta.

@@ -51,4 +51,6 @@ A **fertirrigação** relatada na mesma gravação não gerou evento: sua única
 
 ## Interpretações relacionadas
 
-_Nenhuma registrada._ Ver [[fitossanidade]] para o conjunto das pulverizações do ciclo.
+Conferência da dose, da vazão e da época desta aplicação contra a bula do [[cercobin-875-wg]]: [[conferencia-das-aplicacoes-de-cercobin-2026]].
+
+Ver [[fitossanidade]] para o conjunto das pulverizações do ciclo.
