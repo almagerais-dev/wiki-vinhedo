@@ -15,7 +15,9 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 ## Fontes brutas
 
 - `raw/publicacoes/` — publicações em uma coleção única.
-- `raw/fichas-tecnicas/comercial/` e `raw/fichas-tecnicas/biologicos/` — fichas de produtos.
+- `raw/fichas-tecnicas/comercial/` — bulas, rótulos, FDS/FISPQ e fichas de emergência dos produtos.
+  São 20 documentos de 7 produtos (remessa 1 de 5; total previsto de 96 documentos).
+- `raw/fichas-tecnicas/biologicos/` — fichas de produtos biológicos (vazia).
 - `raw/analises/`, `raw/qualidade-uva/`, `raw/qualidade-vinho/` e `raw/consultoria/` — documentos
   consolidados, sem subdivisões.
 - `raw/registros-manejo/` e `raw/registros-ciclos-videira/` — registros datados de campo. São 48
@@ -70,6 +72,21 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 
 - `_modelo-vinho` — gabarito para páginas de vinho.
 
+## Produtos
+
+- [[catalogo-produtos]] — **entrada da base documental dos produtos**: o que está arquivado, quem tem
+  registro para videira, doses, carências, restrições que atravessam produtos e telefones de
+  emergência.
+- `_modelo-produto` — gabarito para páginas de produto.
+- [[aliette]] — fungicida, fosetil-Al; míldio na videira; incompatível com óxido cuproso, MAP e DAP.
+- [[amistar-top]] — fungicida, azoxistrobina + difenoconazol; míldio na uva; FRAC C3 e G1.
+- [[avatar]] — inseticida, indoxacarbe; traça-dos-cachos na uva; carência de 21 dias.
+- [[alion]] — herbicida pré-emergente, indaziflam; uma aplicação por ano; exige planta com 3 anos.
+- [[abamectin-72-ec-nortox]] — acaricida/inseticida, abamectina; **sem registro para videira** na bula.
+- [[assist-ec]] — adjuvante isento de registro, óleo mineral; 0,25 a 1,0% v/v na calda.
+- [[assist]] — inseticida à base de óleo mineral; **só a FDS foi recebida**, sem bula nem rótulo.
+- [[basfoliar-black-evolution-sl]] — fertilizante organomineral; **sem FDS** e sem dose por cultura.
+
 ## Temas
 
 - `_modelo-tema` — gabarito para páginas de tema.
@@ -120,6 +137,8 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 
 - `.cursor/skills/ingerir-gravacoes-granola/` — procedimento de ingestão das gravações do Granola.
 - `.cursor/skills/consultar-historico-setorial/` — consulta ao histórico de setores e ruas.
+- `.cursor/skills/consultar-produtos-e-aplicacoes/` — consulta à base documental dos produtos,
+  conferência de aplicações e caldas, e resposta a perguntas de segurança e emergência.
 
 ## Ferramentas
 

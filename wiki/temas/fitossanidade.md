@@ -88,6 +88,13 @@ Cercobin (tiofanato-metílico), Civant Prime e Absolut Fix aparecem pela primeir
 gravações. Nenhum deles tem ficha técnica em `raw/fichas-tecnicas/`, e as transcrições não trazem
 concentração nem formulação. O Zorvec entra na wiki em 2026-09-14, também sem ficha técnica.
 
+Desde 2026-09-21 existe uma base documental de produtos em `raw/fichas-tecnicas/comercial/`,
+catalogada em [[catalogo-produtos]]. Ela **não** cobre nenhum dos produtos pulverizados acima: os
+documentos recebidos são de Aliette, Amistar Top, Avatar, Alion, Abamectin 72 EC Nortox, Assist,
+Assist EC e Basfoliar Black Evolution SL. Vale registrar que dois dos fungicidas catalogados
+([[aliette]] e [[amistar-top]]) têm míldio da videira como alvo registrado, e que nenhuma gravação
+declara contra o que as caldas de Macaia foram aplicadas — não há como cruzar alvo com produto.
+
 Os três produtos da pulverização de 2026-09-18 no setor 01 entram na wiki sem nome comercial
 resolvido. As duas gravações da sessão os grafam de formas diferentes — "cruzate"/"Cruzate",
 "Iara Cristamag"/"ara cristal mag", "base foliar top"/"baixa-alheiar top" — e nenhum tem ficha

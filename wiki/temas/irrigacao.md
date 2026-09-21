@@ -74,6 +74,12 @@ os dois nomes comerciais. É a primeira fertirrigação ancorada do [[setor-04]]
 [[setor-10]], sete dias depois da de 2026-09-09. A do [[setor-02]] da mesma sessão tem data
 impossível e não gerou evento.
 
+Em 2026-09-21 entrou na base documental a ficha de um produto da mesma linha,
+[[basfoliar-black-evolution-sl]], que confirma a existência de um "Basfoliar Black Evolution SL" e
+torna plausível — sem provar — que seja ele o "Black Evoluto" das gravações. Não há documento do
+Basfoliar Black Gold, e a ficha recebida **não traz dose**, portanto nada nela confere o 1 L/ha
+registrado acima. A pendência de 2026-09-04 segue aberta.
+
 ## Lacunas
 
 - A fertirrigação do [[setor-01]] é descrita como "a segunda"; a primeira não foi gravada.

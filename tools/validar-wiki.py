@@ -9,6 +9,8 @@ Verifica o que dá para verificar por máquina, sem julgar conteúdo:
   gabarito (`[[<setor>]]`) e os exemplos do `AGENTS.md` ficam fora da conferência;
 - páginas factuais (`evento`, `historico-mensal-setor`) trazem as âncoras temporais obrigatórias;
 - eventos de campo citam ao menos um setor e ao menos uma fonte;
+- páginas de `produto` declaram o nome comercial, a função, se há registro para videira e quais
+  documentos estão arquivados — sem esses campos a página não diz o alcance da própria resposta;
 - caminhos listados em `fontes` que apontam para `raw/` ou `dados-vivos/` existem.
 
 Uso: `python3 tools/validar-wiki.py` na raiz do repositório. Sai com código 1 se houver erro.
@@ -31,6 +33,14 @@ ESTAGIOS = {
     "dormencia", "brotacao", "floracao", "pegamento", "crescimento-baga",
     "veraison", "maturacao", "colheita", "pos-colheita", "null", "None",
 }
+
+CAMPOS_PRODUTO = ["nome_comercial", "funcao", "registrado_para_videira", "documentos_disponiveis"]
+FUNCOES_PRODUTO = {
+    "fungicida", "inseticida", "acaricida", "herbicida", "adjuvante", "fertilizante", "outro",
+    "acaricida e inseticida",
+}
+REGISTRO_VIDEIRA = {"sim", "nao", "nao-aplicavel", "indeterminado"}
+EXTENSOES_DE_FONTE = (".md", ".geojson", ".json", ".png", ".pdf")
 
 erros: list[str] = []
 avisos: list[str] = []
@@ -132,8 +142,26 @@ def main() -> int:
             if setor and setor != caminho.parent.name:
                 erros.append(f"{rel}: setor `{setor}` fora do diretório `{caminho.parent.name}`")
 
+        if tipo == "produto" and not gabarito:
+            for campo in CAMPOS_PRODUTO:
+                if campo not in campos:
+                    erros.append(f"{rel}: produto sem o campo obrigatório `{campo}`")
+
+            funcao = campos.get("funcao", "")
+            if funcao and funcao not in FUNCOES_PRODUTO:
+                erros.append(f"{rel}: funcao inválida -> {funcao}")
+
+            registro = campos.get("registrado_para_videira", "")
+            if registro and registro not in REGISTRO_VIDEIRA:
+                erros.append(f"{rel}: registrado_para_videira inválido -> {registro}")
+
+            if campos.get("fontes", "[]") == "[]":
+                erros.append(f"{rel}: produto sem fonte documental")
+            if campos.get("documentos_disponiveis", "[]") == "[]":
+                erros.append(f"{rel}: produto sem `documentos_disponiveis`")
+
         for referencia in re.findall(r"(raw/[\w\-./]+|dados-vivos/[\w\-./]+)", texto):
-            if referencia.endswith((".md", ".geojson", ".json", ".png")) and not (RAIZ / referencia).exists():
+            if referencia.endswith(EXTENSOES_DE_FONTE) and not (RAIZ / referencia).exists():
                 erros.append(f"{rel}: fonte citada não existe -> {referencia}")
 
     for aviso in avisos:
