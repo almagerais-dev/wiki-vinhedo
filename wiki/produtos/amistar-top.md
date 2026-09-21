@@ -69,7 +69,13 @@ pulverização."
 
 Pontos a observar:
 
-- A bula fornece a dose nas duas unidades (por 100 L e por hectare), o que dispensa conversão.
+- A bula fornece a dose nas duas unidades (por 100 L e por hectare), mas elas **não** são equivalentes
+  na vazão que ela própria fixa: 40 a 60 mL/100 L a 800 L/ha dão 320 a 480 mL/ha, e a coluna por
+  hectare diz 400 a 600 mL/ha. A conta é do agente sobre números do documento; a bula não explica a
+  diferença e a wiki não escolhe uma das duas unidades.
+- A vazão de 800 L/ha é muito acima dos 200 L/ha que as pulverizações de Macaia vêm registrando, e
+  como a dose também é dada por 100 L de água, a vazão adotada muda a quantidade de produto por
+  hectare. Ver [[vazao-de-calda-dos-produtos-registrados-para-videira]].
 - "30 DAE" não é explicado na bula. A wiki não traduz a sigla nem a converte para um estágio do
   vocabulário de `estagio_fenologico` do `AGENTS.md`.
 - A instrução "intercalar fungicida(s) de outro(s) grupo(s) químico(s)" é uma exigência de manejo de

@@ -69,6 +69,10 @@ Pontos a observar:
 - O intervalo de segurança da uva — **21 dias** — é o mais longo entre os produtos registrados para a
   cultura nesta remessa, e um dos mais longos da tabela do próprio produto (só milheto, milho e sorgo,
   com 30 dias, são maiores).
+- A dose é dada por hectare, e não por 100 L, então a vazão não altera a quantidade de produto por
+  hectare. Mesmo assim, os 750 a 900 L de água/ha da bula estão muito acima dos 200 L/ha das
+  pulverizações registradas em Macaia. Ver
+  [[vazao-de-calda-dos-produtos-registrados-para-videira]].
 
 ## Outras culturas registradas
 

@@ -133,4 +133,8 @@ Absoluto Fixo, Absolut Fix.
 
 ## Interpretações relacionadas
 
+- [[vazao-de-calda-dos-produtos-registrados-para-videira]] — as pulverizações registradas usam 200 L
+  de calda/ha, e as bulas dos fungicidas e do inseticida registrados para uva na base documental
+  fixam 750 a 1000 L/ha. Recomendação do agente, ainda sem avaliação da agronomia.
+
 _Nenhuma correlação ou hipótese registrada._

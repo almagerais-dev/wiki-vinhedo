@@ -125,6 +125,8 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 
 - `_modelo-recomendacao` — gabarito para recomendações.
 - [[irrigacao-pre-e-pos-poda-2026]] — 30 mm antes da poda e 21 mm por semana depois (agronômica).
+- [[vazao-de-calda-dos-produtos-registrados-para-videira]] — as bulas pedem 750 a 1000 L/ha para uva e
+  as pulverizações registram 200 L/ha (agente, sugerida).
 
 ## Dados vivos
 

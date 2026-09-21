@@ -75,6 +75,14 @@ Itens que uma conferência de calendário precisa cruzar, todos escritos nos doc
   corpos d'água em aplicação terrestre.
 - **[[avatar]]** — "Produto perigoso para abelhas"; aplicar no fim da tarde ou à noite. Não aplicar em
   cultura sob estresse, inclusive por temperaturas muito baixas (geada).
+- **Vazão de calda** — as bulas fixam, para uva, 1000 L/ha ([[aliette]]), 800 L/ha ([[amistar-top]]) e
+  750 a 900 L/ha ([[avatar]]), enquanto as pulverizações registradas em Macaia usam 200 L/ha. Como a
+  dose do Aliette e do Amistar Top é expressa por 100 L de água, a vazão adotada muda a quantidade de
+  produto por hectare. Ver [[vazao-de-calda-dos-produtos-registrados-para-videira]].
+- **Janela meteorológica** — todos os produtos com bula nesta base trazem condições para aplicação
+  terrestre. A mais estreita é a do [[abamectin-72-ec-nortox]] (máximo 28 °C, UR mínima de 70%, vento
+  de 2 a 10 km/h); [[aliette]], [[amistar-top]], [[avatar]] e [[alion]] pedem temperatura abaixo de
+  30 °C e umidade acima de 55%. Números atuais saem da estação em `dados-vivos/`.
 
 ## Telefones de emergência por titular
 

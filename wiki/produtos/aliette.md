@@ -64,6 +64,9 @@ Pontos a observar nesse quadro:
   valor do intervalo de segurança. A bula não diz se as duas aplicações contam por ciclo, por safra
   ou por ano-calendário para a videira; nas outras culturas ela escreve "por ciclo da cultura".
 - A bula não declara o estágio fenológico além de "a partir da emissão das brotações".
+- A vazão de 1000 L/ha da linha é cinco vezes os 200 L/ha das pulverizações registradas em Macaia, e
+  como a dose é por 100 L de água, a vazão adotada muda a quantidade de produto por hectare. Ver
+  [[vazao-de-calda-dos-produtos-registrados-para-videira]].
 
 ## Outras culturas registradas
 
