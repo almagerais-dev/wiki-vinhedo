@@ -9,8 +9,8 @@ codigo_resistencia: FRAC C3 (azoxistrobina) e FRAC G1 (difenoconazol)
 formulacao: SC (suspensão concentrada)
 registro_mapa: "03809"
 titular_registro: Syngenta Proteção de Cultivos Ltda.
-classe_toxicologica: null
-classe_ambiental: null
+classe_toxicologica: categoria 5 - produto improvável de causar dano agudo
+classe_ambiental: classe II - produto muito perigoso ao meio ambiente
 registrado_para_videira: sim
 culturas_registradas: [uva, e-mais-de-70-outras-culturas]
 documentos_disponiveis: [bula, fispq, ficha-emergencia]
@@ -42,8 +42,11 @@ Fungicida sistêmico com registro para uva. Integra a base documental de [[catal
   60.744.463/0001-90, identificada como importadora do produto formulado.
 - **Nome na ficha de emergência:** "AMISTAR TOP 325 SC" — a ficha de emergência usa uma designação
   com a concentração no nome, enquanto a bula traz apenas "AMISTAR TOP®".
-- **Classificações toxicológica e ambiental:** não aparecem no trecho de bula recebido (a página de
-  rótulo, que normalmente as traz, não está entre os documentos disponíveis).
+- **Classificação toxicológica:** "CATEGORIA 5 – PRODUTO IMPROVÁVEL DE CAUSAR DANO AGUDO". A bula
+  repete o dado nas informações médicas: "Classe toxicológica Categoria 5: Produto improvável de
+  causar dano agudo".
+- **Classificação ambiental:** "CLASSE II - PRODUTO MUITO PERIGOSO AO MEIO AMBIENTE". É a
+  classificação ambiental mais severa entre os produtos com registro para videira desta remessa.
 
 ## Uso na videira
 
@@ -185,8 +188,8 @@ O rótulo não está entre os documentos recebidos para este produto.
 
 ## Lacunas
 
-- Sem rótulo: classificação toxicológica e classificação do potencial de periculosidade ambiental do
-  produto formulado não constam dos documentos disponíveis.
+- Sem rótulo entre os documentos disponíveis. As classificações toxicológica e ambiental, porém, não
+  faltam: a bula recebida traz o bloco de rótulo que as declara.
 - A bula não explica a sigla "DAE" usada na época de aplicação da uva.
 - Nenhuma mistura de calda é documentada para a videira.
 - Não há registro de aplicação de Amistar Top em Macaia; ver [[fitossanidade]].

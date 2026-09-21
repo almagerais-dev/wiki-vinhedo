@@ -9,8 +9,8 @@ codigo_resistencia: IRAC grupo 22A
 formulacao: EC (concentrado emulsionável)
 registro_mapa: "1415"
 titular_registro: FMC Química do Brasil Ltda.
-classe_toxicologica: null
-classe_ambiental: null
+classe_toxicologica: categoria 4 - produto pouco tóxico
+classe_ambiental: classe III - produto perigoso ao meio ambiente
 registrado_para_videira: sim
 culturas_registradas: [uva, e-mais-de-30-outras-culturas]
 documentos_disponiveis: [bula, fds, ficha-emergencia]
@@ -38,8 +38,9 @@ documental de [[catalogo-produtos]].
 - **Formulação:** concentrado emulsionável (EC).
 - **Titular do registro:** FMC Química do Brasil Ltda., Campinas/SP, CNPJ 04.136.367/0001-98,
   identificada como importadora do produto formulado.
-- **Classificações toxicológica e ambiental:** não constam do trecho de bula recebido; o rótulo não
-  está entre os documentos disponíveis.
+- **Classificação toxicológica:** "CATEGORIA 4 – PRODUTO POUCO TÓXICO".
+- **Classificação ambiental:** "CLASSE III - PRODUTO PERIGOSO AO MEIO AMBIENTE". Cor da faixa do
+  rótulo indicada na bula: azul PMS Blue 293 C.
 
 ## Uso na videira
 
@@ -195,8 +196,8 @@ O rótulo não está entre os documentos recebidos para este produto. A ficha de
 
 ## Lacunas
 
-- Sem rótulo: classificação toxicológica e classe de periculosidade ambiental do formulado não
-  constam dos documentos disponíveis.
+- Sem rótulo entre os documentos disponíveis, embora a bula recebida traga o bloco de rótulo com as
+  classificações toxicológica e ambiental.
 - Nenhuma mistura de calda é documentada.
 - A traça-dos-cachos é o único alvo registrado para uva; os documentos não cobrem outras pragas da
   videira.

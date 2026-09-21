@@ -55,7 +55,7 @@ skill `.cursor/skills/consultar-produtos-e-aplicacoes/SKILL.md`.
 |---|---|---|---|
 | [[assist]] | Inseticida (óleo mineral) | Bula e rótulo | Sem cultura, dose, alvo, carência ou número de aplicações consultáveis. A FDS cobre apenas segurança |
 | [[basfoliar-black-evolution-sl]] | Fertilizante | FDS | Sem nenhuma orientação de segurança ou emergência nesta base |
-| [[abamectin-72-ec-nortox]], [[amistar-top]], [[avatar]] | — | Rótulo | Classificação toxicológica e/ou ambiental do formulado ausente em parte dos casos |
+| [[abamectin-72-ec-nortox]], [[amistar-top]], [[avatar]] | — | Rótulo | As bulas recebidas trazem o bloco de rótulo com as classificações toxicológica e ambiental; falta a lista de culturas registradas na forma do rótulo, usada como conferência independente da bula |
 | [[aliette]], [[assist]], [[assist-ec]] | — | Ficha de emergência | Sem número ONU, número de risco e grupo de embalagem para transporte |
 
 ## Restrições documentadas que atravessam produtos
