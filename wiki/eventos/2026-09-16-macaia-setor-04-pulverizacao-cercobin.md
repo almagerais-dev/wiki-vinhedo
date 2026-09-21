@@ -16,7 +16,7 @@ fontes:
   - raw/registros-manejo/2026-09-18-macaia-setor-04-fertirrigacao-e-pulverizacao.md
   - raw/registros-manejo/2026-09-18-macaia-setor-04-correcao-de-data.md
 granola_id: 0086cec6-f62a-4fdd-857c-3c4f3619cf34
-atualizado_em: 2026-09-19
+atualizado_em: 2026-09-21
 ---
 
 # 2026-09-16 — Pulverização com Cercobin no setor 04
@@ -25,7 +25,7 @@ atualizado_em: 2026-09-19
 
 Pulverização no setor 04 em 2026-09-16, com 600 g/ha de Cercobin e 600 ml de Absolut Fix (grafado
 "absoluto fixo"), em 200 L de calda por hectare. É a **primeira pulverização registrada** do setor
-04 no ciclo.
+04 no ciclo. A ficha deste nome comercial é [[cercobin-875-wg]]. A gravação não informa a formulação.
 
 A data segue a correção de `004a2641`, que cobre as duas operações desta gravação — ver
 [[2026-09-16-macaia-setor-04-fertirrigacao-map]] para o detalhe da correção.

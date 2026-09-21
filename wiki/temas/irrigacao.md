@@ -23,7 +23,7 @@ fontes:
   - raw/registros-manejo/2026-09-18-macaia-setor-04-correcao-de-data.md
   - raw/registros-manejo/2026-09-18-macaia-setor-10-fertirrigacao-e-pulverizacao.md
   - raw/registros-manejo/2026-09-18-macaia-setor-02-fertirrigacao-e-pulverizacao.md
-atualizado_em: 2026-09-19
+atualizado_em: 2026-09-21
 ---
 
 # Irrigação e fertirrigação
@@ -56,7 +56,8 @@ foi executada.
 A dose de MAP é constante (15 g por planta) e o coadjuvante foliar entra sempre a 1 L/ha, em todas
 as fertirrigações registradas até agora. As gravações citam dois nomes comerciais — Basfoliar Black
 Evoluto e Basfoliar Black Gold — e a wiki mantém cada um como foi dito, sem presumir que sejam o
-mesmo produto.
+mesmo produto. Há fichas de [[basfoliar-black-evolution-sl]] e [[basfoliar-top-sl]]. Nenhuma das
+grafias de campo é o nome desses documentos, e a wiki não as iguala.
 
 Nas gravações de setembro, porém, a transcrição mistura os dois: "Black Gold Evolut", "Black Gold
 Evolute", "Black Gold Evolutum" e "Black Evolut Purectar". Nenhuma dessas quatro grafias permite

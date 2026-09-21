@@ -133,7 +133,7 @@ def main() -> int:
                 erros.append(f"{rel}: setor `{setor}` fora do diretório `{caminho.parent.name}`")
 
         for referencia in re.findall(r"(raw/[\w\-./]+|dados-vivos/[\w\-./]+)", texto):
-            if referencia.endswith((".md", ".geojson", ".json", ".png")) and not (RAIZ / referencia).exists():
+            if referencia.endswith((".md", ".geojson", ".json", ".png", ".pdf")) and not (RAIZ / referencia).exists():
                 erros.append(f"{rel}: fonte citada não existe -> {referencia}")
 
     for aviso in avisos:

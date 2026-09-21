@@ -1,6 +1,6 @@
 ---
 tipo: indice
-atualizado_em: 2026-09-16
+atualizado_em: 2026-09-21
 ---
 
 # Índice da wiki-vinhedo
@@ -69,6 +69,28 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 ## Vinhos
 
 - `_modelo-vinho` — gabarito para páginas de vinho.
+
+## Produtos
+
+Fichas dos 40 PDFs em `raw/fichas-tecnicas/comercial/`. O que a bula diz não é aplicação de campo.
+
+- [[_modelo-produto]] — gabarito.
+- [[abamectin-72-ec-nortox]] — acaricida e inseticida; a bula não lista uva.
+- [[aliette]] — fungicida; míldio em videira.
+- [[alion]] — herbicida; pré-emergência em uva.
+- [[amistar-top]] — fungicida; míldio em uva.
+- [[assist]] — inseticida; só a FDS, sem bula.
+- [[assist-ec]] — adjuvante, isento de registro.
+- [[avatar]] — inseticida; traça-dos-cachos em uva.
+- [[basfoliar-black-evolution-sl]] — fertilizante; sem dose no documento.
+- [[basfoliar-top-sl]] — fertilizante; sem dose no documento.
+- [[cabrio-top]] — fungicida; oídio, míldio e ferrugem em uva.
+- [[caramba]] — fungicida; cercospora em uva.
+- [[cercobin-875-wg]] — fungicida; mofo-cinzento em uva.
+- [[collis]] — fungicida; oídio em uva.
+- [[comet]] — fungicida; a bula não lista uva. Duas FDS.
+- [[completto]] — fungicida; míldio em uva.
+- [[curzate]] — fungicida; míldio em uva.
 
 ## Temas
 

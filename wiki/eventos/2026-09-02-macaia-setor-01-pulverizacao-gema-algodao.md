@@ -14,7 +14,7 @@ estagio_fenologico: null
 tags: [pulverizacao, gema-algodao, cercobin, civant-prime, absolut-fix]
 fontes: [raw/registros-manejo/2026-09-03-macaia-setor-01-pulverizacao-gema-algodao.md]
 granola_id: 786405af-4b5c-4635-aeb0-b1e9cde434f8
-atualizado_em: 2026-09-04
+atualizado_em: 2026-09-21
 ---
 
 # 2026-09-02 — Pulverização de gema algodão no setor 01
@@ -22,7 +22,8 @@ atualizado_em: 2026-09-04
 ## O que aconteceu (fato)
 
 Pulverização no setor 01 com 600 g de Cercobin, 500 ml de Civant Prime e 600 ml de Absolut Fix, em
-200 L de calda por hectare. A fonte situa a operação no estágio que chama de "gema algodão".
+200 L de calda por hectare. A fonte situa a operação no estágio que chama de "gema algodão". A ficha
+deste nome comercial é [[cercobin-875-wg]]. A gravação não informa a formulação.
 
 Primeira pulverização fitossanitária registrada na wiki e primeira operação registrada no setor 01
 depois da fertirrigação de 2026-08-28 ([[2026-08-28-macaia-setor-01-segunda-fertirrigacao-map]]).
