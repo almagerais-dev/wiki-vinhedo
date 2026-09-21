@@ -1,0 +1,50 @@
+# Asserções de fidelidade de wiki/produtos/basfoliar-top-sl.md
+# formato: arquivo.pdf | presente|ausente | o que a wiki afirma | trecho que precisa (ou não pode) constar
+
+basfoliar-top-sl-bula.pdf | presente | declaracao: fertilizante bioativador | Declaração Fertilizante bioativador
+basfoliar-top-sl-bula.pdf | presente | linha do fabricante: bioativadores | Basfoliar® Top SL Bioativadores
+basfoliar-top-sl-bula.pdf | presente | modo de aplicacao via foliar | Modo de aplicação via Foliar
+basfoliar-top-sl-bula.pdf | presente | forma: fertilizante liquido em solucao | Fertilizante líquido em solução
+basfoliar-top-sl-bula.pdf | presente | liquido, translucido e homogeneo, de facil manejo | Líquido, translúcido e homogêneo, de fácil manejo
+basfoliar-top-sl-bula.pdf | presente | 3,0% de N soluvel em agua | 3,0 % N nitrogênio solúvel em água
+basfoliar-top-sl-bula.pdf | presente | 1,5% de P2O5 soluvel em agua | 1,5 % P2O5 fósforo solúvel em água
+basfoliar-top-sl-bula.pdf | presente | 0,03% de K2O soluvel em agua | 0,03 % K2O potássio solúvel em água
+basfoliar-top-sl-bula.pdf | presente | extrato da alga Ecklonia maxima processada em seu estado natural | Extrato da Alga Ecklonia maxima, processada em seu estado natural
+basfoliar-top-sl-bula.pdf | presente | micronizacao a frio e suave sem produtos quimicos | micronização a frio e suave sem produtos químicos
+basfoliar-top-sl-bula.pdf | presente | padronizacao de cada lote para o conteudo ideal de auxina | padronização de cada lote para o conteúdo ideal de auxina
+basfoliar-top-sl-bula.pdf | presente | apresentacao em frasco de 1 L e de 5 L | frasco de 1 l frasco de 5 l
+basfoliar-top-sl-bula.pdf | presente | site do fabricante Compo Expert | www.compo-expert.com
+basfoliar-top-sl-bula.pdf | presente | data do documento 17.09.2024 | Data 17.09.2024
+basfoliar-top-sl-bula.pdf | presente | documento de quatro paginas | Página 4 · Data 17.09.2024
+
+# alegacao de compatibilidade: a wiki cita a frase exata e recusa generalizar a partir dela
+basfoliar-top-sl-bula.pdf | presente | facil manejo e compativel com produtos fitossanitarios | Fácil manejo e compatível com produtos fitossanitários
+basfoliar-top-sl-bula.pdf | ausente | a frase de compatibilidade nao descreve teste de compatibilidade | teste de compatibilidade
+
+# transporte e armazenamento
+basfoliar-top-sl-bula.pdf | presente | proteger a mercadoria solta da umidade no transporte | Proteger a mercadoria solta da umidade durante o transporte
+basfoliar-top-sl-bula.pdf | presente | caminhao com ar condicionado se necessario | Utilize um caminhão com ar condicionado, se necessário
+basfoliar-top-sl-bula.pdf | presente | proteger o armazenado da geada, da luz e da umidade | Proteja o fertilizante armazenado da geada, da luz e da umidade
+basfoliar-top-sl-bula.pdf | presente | tendencia a atrair umidade: proteger da chuva e da agua parada | tem tendência a atrair umidade, proteja-o da chuva e da água parada
+basfoliar-top-sl-bula.pdf | presente | armazenar dentro de armazem, nao em areas externas | dentro de um armazém e não em áreas externas
+basfoliar-top-sl-bula.pdf | presente | tres anos na embalagem original selada, excluindo fertilizante liquido | (excluindo fertilizante líquido) pode ser armazenado em sua embalagem original selada por até três anos
+basfoliar-top-sl-bula.pdf | presente | usar o mais rapido possivel uma vez aberto | utilizados o mais rápido possível, uma vez abertos
+basfoliar-top-sl-bula.pdf | presente | o documento remete a uma ficha de seguranca que nao foi recebida | Verifique o rótulo ou a ficha de segurança para as condições de transporte
+basfoliar-top-sl-bula.pdf | presente | tome nota de qualquer etiqueta de material perigoso | Tome nota de qualquer etiqueta de material perigoso no produto
+
+# a pagina afirma que o documento nao traz dose, cultura, registro nem seguranca;
+# negar tambem e' afirmar, entao cada ausencia e' conferida
+basfoliar-top-sl-bula.pdf | ausente | o documento nao menciona a uva (o unico "uva" do PDF esta dentro de "chuva") | /\buvas?\b/
+basfoliar-top-sl-bula.pdf | ausente | o documento nao menciona videira | videira
+basfoliar-top-sl-bula.pdf | ausente | o documento nao traz dose | /\bdoses?\b/
+basfoliar-top-sl-bula.pdf | ausente | o documento nao cita nenhuma cultura | /\bculturas?\b/
+basfoliar-top-sl-bula.pdf | ausente | o documento nao informa registro no MAPA | MAPA
+basfoliar-top-sl-bula.pdf | ausente | o documento nao traz numero de registro | /\bregistro\b/
+basfoliar-top-sl-bula.pdf | ausente | o documento nao traz secao de primeiros socorros | socorro
+basfoliar-top-sl-bula.pdf | ausente | o documento nao traz telefone de emergencia | emergência
+basfoliar-top-sl-bula.pdf | ausente | o documento nao indica EPI | /\bEPI\b/
+basfoliar-top-sl-bula.pdf | ausente | o documento nao traz carencia | carência
+basfoliar-top-sl-bula.pdf | ausente | o documento nao traz intervalo de reentrada | reentrada
+basfoliar-top-sl-bula.pdf | ausente | o documento nao traz procedimento de derramamento | derramamento
+basfoliar-top-sl-bula.pdf | ausente | o documento nao informa a concentracao do extrato de alga | /extrato de alga/
+basfoliar-top-sl-bula.pdf | ausente | o documento nao informa o teor de auxina que diz padronizar | teor de auxina

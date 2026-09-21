@@ -1,0 +1,74 @@
+# Asserções de fidelidade de wiki/produtos/collis.md
+# formato: arquivo.pdf | presente|ausente | o que a wiki afirma | trecho que precisa (ou não pode) constar
+
+collis-bula.pdf | presente | registro MAPA 01804 | MAPA sob o no 01804
+collis-bula.pdf | presente | boscalida 200 g/L (20% m/v) | 200 g/L (20 % m/v)
+collis-bula.pdf | presente | cresoxim-metilico 100 g/L (10% m/v) | 100 g/L (10 % m/v)
+collis-bula.pdf | presente | grupo quimico da boscalida: anilida | Boscalida: anilida
+collis-bula.pdf | presente | grupo quimico do cresoxim-metilico: estrobilurina | Cresoxim-metílico: estrobilurina
+collis-bula.pdf | presente | codigos de resistencia C2 e C3 | Grupo C2 e C3 respectivamente
+collis-bula.pdf | presente | classe: fungicida sistemico com dois ingredientes ativos | é um fungicida sistêmico, composto por dois ingredientes
+collis-bula.pdf | presente | categoria de perigo - nao classificado | CATEGORIA DE PERIGO - NÃO CLASSIFICADO
+collis-bula.pdf | presente | classe ambiental II | AMBIENTAL II - PRODUTO MUITO PERIGOSO AO MEIO AMBIENTE
+collis-bula.pdf | presente | equivalencia: 1 L equivale a 200 g i.a. de boscalida + 100 g i.a. de cresoxim-metilico | 1 L de Collis® equivale a 200 g i.a. de Boscalida + 100 g i.a. de Cresoxim-
+
+# linha da uva: dose por hectare, coluna por 100 L vazia
+collis-bula.pdf | presente | uva: 500 mL p.c./ha, vazao 500-1000 L/ha, maximo 4 aplicacoes | Uva 500 - 500 - 1000 4
+collis-bula.pdf | presente | alvo na uva: oidio Uncinula necator | Oídio Uva 500 - 500 - 1000 4 Uncinula necator
+collis-bula.pdf | presente | epoca na uva: iniciar a partir da inflorescencia, intervalos de 15 dias, maximo 4 aplicacoes | Uva: Iniciar as aplicações preventivamente a partir da inflorescência e repetir se necessário, até no máximo 4 aplicações, em intervalos de 15 dias
+collis-bula.pdf | presente | doses mais altas em areas com historico de alta incidencia | As doses mais altas devem ser utilizadas em áreas com histórico de alta incidência da doença
+collis-bula.pdf | presente | carencia na uva: 21 dias | Uva 21
+# a epoca comeca na inflorescencia: a bula nao indica brotacao
+collis-bula.pdf | ausente | a bula nao indica aplicacao na brotacao | brotação
+# na uva o alvo e' Uncinula necator; os outros nomes de oidio aparecem em outras culturas
+collis-bula.pdf | presente | a bula usa Erysiphe polygoni para oidio em outras culturas | Erysiphe polygoni
+collis-bula.pdf | presente | a bula usa Oidium sp. para oidio em outras culturas | Oidium sp.
+collis-bula.pdf | presente | a bula usa Oidiopsis taurica para oidio em outras culturas | Oidiopsis taurica
+collis-bula.pdf | presente | a bula usa Sphaerotheca fuliginea para oidio em outras culturas | Sphaerotheca fuliginea
+# a uva tem a carencia mais longa da tabela; as pequenas frutas tem 1 dia
+collis-bula.pdf | presente | acerola: carencia de 1 dia, para comparacao | Acerola 1
+collis-bula.pdf | presente | morango: carencia de 1 dia, para comparacao | Morango 1
+collis-bula.pdf | presente | plantas ornamentais: UNA, uso nao alimentar | U.N.A. - Uso Não Alimentar
+
+# restricoes
+collis-bula.pdf | presente | usos restritos aos indicados no rotulo e bula | Os usos do produto estão restritos aos indicados no rótulo e bula
+collis-bula.pdf | presente | limitacao de uso: nao ha quando utilizado conforme a bula | Não há limitação de uso quando utilizado de acordo com as recomendações constantes na bula
+collis-bula.pdf | presente | LMR do pais de destino deve ser respeitado | o Limite Máximo de Resíduo no país de destino deve ser respeitado
+collis-bula.pdf | presente | nao aplicar com ventos fortes nem nas horas mais quentes | Não aplique o produto na presença de ventos fortes e nas horas mais quentes do dia
+collis-bula.pdf | presente | nao aplicar perto de escolas e residencias | Não aplique o produto perto de escolas, residências e outros locais de permanência de
+collis-bula.pdf | presente | alternancia de fungicidas de mecanismos distintos dos grupos C2 e C3 | Alternância de fungicidas com mecanismos de ação distintos dos Grupos C2 e C3
+
+# condicoes de aplicacao e reentrada
+collis-bula.pdf | presente | evitar UR menor que 60% e temperatura acima de 30C | Evitar aplicações em condições de baixa umidade relativa do ar (menores que 60%) e altas
+collis-bula.pdf | presente | vento entre 5 e 10 km/h, ausencia pode indicar inversao termica | configuração do sistema de aplicação. A ausência de vento pode indicar situação de inversão térmica
+collis-bula.pdf | presente | chuva em 4 horas pode afetar o desempenho | chuvas dentro de um período de quatro (4) horas após a aplicação pode afetar o
+collis-bula.pdf | presente | nao aplicar em condicoes de orvalho | Não aplicar logo após a ocorrência de chuva ou em condições de orvalho
+collis-bula.pdf | presente | reentrada: apos secagem completa da calda, no minimo 24 horas | antes da secagem completa da calda (no mínimo 24 horas após a aplicação)
+
+collis-bula.pdf | presente | EPI da aplicacao: vestimenta nivel 2, PFF2, viseira, avental nivel 3, luvas de nitrila | (impermeável), e luvas de nitrila
+collis-bula.pdf | presente | telefones de emergencia da bula | 0800 011 2273 ou (12) 3128-1103 ou (12) 3128-1357
+collis-bula.pdf | presente | SAC BASF | SAC: 0800 019 2500
+collis-bula.pdf | presente | Disque-Intoxicacao | Disque-Intoxicação: 0800-722-6001
+collis-bula.pdf | presente | versao da bula no rodape | COLLIS_bula_rev15_28-04-26
+
+# a bula nao preve mistura em tanque
+collis-bula.pdf | ausente | a bula nao traz teste de jarro | teste de jarro
+collis-bula.pdf | ausente | a bula nao cita espalhante | espalhante
+
+collis-fds.pdf | presente | FDS versao 11.0 revisada 20.03.2026 | Data / revisada: 20.03.2026
+collis-fds.pdf | presente | FDS versao 11.0 | Versão: 11.0
+collis-fds.pdf | presente | numero interno do documento da FDS | 30174307/SDS_CPA_BR/PT
+collis-fds.pdf | presente | geral: procurar servico medico levando embalagem, rotulo, bula e receituario | Procure logo um SERVIÇO MÉDICO DE EMERGÊNCIA levando a embalagem, rótulo, bula e
+collis-fds.pdf | presente | quem presta assistencia deve usar EPI | Pessoas dando assistência devem usar equipamento de proteção pessoal para prevenir exposição
+collis-fds.pdf | presente | inalacao: manter calmo e remover para local arejado | Mantenha o paciente calmo e remova-o para um local arejado
+collis-fds.pdf | presente | pele: remover roupas e sapatos e lavar com agua e sabao em abundancia | remova as roupas e sapatos contaminados e lave imediatamente com água e sabão em abundância
+collis-fds.pdf | presente | olhos: lavar com agua corrente durante 15 minutos e procurar o medico | lave-os imediatamente com água corrente, durante 15 minutos e procure o médico
+collis-fds.pdf | presente | olhos: evitar que a agua de lavagem entre no outro olho | Evite que a água de lavagem entre no outro olho
+collis-fds.pdf | presente | ingestao: nao provocar vomito | não provoque vômito, procure logo o médico
+collis-fds.pdf | presente | ingestao: se o vomito ocorrer naturalmente, deitar a pessoa de lado | Caso o vômito ocorra naturalmente, deite a pessoa de lado
+collis-fds.pdf | presente | ingestao: nao dar nada para beber ou comer | Não dê nada para beber ou comer
+collis-fds.pdf | presente | transporte terrestre: classe 9, embalagem III, ONU 3082 | Classe de Risco: 9 Grupo de Embalagem: III Número ONU: 3082
+collis-fds.pdf | presente | rotulo de risco 9/EHSM e numero de risco 90 | Rótulo de Risco: 9, EHSM Número de Risco: 90
+collis-fds.pdf | presente | nome de embarque cita kresoxim-methyl e boscalid | AMBIENTE, LÍQUIDA, N.E. (KRESOXIM-METHYL, BOSCALID)
+collis-fds.pdf | presente | poluente marinho SIM (transporte hidroviario) | Poluente Marinho: SIM
+collis-fds.pdf | presente | telefone de emergencia impresso na FDS | 0800-0112273 / +55 12 3128-1590

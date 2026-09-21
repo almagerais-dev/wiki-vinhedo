@@ -1,0 +1,125 @@
+# Asserções de fidelidade de wiki/produtos/completto.md
+# formato: arquivo.pdf | presente|ausente | o que a wiki afirma | trecho que precisa (ou não pode) constar
+
+completto-bula.pdf | presente | registro MAPA 01709 | MAPA sob nº 01709
+completto-bula.pdf | presente | bentiavalicarbe isopropilico 100 g/L (10,0% m/v) | 100 g/L (10,0% m/v)
+completto-bula.pdf | presente | fluazinam 250 g/L (25,0% m/v) | 250 g/L (25,0% m/v)
+completto-bula.pdf | presente | 1,2-etanodiol (monoetilenoglicol) 70,44 g/L (7,04% m/v) | 1,2-etanodiol (monoetilenoglicol)..
+completto-bula.pdf | presente | teor de monoetilenoglicol declarado | 70,44 g/L (7,04% m/v)
+completto-bula.pdf | presente | classe: fungicida sistemico local e de contato | FUNGICIDA, sistêmico local e de contato dos grupos químicos Valinamida carbamato
+completto-bula.pdf | presente | grupos quimicos: valinamida carbamato e fenilpiridinilamina | (Bentiavalicarbe isopropílico) e Fenilpiridinilamina (Fluazinam)
+completto-bula.pdf | presente | codigos de resistencia H5 e C5 | pertencentes ao Grupo H5 e C5
+completto-bula.pdf | presente | titular Iharabras, CNPJ 61.142.550/0001-30 | CNPJ: 61.142.550/0001-30
+completto-bula.pdf | presente | rotulo traz AGITE ANTES DE USAR | AGITE ANTES DE USAR
+completto-bula.pdf | presente | categoria 5 - improvavel de causar dano agudo | CATEGORIA 5 - PRODUTO IMPROVÁVEL DE CAUSAR
+completto-bula.pdf | presente | classe ambiental II | CLASSE II – PRODUTO MUITO PERIGOSO AO MEIO AMBIENTE
+
+# linha da uva: dose por hectare, vazao fixa de 1000 L/ha, 4 aplicacoes, intervalo de 7 dias
+completto-bula.pdf | presente | uva: mildio (Plasmopara viticola), 205 a 335 mL de p.c./ha, 4 aplicacoes | UVA (Plasmopara mL de ou no máximo no início do aparecimento 4
+completto-bula.pdf | presente | dose da uva: 205 a 335 | Míldio 205 a 335
+completto-bula.pdf | presente | volume de calda da uva: terrestre 1000 L/ha, valor fixo | Terrestre: 1000 L/ha
+completto-bula.pdf | presente | epoca: iniciar quando as condicoes climaticas forem favoraveis a doenca | Iniciar as aplicações preventivamente quando as condições climáticas forem
+completto-bula.pdf | presente | epoca: ou no maximo no inicio dos primeiros sintomas | ou no máximo no início do aparecimento dos primeiros sintomas da doença
+completto-bula.pdf | presente | intervalo de 7 dias entre as aplicacoes na uva | Considerar o intervalo de 7 dias entre as aplicações
+completto-bula.pdf | presente | carencia na uva: 40 dias | Uva: 40 dias
+completto-bula.pdf | presente | carencia em batata e cebola: 14 dias | Batata e Cebola: 14 dias
+completto-bula.pdf | presente | carencia no tomate: 3 dias | Tomate: 3 dias
+# a epoca da uva nao se ancora em estagio fenologico
+completto-bula.pdf | ausente | a bula nao ancora a uva em estagio fenologico de brotacao | brotação
+completto-bula.pdf | ausente | a bula nao ancora a uva na inflorescencia | inflorescência
+completto-bula.pdf | ausente | a bula nao ancora a uva no florescimento | florescimento
+
+# outras culturas: batata, cebola, tomate rasteiro e tomate estaqueado
+completto-bula.pdf | presente | batata: requeima, 50 a 70 mL de p.c./100 L de agua, 4 aplicacoes a cada 5 dias | Requeima 50 a 70 mL Realizar até 4 aplicações, BATATA (Phytophthora de p.c./100
+completto-bula.pdf | presente | cebola: mildio (Peronospora destructor), 200 a 300 mL de p.c./ha, 3 aplicacoes | Míldio 200 a 300 preventivamente quando as condições
+completto-bula.pdf | presente | cebola: 3 aplicacoes espacadas de 7 dias | Realizar até 3 aplicações espaçadas de 7
+completto-bula.pdf | presente | tomate estaqueado e' uma linha separada, com 30 a 70 mL/100 L | Requeima 30 a 70 mL
+completto-bula.pdf | presente | tomate estaqueado: 4 aplicacoes espacadas de 5 a 7 dias | Realizar até 4 aplicações espaçadas de 5 a 7 dias
+# a celula do tomate estaqueado e' quebrada pelas colunas vizinhas; duas asserçoes cobrem pedaços contiguos
+completto-bula.pdf | presente | a maior dose e' orientada em condicoes de alta pressao e alta umidade | alta pressão ou com condições climáticas
+completto-bula.pdf | presente | a orientacao da maior dose esta na linha do tomate estaqueado | alta umidade e baixas temperaturas, é recomendado que seja utilizada a maior dose do produto
+completto-bula.pdf | presente | a via aerea e' indicada apenas para batata | A aplicação via aérea é indicada para a cultura: Batata
+completto-bula.pdf | presente | volume de calda aereo: 10 a 40 L/ha | Volume de calda: 10 a 40 L/ha
+
+# restricoes
+completto-bula.pdf | presente | e' proibida a aplicacao com equipamento costal | É PROIBIDA A APLICAÇÃO COM EQUIPAMENTO COSTAL
+completto-bula.pdf | presente | aplicacao terrestre com pulverizador tratorizado | deve ser aplicado em pulverização via terrestre utilizando-se pulverizador tratorizado
+completto-bula.pdf | presente | bicos conicos D2, D3 a pressao de 80-100 lbs | bicos cônicos tipo D2, D3 ou equivalentes, com pressão de 80-100 lbs
+completto-bula.pdf | presente | barra de 30 a 50 cm do topo da planta e bicos de 30 a 50 cm | altura da barra deve estar de 30 a 50 cm do topo da planta e a distância entre bicos deve ser de 30 a 50 cm
+completto-bula.pdf | presente | fitotoxicidade: nao e' fitotoxico nas doses recomendadas | Fitotoxicidade: não é fitotóxico para as culturas indicadas nas doses recomendadas
+completto-bula.pdf | presente | outras restricoes a serem observadas: nao ha | Outras restrições a serem observadas: não há
+completto-bula.pdf | presente | preparo da calda: agitar vigorosamente na embalagem original | Primeiramente agitar vigorosamente o produto em sua embalagem original
+completto-bula.pdf | presente | sistema de agitacao mantido durante toda a aplicacao | sistema de agitação do produto no interior do tanque deve ser mantido em funcionamento durante toda aplicação
+completto-bula.pdf | presente | alternancia de fungicidas de mecanismos distintos dos grupos H5 e C5 | Alternância de fungicidas com mecanismos de ação distintos do Grupo H5 e do Grupo C5
+
+# condicoes de aplicacao e reentrada
+completto-bula.pdf | presente | condicoes sao medias durante a aplicacao, nao valores instantaneos | Os valores apresentados devem ser sempre as médias durante a aplicação, e não valores instantâneos
+completto-bula.pdf | presente | temperatura ambiente abaixo de 30C | Temperatura ambiente abaixo de 30ºC
+completto-bula.pdf | presente | umidade relativa do ar acima de 50% | Umidade relativa do ar acima de 50%
+completto-bula.pdf | presente | velocidade media do vento entre 3 e 10 km/hora | Velocidade média do vento entre 3 e 10 km/hora
+completto-bula.pdf | presente | o mesmo bloco reaparece na aplicacao terrestre | obedecendo ventos entre 3 e 10 km/h, temperatura ambiente abaixo de 30ºC e umidade relativa do ar acima de 50%, visando reduzir perdas por deriva e evaporação
+completto-bula.pdf | presente | reentrada: apos secagem completa da calda, no minimo 24 horas | antes da secagem completa da calda (no mínimo 24 horas após a aplicação)
+completto-bula.pdf | presente | lavagem do equipamento imediatamente apos a aplicacao | Imediatamente após a aplicação do produto, proceda a limpeza de todo equipamento utilizado
+
+# EPI e telefones da bula
+completto-bula.pdf | presente | EPI da aplicacao: macacao hidrorrepelente, mangas por cima das luvas e calcas por cima das botas | compridas passando por cima do punho das luvas e as pernas das calças por cima das botas
+completto-bula.pdf | presente | EPI: mascara com filtro combinado quimico contra vapores organicos e mecanico P2 | orgânicos e filtro mecânico classe P2); óculos de segurança com proteção lateral e luvas de nitrila
+completto-bula.pdf | presente | telefone de emergencia da empresa na bula | Telefone de Emergência da empresa: 0800 774 4272
+completto-bula.pdf | presente | segundo 0800 da mesma empresa nas instrucoes de armazenamento | Telefone da empresa 0800 770 1760
+completto-bula.pdf | presente | Centro de Envenenamento do Parana | Centro de Envenenamento do Paraná: 0800-410148
+completto-bula.pdf | presente | Disque-Intoxicacao | Disque-Intoxicação: 0800-722-6001
+completto-bula.pdf | presente | codigo da bula 3105988 | 3105988
+# a bula nao traz data de revisao no corpo
+completto-bula.pdf | ausente | a bula nao traz data de revisao | /revis[ãa]o[:\s]*\d{2}[/.]\d{2}/
+# a bula nao preve mistura em tanque
+completto-bula.pdf | ausente | a bula nao cita adjuvante | adjuvante
+completto-bula.pdf | ausente | a bula nao cita espalhante | espalhante
+completto-bula.pdf | ausente | a bula nao traz teste de jarro | teste de jarro
+
+completto-fds.pdf | presente | FDS revisao 00 de 27/06/2025 | Revisão: 00
+completto-fds.pdf | presente | data da FDS | Data: 27/06/2025
+completto-fds.pdf | presente | FDS em conformidade com a NBR 14725:2023 | Em conformidade com NBR 14725:2023
+completto-fds.pdf | presente | inalacao: remover para local ventilado e manter em repouso | Remova a vítima para local ventilado e a mantenha em repouso numa posição que não dificulte a respiração
+completto-fds.pdf | presente | inalacao: contatar centro de informacao toxicologica ou medico, levar a FDS | contate um CENTRO DE INFORMAÇÃO TOXICOLÓGICA ou um médico. Leve esta FDS
+# a seçao 4 da FDS e' uma tabela de duas colunas: o rotulo da via de exposiçao corta a frase ao meio
+completto-fds.pdf | presente | pele: lavar com agua e sabao suficientes para remover o material | Lave a pele exposta com quantidade suficiente de água e sabão para
+completto-fds.pdf | presente | pele: se necessario tomar uma ducha e ir ao medico | remoção do material, se necessário tome uma ducha
+completto-fds.pdf | presente | olhos: enxaguar cuidadosamente com agua por varios minutos | Enxágue cuidadosamente com água por vários minutos
+completto-fds.pdf | presente | olhos: remover lentes de contato se for facil e enxaguar novamente | uso de lentes de contato, remova-as, se for fácil e enxágue
+completto-fds.pdf | presente | ingestao: nao induzir o vomito, nao dar nada pela boca a inconsciente | Não induza o vômito. Não dê nada pela boca a uma pessoa
+completto-fds.pdf | presente | transporte: ONU 3082 | Número ONU 3082
+completto-fds.pdf | presente | nome de embarque cita bentiavalicarbe isopropilico e fluazinam | AMBIENTE, LÍQUIDA, N.E. (Bentiavalicarbe isopropílico e Fluazinam)
+
+completto-ficha-emergencia.pdf | presente | ficha de emergencia elaborada em 31/12/2012 | Elaboração Toxiclin: 31/12/2012
+completto-ficha-emergencia.pdf | presente | ficha de emergencia revisada (04) em 18/03/2019 | Revisão (04): 18/03/2019
+completto-ficha-emergencia.pdf | presente | aspecto: liquido homogeneo e opaco na cor bege com odor caracteristico | líquido homogêneo e opaco na cor bege com odor característico
+completto-ficha-emergencia.pdf | presente | densidade 1,0717 g/cm3 e soluvel em agua | Densidade: 1,0717 g/cm³. Solubilidade: solúvel em água
+completto-ficha-emergencia.pdf | presente | ONU 3082, numero de risco 90, classe 9, embalagem III | Número de risco: 90 Número da ONU: 3082
+completto-ficha-emergencia.pdf | presente | grupo de embalagem III | Grupo de embalagem: III
+completto-ficha-emergencia.pdf | presente | incompatibilidade com as classes 1.1 a 1.6, exceto grupo S | Incompatível com os produtos da classe 1.1, 1.2, 1.3, 1.4 (exceto grupo de compatibilidade S), 1.5 e 1.6
+completto-ficha-emergencia.pdf | presente | incompatibilidade com auto-reagentes 4.1 e peroxidos organicos 5.2 com risco explosivo | Incompatível com substâncias auto-reagentes (Subclasse 4.1) que contém o rótulo de risco subsidiário de
+completto-ficha-emergencia.pdf | presente | EPI da equipe de emergencia: mascara com filtro combinado, luvas de nitrila, macacao, touca arabe | máscara com filtro combinado (filtro químico contra vapores orgânicos e filtro mecânico classe P2), luvas de borracha nitrílica
+completto-ficha-emergencia.pdf | presente | EPI do motorista na ABNT NBR 9735 | O EPI do motorista está especificado na ABNT NBR9735
+completto-ficha-emergencia.pdf | presente | fogo: estavel a temperatura ambiente; a combustao produz gases toxicos e irritantes | O produto é estável à temperatura ambiente e ao ar, sob condições normais de uso e armazenagem. A combustão do produto pode produzir gases tóxicos e irritantes
+completto-ficha-emergencia.pdf | presente | sintomas: alteracoes respiratorias, nausea, vomito, diarreia e inflamacao das vias aereas | podem ocorrer alterações respiratórias, náusea, vômito, diarreia e inflamação das vias aéreas
+completto-ficha-emergencia.pdf | presente | doses elevadas podem raramente causar tremores e convulsoes tonico-clonicas | A ingestão de doses muito elevadas pode raramente causar tremores e convulsões tônico-clônicas
+completto-ficha-emergencia.pdf | presente | na pele: dermatite, coceira, vermelhidao, inchaco e ressecamento | pode ocorrer dermatite, coceira, vermelhidão, inchaço e ressecamento
+completto-ficha-emergencia.pdf | presente | vazamento: estancar o escoamento, sem deixar entrar em bueiros, drenos ou corpos d'agua | estanque o escoamento utilizando materiais adequados, não permitindo que o produto entre em bueiros, drenos ou corpos d’água
+completto-ficha-emergencia.pdf | presente | vazamento: isolar raio minimo de 50 metros em todas as direcoes | Isole a área de vazamento em um raio de 50 metros, no mínimo, em todas as direções
+completto-ficha-emergencia.pdf | presente | piso pavimentado: absorver com areia ou serragem e recolher com pa | Piso pavimentado: absorva o produto com areia ou serragem, recolha o material com auxílio de uma pá
+completto-ficha-emergencia.pdf | presente | solo: retirar as camadas de terra contaminada | Solo: retire as camadas de terra contaminada até atingir o solo não contaminado
+completto-ficha-emergencia.pdf | presente | corpos d'agua: interromper a captacao para consumo humano ou animal | Corpos d’água: interrompa imediatamente a captação para o consumo humano ou animal
+completto-ficha-emergencia.pdf | presente | o produto derramado nao devera mais ser utilizado | O produto derramado não deverá mais ser utilizado
+completto-ficha-emergencia.pdf | presente | incendio: agua em neblina, CO2 ou po quimico seco; evitar jatos diretos | Água em forma de neblina, CO2 ou pó químico seco. Evitar o uso de jatos de água diretamente sobre o
+completto-ficha-emergencia.pdf | presente | incendio: equipamento de respiracao autonoma | Utilizar equipamento de respiração autônoma e roupas
+completto-ficha-emergencia.pdf | presente | envolvimento de pessoas: levar para local arejado e retirar as roupas contaminadas | Levar o acidentado para um local arejado. Retirar as roupas contaminadas
+completto-ficha-emergencia.pdf | presente | ingestao: lavar a boca da vitima com agua em abundancia | no caso de ingestão lave a boca da vítima com água em abundância
+completto-ficha-emergencia.pdf | presente | ao medico: lavagem gastrica e carvao ativado | Em caso de ingestão, realizar lavagem gástrica e administração de carvão ativado
+completto-ficha-emergencia.pdf | presente | ao medico: monitorizar gasometria, funcoes hepatica e renal | Monitorizar gasometria, funções hepática e renal
+completto-ficha-emergencia.pdf | presente | ao medico: tratar tremores e convulsoes com benzodiazepinicos ou barbituricos | Tratar tremores e convulsões com Benzodiazepínicos ou Barbitúricos
+completto-ficha-emergencia.pdf | presente | ao medico: contato ocular com soro fisiologico e avaliacao oftalmologica | proceder à lavagem com soro fisiológico e encaminhamento para avaliação oftalmológica
+completto-ficha-emergencia.pdf | presente | telefone de emergencia da Iharabras (grafado com espacos) | 0800 774 42 72
+completto-ficha-emergencia.pdf | presente | telefone comercial da Iharabras | Fone: (15) 3235-7700
+completto-ficha-emergencia.pdf | presente | Defesa Civil 199 | DEFESA CIVIL 199
+completto-ficha-emergencia.pdf | presente | Policia Militar 190 e Policia Rodoviaria Federal 191 | POLÍCIA MILITAR 190 POLÍCIA RODOVIARIA FEDERAL 191
+completto-ficha-emergencia.pdf | presente | Corpo de Bombeiros 193 | CORPO DE BOMBEIROS 193
