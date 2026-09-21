@@ -1,0 +1,29 @@
+# Asserções de fidelidade de wiki/produtos/alion.md
+# formato: arquivo.pdf | presente|ausente | o que a wiki afirma | trecho que precisa (ou não pode) constar
+
+alion-bula.pdf | presente | registro MAPA 3116 | MAPA sob nº 3116
+alion-bula.pdf | presente | indaziflam 500 g/L | 500 g/L
+alion-bula.pdf | presente | grupo HRAC L | GRUPO L HERBICIDA
+alion-bula.pdf | presente | uva: 0,15 L/ha em solo arenoso/franco, uma unica aplicacao, 200-300 L/ha | 0,15 Uma única aplicação 200-300 Costal Jato Dirigido
+alion-bula.pdf | presente | uva: 0,2 L/ha em solo argiloso (>35% de argila) | Argiloso ou pesado 0,2 (> 35% de argila)
+alion-bula.pdf | presente | uva: intervalo de segurança de 1 dia na coluna da tabela | ÉPOCA E INTERVALO DE APLICAÇÃO: 1 O produto deve ser aplicado no início do período das chuvas
+alion-bula.pdf | presente | alvos: caruru-rasteiro, capim-pe-de-galinha, capim-colchao, picao-preto, azevem | Caruru- Amaranthus
+alion-bula.pdf | presente | nota de rodape da uva exige MO >=2% (demais culturas >=1%) | neste tipo de solo o teor de matéria orgânica deverá ser ≥1%
+alion-bula.pdf | presente | aplicar no inicio do periodo das chuvas, em pre-emergencia | aplicado no início do período das chuvas
+alion-bula.pdf | presente | usar as maiores doses em solo argiloso e pesado | Utilizar as maiores doses em solos Argilosos e pesado
+alion-bula.pdf | presente | replantio: retirar e descartar os 20 cm superficiais do solo da cova | 20 cm superficiais do solo e descartá-lo
+alion-bula.pdf | presente | limpeza do pulverizador com detergente domestico a 2% | detergente doméstico a 2%
+alion-bula.pdf | presente | nao age sobre plantas daninhas ja germinadas | não tem ação sobre plantas daninhas já germinadas
+alion-bula.pdf | presente | uva: a partir de 3,0 anos do transplantio e tronco lignificado | a partir de 3,0 anos do transplantio e somente quando o tronco das plantas se apresentar lignificado
+alion-bula.pdf | presente | uva: materia organica >= 2% em solo arenoso | na cultura da Uva o teor de matéria orgânica deverá ser ≥2%
+alion-bula.pdf | presente | raiz bem desenvolvida, no minimo 15 cm abaixo do solo | sistema radicular bem desenvolvido com no mínimo 15 cm abaixo do nível do solo
+alion-bula.pdf | presente | uma aplicacao com intervalo minimo de 12 meses | uma aplicação com intervalo mínimo de 12 meses
+alion-bula.pdf | presente | limite de 100 g de i.a. de indaziflam em 12 meses | limite de 100 g de ingrediente ativo de indaziflam no período de 12 meses
+alion-bula.pdf | presente | rega somente 48 h apos a aplicacao | só fazer a rega 48h após a aplicação
+alion-bula.pdf | presente | 24 meses para implantar nova cultura na area | período mínimo de 24 meses após a última aplicação
+alion-bula.pdf | presente | condicoes: 10-30C, UR >55%, vento 3-10 km/h | Entre 10 e 30°C maior que 55% entre 3 e 10 km/h
+alion-bula.pdf | presente | sequencial na cana com sulfentrazona ou tebutiurom | aplicações sequenciais de herbicidas com ativos de sulfentrazona ou tebutiurom
+alion-rotulo.pdf | presente | culturas do rotulo incluem uva | manga, oliveira e uva
+alion-ficha-emergencia.pdf | presente | orgao ambiental MG (31) 3069-6601 | Minas Gerais (31) 3069-6601
+alion-ficha-emergencia.pdf | presente | ONU 3082 | Número da ONU: 3082
+alion-ficha-emergencia.pdf | presente | numero de risco 90 | de risco: 90

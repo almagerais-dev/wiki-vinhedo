@@ -146,3 +146,6 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
   ingeridas, o estado de cada uma e a janela a consultar. Rodar **antes** de cada ingestão.
 - `tools/validar-wiki.py` — lint estrutural (frontmatter, wikilinks, âncoras temporais, fontes
   citadas). Rodar **ao fechar** cada ingestão.
+- `tools/conferir-fidelidade.py` — confere cada número escrito em `wiki/produtos/` contra o PDF
+  arquivado, a partir das asserções de `tools/fidelidade/`. Rodar ao entrar cada remessa de
+  documentos de produto.

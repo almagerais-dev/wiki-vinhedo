@@ -185,7 +185,8 @@ wiki/
   hipoteses/    hipóteses em acompanhamento
   recomendacoes/ recomendações questionadas | validadas | sugeridas
 dados-vivos/    estacao-meteorologica.md | gestao-vinicola.md | queries/
-tools/          granola-ingeridos.py (idempotência) | validar-wiki.py (lint estrutural)
+tools/          granola-ingeridos.py (idempotência) | validar-wiki.py (lint estrutural) |
+                conferir-fidelidade.py + fidelidade/ (números das páginas de produto × PDFs)
 .cursor/skills/ ingerir-gravacoes-granola/ | consultar-historico-setorial/ |
                 consultar-produtos-e-aplicacoes/
 ```
@@ -279,6 +280,10 @@ fichas de emergência), sintetizados em `wiki/produtos/` com entrada pelo
    informação complementar. Para segurança, conformidade legal e autorização de uso, não substitua as
    determinações do rótulo, da bula, do registro vigente, do responsável técnico ou das autoridades
    competentes.
+7. Ao arquivar documentos de um produto novo, escreva as asserções da página em
+   `tools/fidelidade/<pagina>.txt` e feche a remessa com `python3 tools/conferir-fidelidade.py`, que
+   confere no PDF cada dose, carência, limite e telefone que a página afirma — inclusive o que ela
+   nega ("a bula não registra videira"). Sem asserções a página conta como não conferida.
 
 ### Pesquisar conhecimento externo
 - O agente pode pesquisar fontes externas sempre que julgar útil; `raw/publicacoes/` não é uma

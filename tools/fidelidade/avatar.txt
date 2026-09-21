@@ -1,0 +1,27 @@
+# Asserções de fidelidade de wiki/produtos/avatar.md
+# formato: arquivo.pdf | presente|ausente | o que a wiki afirma | trecho que precisa (ou não pode) constar
+
+avatar-bula.pdf | presente | registro MAPA 1415 | MAPA sob nº 1415
+avatar-bula.pdf | presente | indoxacarbe 150 g/L | 150,0 g/L
+avatar-bula.pdf | presente | grupo IRAC 22A | GRUPO 22A INSETICIDA
+avatar-bula.pdf | presente | categoria toxicologica 4 - produto pouco toxico | CLASSIFICAÇÃO TOXICOLÓGICA: CATEGORIA 4 – PRODUTO POUCO TÓXICO
+avatar-bula.pdf | presente | classe ambiental III | CLASSE III - PRODUTO
+avatar-bula.pdf | presente | cor da faixa azul PMS Blue 293 C | Cor da faixa: Azul PMS Blue 293 C
+avatar-bula.pdf | presente | uva: traca-dos-cachos, aplicacao foliar terrestre, 320 mL/ha | gnidiella) UVA Aplicação foliar terrestre 320 mL/ha
+avatar-bula.pdf | presente | uva: iniciar quando constatados os primeiros adultos no monitoramento | Iniciar as aplicações quando forem constatados os primeiros adultos no monitoramento
+avatar-bula.pdf | presente | uva: intervalo entre aplicacoes de 7 dias | Intervalo entre as aplicações: 7 dias
+avatar-bula.pdf | presente | uva: maximo de 4 aplicacoes por ciclo da cultura | no máximo 4 aplicações por
+avatar-bula.pdf | presente | uva: volume de 750 a 900 L de agua/ha | utilizar um volume de 750 a 900 L d’água/ha
+avatar-bula.pdf | presente | carencia da uva: 21 dias | Uva 21
+avatar-bula.pdf | presente | perigoso para abelhas | perigoso para abelhas
+avatar-bula.pdf | presente | aplicar preferencialmente no fim da tarde ou a noite | preferencialmente no final da tarde ou à noite
+avatar-bula.pdf | presente | nao aplicar em cultura sob estresse, inclusive geada | temperaturas muito baixas (ex.: geadas)
+avatar-bula.pdf | presente | nao aplicar com rajadas de vento | RAJADAS DE VENTOS
+avatar-ficha-emergencia.pdf | presente | emergencia FMC 0800 34 35 450 | 0800 34 35 450
+avatar-ficha-emergencia.pdf | presente | isolar a area em raio de 800 metros | Isole a área em um raio de 800 metros
+avatar-ficha-emergencia.pdf | presente | incompativel com acidos | Incompatível com ácidos
+avatar-ficha-emergencia.pdf | presente | ponto de fulgor 69 C | PFg: 69ºC
+avatar-ficha-emergencia.pdf | presente | ONU 3082, risco 90, classe 9 | Risco: 90 3082 9
+
+# a wiki registra que falta o rotulo deste produto
+avatar-bula.pdf | ausente | a bula nao traz a lista de culturas registradas do rotulo | CULTURAS PARA AS QUAIS O PRODUTO ESTÁ REGISTRADO

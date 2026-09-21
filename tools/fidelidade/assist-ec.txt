@@ -1,0 +1,23 @@
+# Asserções de fidelidade de wiki/produtos/assist-ec.md
+# formato: arquivo.pdf | presente|ausente | o que a wiki afirma | trecho que precisa (ou não pode) constar
+
+assist-ec-rotulo.pdf | presente | classe de uso adjuvante potencializador | adjuvante potencializador
+assist-ec-rotulo.pdf | presente | isento de registro no MAPA e de receituario | isento de registro no MAPA e isento de receituário
+assist-ec-rotulo.pdf | presente | oleo mineral 782 g/L | Óleo mineral 782 g/L
+assist-ec-rotulo.pdf | presente | dose de 0,25 a 1,0% v/v na calda | doses de 0,25 a 1,0% v/v na calda de pulverização
+assist-ec-rotulo.pdf | presente | respeitar numero, epoca e intervalo do produto principal | respeitando-se o número, à época e o intervalo
+assist-ec-rotulo.pdf | presente | telefones de emergencia (12) 3128-1103 e (12) 3128-1357 | (12) 3128-1103 ou (12) 3128-1357
+assist-ec-rotulo.pdf | presente | rotulo imprime "Provoca lesoes oculares graves" | Provoca lesões oculares graves
+# a marca d'agua "PROIBIDA A REPRODUÇÃO" citada na pagina e imagem rasterizada, nao texto: nao ha
+# como conferi-la por extracao. Conferida visualmente em 2026-09-21 renderizando a pagina 1 do PDF.
+assist-ec-fds.pdf | presente | uso declarado: adjuvante | Uso: adjuvante
+assist-ec-fds.pdf | presente | H319 provoca irritacao ocular grave | Provoca irritação ocular grave
+assist-ec-fds.pdf | presente | H316 provoca irritacao moderada a pele | Provoca irritação moderada à pele
+assist-ec-fds.pdf | presente | TWA 200 mg/m3 para nafta de petroleo | Valor TWA 200 mg/m3
+assist-ec-fds.pdf | presente | TWA 5 mg/m3 para oleos lubrificantes | Valor TWA 5 mg/m3
+assist-ec-fds.pdf | presente | vapores podem formar mistura inflamavel com o ar | Vapores podem formar mistura inflamável com o ar
+assist-ec-fds.pdf | presente | versao 5.0 revisada 08.05.2025 | Data / revisada: 08.05.2025
+
+# a pagina afirma que o documento nao nomeia defensivo algum para a mistura
+assist-ec-rotulo.pdf | ausente | o rotulo nao traz tabela de compatibilidade nem teste de jarro | teste de jarro
+assist-ec-rotulo.pdf | ausente | o rotulo nao traz intervalo de seguranca | intervalo de segurança

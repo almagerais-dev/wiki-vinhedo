@@ -1,0 +1,25 @@
+# Asserções de fidelidade de wiki/produtos/aliette.md
+# formato: arquivo.pdf | presente|ausente | o que a wiki afirma | trecho que precisa (ou não pode) constar
+
+aliette-bula.pdf | presente | registro MAPA 0108700 | MAPA sob nº 0108700
+aliette-bula.pdf | presente | fosetil-al 800 g/kg | 800 g/kg
+aliette-bula.pdf | presente | linha da videira: mildio / Plasmopora viticola | Videira Míldio Plasmopora viticola
+aliette-bula.pdf | presente | videira: 250 g/100 L de agua, 2 aplicacoes, 1000 L/ha | Plasmopora viticola 250 g/100 L de água 2 1000 L/ha
+aliette-bula.pdf | presente | cabecalho da tabela: n max de aplicacoes e intervalo de seguranca | Nº máximo de aplicações
+aliette-bula.pdf | presente | epoca: a partir da emissao das brotacoes, intervalos de 15 dias | preventivamente a partir da emissão das brotações em intervalos de 15 dias
+aliette-bula.pdf | presente | incompatibilidade com oxido cuproso, MAP e DAP | incompatível com óxido cuproso e alguns fertilizantes foliares como MAP e DAP
+aliette-bula.pdf | presente | reentrada minima de 24 horas | no mínimo 24 horas após a aplicação
+aliette-bula.pdf | presente | condicoes: <30C, UR >55%, vento 3-10 km/h | menor que 30°C maior que 55% entre 3 e 10km/h
+aliette-bula.pdf | presente | categoria toxicologica 5 | CATEGORIA 5 – PRODUTO IMPROVÁVEL DE CAUSAR DANO AGUDO
+aliette-bula.pdf | presente | higroscopicidade: usar todo o conteudo apos abrir | higroscopicidade
+aliette-bula.pdf | presente | pre-diluir a dose em 5 a 10 litros de agua | em 5 a 10 litros de água
+aliette-bula.pdf | presente | divergencia: abertura das instrucoes de uso omite videira | abacaxi, café, citros e maça
+aliette-rotulo.pdf | presente | telefone de emergencia Bayer 0800-024-3334 | 0800-0243334
+aliette-rotulo.pdf | presente | culturas do rotulo incluem videira | seringueira e videira
+aliette-rotulo.pdf | presente | advertencia IRRITANTE OCULAR | IRRITANTE OCULAR
+aliette-fds.pdf | presente | olhos: lavar 15 minutos e procurar oftalmologista | Tratamento ocular por um oftalmologista
+aliette-fds.pdf | presente | derramamento: isolar em raio minimo de 50 metros | raio mínimo de 50 metros em todas as direções
+aliette-fds.pdf | presente | poeira pode formar misturas explosivas no ar | A poeira poderá formar misturas explosivas no ar
+
+# a wiki registra a ausencia de ficha de emergencia de transporte para este produto
+aliette-bula.pdf | ausente | a bula nao traz numero ONU | Número da ONU

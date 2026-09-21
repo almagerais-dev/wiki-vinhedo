@@ -153,3 +153,23 @@ Diga com precisão o que falta e qual documento resolveria. Se buscar conhecimen
 do `AGENTS.md`: registre título, autoria ou instituição, URL/DOI e data da consulta, e marque com
 clareza que é fonte externa. Conhecimento externo embasa interpretação; **não** cria autorização de uso
 nem substitui o rótulo ou a bula.
+
+## 8. Arquivar documentos de um produto novo
+
+As remessas de documentos chegam em lotes e a base cresce por produto, não por arquivo.
+
+1. Salve cada PDF em `raw/fichas-tecnicas/comercial/` (ou `biologicos/`) com nome
+   `<produto-em-kebab-case>-<tipo>.pdf`, onde `<tipo>` é `bula`, `rotulo`, `fds`, `fispq` ou
+   `ficha-emergencia`. Uma vez salvo, o arquivo é imutável.
+2. Crie a página copiando `wiki/produtos/_modelo-produto.md`. Nomes comerciais parecidos podem ser
+   produtos diferentes: compare registro MAPA, ingrediente ativo e função antes de tratar dois
+   documentos como do mesmo produto.
+3. Escreva as asserções da página em `tools/fidelidade/<pagina>.txt` — uma linha por dose, carência,
+   limite, restrição e telefone que a página afirma, e também por cada negação ("a bula não registra
+   videira"). Feche com `python3 tools/conferir-fidelidade.py`; divergência significa que a página diz
+   algo que o PDF não sustenta, e quem corrige é a página, nunca a asserção.
+4. Atualize o [[catalogo-produtos]] (tabelas, restrições que atravessam produtos, telefones e o estado
+   da remessa), o `index.md` e o `log.md`.
+5. Documento que completa um produto já catalogado resolve a lacuna registrada na página — não crie
+   uma página nova para ele.
+6. Rode `python3 tools/validar-wiki.py` antes do commit.
