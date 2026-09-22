@@ -105,3 +105,4 @@ Filtrar as últimas entradas: `grep "^## \[" log.md | tail -5`.
 ## [2026-09-22] lint | tools/validar-wiki.py: 0 erros. Avisos remanescentes são anteriores a esta ingestão
 ## [2026-09-22] ingest | Terceira remessa: 20 PDFs (19 em raw/fichas-tecnicas/comercial/ e Shocker em biologicos/). 12 páginas novas em wiki/produtos/ e atualização de [[karate-zeon-250-cs]] (entrou FISPQ e ficha de emergência). Rateio 200 SL não lista uva. Reaction e Sufolc ficaram só com FISPQ. Shocker é microbiológico e não nomeia uva. Silver SL e Glufosinato CCAB 200 SL ficam separados. Os arquivos "Maravis Duo" imprimem MIRAVIS DUO
 ## [2026-09-22] lint | Nenhum dos produtos desta remessa aparece nas gravações ingeridas
+## [2026-09-22] lint | tools/validar-wiki.py após a terceira remessa: 0 erros. Avisos remanescentes são anteriores a esta ingestão
