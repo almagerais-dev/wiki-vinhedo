@@ -72,7 +72,7 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 
 ## Produtos
 
-Fichas dos 79 PDFs em `raw/fichas-tecnicas/comercial/` e 1 PDF em `raw/fichas-tecnicas/biologicos/`. O que a bula diz não é aplicação de campo.
+Fichas dos 95 PDFs em `raw/fichas-tecnicas/comercial/` e 1 PDF em `raw/fichas-tecnicas/biologicos/`. O que a bula diz não é aplicação de campo.
 
 - [[_modelo-produto]] — gabarito.
 - [[abamectin-72-ec-nortox]] — acaricida e inseticida; a bula não lista uva.
@@ -111,6 +111,11 @@ Fichas dos 79 PDFs em `raw/fichas-tecnicas/comercial/` e 1 PDF em `raw/fichas-te
 - [[sufolc]] — só a FISPQ (enxofre e cálcio), sem dose.
 - [[supera]] — fungicida; míldio em uva.
 - [[switch]] — fungicida; mofo-cinzento em uva.
+- [[totalit]] — fungicida; míldio em uva.
+- [[traspect]] — herbicida; etiqueta SENASA argentina, sem uva.
+- [[zampro]] — fungicida; míldio em uva. O PDF de origem dizia Zambro.
+- [[zapp-qi-620]] — herbicida; jato dirigido em uva.
+- [[zorvec-encantia]] — fungicida; míldio em uva. As gravações dizem só Zorvec.
 
 ## Temas
 
