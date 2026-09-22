@@ -72,7 +72,7 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 
 ## Produtos
 
-Fichas dos 60 PDFs em `raw/fichas-tecnicas/comercial/`. O que a bula diz não é aplicação de campo.
+Fichas dos 79 PDFs em `raw/fichas-tecnicas/comercial/` e 1 PDF em `raw/fichas-tecnicas/biologicos/`. O que a bula diz não é aplicação de campo.
 
 - [[_modelo-produto]] — gabarito.
 - [[abamectin-72-ec-nortox]] — acaricida e inseticida; a bula não lista uva.
@@ -99,6 +99,18 @@ Fichas dos 60 PDFs em `raw/fichas-tecnicas/comercial/`. O que a bula diz não é
 - [[helper-neutrum]] — adjuvante; só a descrição da ICL, sem dose.
 - [[karate-zeon-250-cs]] — inseticida; lagarta-das-folhas em uva.
 - [[karate-zeon-50-cs]] — inseticida; lagarta-das-folhas em uva.
+- [[manzate]] — fungicida; míldio, antracnose e podridões em uva.
+- [[miravis-duo]] — fungicida; oídio e mofo-cinzento em uva.
+- [[rateio-200-sl]] — herbicida; a bula não lista uva.
+- [[reaction]] — fertilizante; só a FISPQ, sem dose.
+- [[revus]] — fungicida; míldio em uva.
+- [[ridomil-gold-mz-680-wg]] — fungicida; míldio em uva.
+- [[score]] — fungicida; oídio, antracnose e mancha-das-folhas em uva.
+- [[shocker]] — fungicida microbiológico; a bula não nomeia uva.
+- [[silver-sl]] — herbicida; jato dirigido em uva.
+- [[sufolc]] — só a FISPQ (enxofre e cálcio), sem dose.
+- [[supera]] — fungicida; míldio em uva.
+- [[switch]] — fungicida; mofo-cinzento em uva.
 
 ## Temas
 
