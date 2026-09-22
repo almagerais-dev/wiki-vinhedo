@@ -13,6 +13,8 @@ registrado_para_videira: sim
 tags: [inseticida, karate-zeon, lambda-cialotrina]
 fontes:
   - raw/fichas-tecnicas/comercial/karate-zeon-250-cs-bula.pdf
+  - raw/fichas-tecnicas/comercial/karate-zeon-250-cs-fispq.pdf
+  - raw/fichas-tecnicas/comercial/karate-zeon-250-cs-ficha-emergencia.pdf
 atualizado_em: 2026-09-22
 ---
 
@@ -31,6 +33,8 @@ Não é o [[karate-zeon-50-cs]] nem o [[davos]].
 
 Aplicar no início da infestação e reaplicar se o monitoramento pedir, sem passar do máximo.
 
+A FISPQ e a ficha de emergência são a revisão 06, de 08/04/2015.
+
 ## Lacunas
 
-Não há FDS, ficha de emergência nem rótulo neste lote.
+Não há rótulo separado neste lote. O documento de segurança é FISPQ, não FDS.
