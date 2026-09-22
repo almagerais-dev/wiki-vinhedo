@@ -14,7 +14,8 @@ tags: [fungicida, curzate, cimoxanil, mancozebe]
 fontes:
   - raw/fichas-tecnicas/comercial/curzate-bula.pdf
   - raw/fichas-tecnicas/comercial/curzate-fds.pdf
-atualizado_em: 2026-09-21
+  - raw/fichas-tecnicas/comercial/curzate-ficha-emergencia.pdf
+atualizado_em: 2026-09-22
 ---
 
 # Curzate
@@ -39,4 +40,4 @@ A gravação de 2026-09-18 grafa "cruzate"
 
 ## Lacunas
 
-Não há rótulo separado nem ficha de emergência neste lote.
+Não há rótulo separado neste lote.

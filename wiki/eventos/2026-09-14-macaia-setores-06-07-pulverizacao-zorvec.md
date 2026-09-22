@@ -22,7 +22,8 @@ atualizado_em: 2026-09-16
 ## O que aconteceu (fato)
 
 Pulverização nos setores 06 e 07 com 400 ml de Zorvec e 600 ml de Absolut Fix, em 200 L de calda por
-hectare, em 2026-09-14. A fonte declara o motivo: "grande volume de chuva".
+hectare, em 2026-09-14. A fonte declara o motivo: "grande volume de chuva". A ficha com o nome
+Zorvec Encantia é [[zorvec-encantia]]. A gravação não informa Encantia nem a formulação.
 
 É a segunda pulverização com evento próprio nestes setores, quatro dias depois da de 2026-09-10
 ([[2026-09-10-macaia-setores-06-07-pulverizacao]]), que levava Cercobin e Absoluto Fix. Mesma calda,
