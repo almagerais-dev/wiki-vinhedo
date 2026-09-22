@@ -1,6 +1,6 @@
 ---
 tipo: indice
-atualizado_em: 2026-09-21
+atualizado_em: 2026-09-22
 ---
 
 # Índice da wiki-vinhedo
@@ -72,7 +72,7 @@ atualiza a cada ingestão. Veja as convenções em `AGENTS.md`.
 
 ## Produtos
 
-Fichas dos 40 PDFs em `raw/fichas-tecnicas/comercial/`. O que a bula diz não é aplicação de campo.
+Fichas dos 60 PDFs em `raw/fichas-tecnicas/comercial/`. O que a bula diz não é aplicação de campo.
 
 - [[_modelo-produto]] — gabarito.
 - [[abamectin-72-ec-nortox]] — acaricida e inseticida; a bula não lista uva.
@@ -91,6 +91,14 @@ Fichas dos 40 PDFs em `raw/fichas-tecnicas/comercial/`. O que a bula diz não é
 - [[comet]] — fungicida; a bula não lista uva. Duas FDS.
 - [[completto]] — fungicida; míldio em uva.
 - [[curzate]] — fungicida; míldio em uva.
+- [[davos]] — inseticida; lagarta-das-folhas em uva.
+- [[dormex]] — regulador de crescimento; quebra de dormência em uva.
+- [[forum]] — fungicida; míldio em uva.
+- [[glufosinato-ccab-200-sl]] — herbicida; jato dirigido em uva.
+- [[grao-verde]] — formicida; a ficha manda não aplicar em pomares.
+- [[helper-neutrum]] — adjuvante; só a descrição da ICL, sem dose.
+- [[karate-zeon-250-cs]] — inseticida; lagarta-das-folhas em uva.
+- [[karate-zeon-50-cs]] — inseticida; lagarta-das-folhas em uva.
 
 ## Temas
 

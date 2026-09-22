@@ -13,6 +13,7 @@ registrado_para_videira: nao-aplicavel
 tags: [adjuvante, helper-neutrum]
 fontes:
   - raw/fichas-tecnicas/comercial/helper-neutrum-descricao.pdf
+  - https://icl-growingsolutions.com/pt-br/agriculture/products/helper-neutrum/
 atualizado_em: 2026-09-22
 ---
 

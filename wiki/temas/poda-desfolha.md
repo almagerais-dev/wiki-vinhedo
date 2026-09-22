@@ -21,7 +21,7 @@ fontes:
   - raw/registros-manejo/2026-09-15-macaia-setor-01-primeiro-desbrote.md
   - raw/registros-manejo/2026-09-15-macaia-setor-01-desbrote-correcao-de-data.md
   - raw/registros-manejo/2026-09-18-macaia-setor-nao-identificado-desbrote-e-pulverizacao.md
-atualizado_em: 2026-09-19
+atualizado_em: 2026-09-22
 ---
 
 # Poda e desfolha
@@ -90,7 +90,8 @@ antecedem a operação.
 
 As transcrições grafam o Ethrel como "Etrel", "etréol", "etréu", "E-TREO", "Etreo", "Etreol" e "etreal", e o Dormex como
 "Doormex". A wiki normaliza para **Ethrel** e **Dormex** e preserva a grafia original nas fontes
-brutas.
+brutas. A ficha do [[dormex]] está no repositório; as gravações não trazem formulação nem
+concentração, e o evento continua dizendo Dormex, como a fonte.
 
 ## Interpretações relacionadas
 
