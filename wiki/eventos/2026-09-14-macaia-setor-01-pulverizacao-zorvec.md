@@ -22,7 +22,9 @@ atualizado_em: 2026-09-16
 ## O que aconteceu (fato)
 
 Pulverização no setor 01 com 400 ml de Zorvec e 600 ml de Absoluto Fix, em 200 L de calda por
-hectare, em 2026-09-14. A fonte declara o motivo da aplicação: "grande quantidade de chuva".
+hectare, em 2026-09-14. A fonte declara o motivo da aplicação: "grande quantidade de chuva". A
+ficha com o nome Zorvec Encantia é [[zorvec-encantia]]. A gravação não informa Encantia nem a
+formulação.
 
 Primeira aparição do Zorvec nos registros de Macaia. A calda muda em relação a tudo o que foi
 pulverizado antes no ciclo: o Cercobin, presente em todas as pulverizações de 2026-09-02 a

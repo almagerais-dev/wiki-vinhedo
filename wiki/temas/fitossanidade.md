@@ -87,7 +87,8 @@ da gravação carrega o mesmo erro. Não há algodão em Macaia; ver a nota na f
 Cercobin, Civant Prime e Absolut Fix aparecem pela primeira vez na wiki nestas gravações. A ficha
 de [[cercobin-875-wg]] está no repositório; as transcrições não trazem formulação, e o evento
 continua dizendo Cercobin, como a fonte. Civant Prime e Absolut Fix seguem sem ficha. O Zorvec
-entra na wiki em 2026-09-14, também sem ficha técnica.
+entra na wiki em 2026-09-14. Há ficha de [[zorvec-encantia]]; as transcrições não dizem Encantia,
+e a dose gravada (400 ml) não é a da uva nessa bula (800 mL/ha). A wiki não iguala os nomes.
 
 Os três produtos da pulverização de 2026-09-18 no setor 01 entram na wiki sem nome comercial
 resolvido. As duas gravações os grafam de formas diferentes — "cruzate"/"Cruzate",
